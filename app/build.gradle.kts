@@ -71,6 +71,7 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             setProguardFiles(listOf(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"))
+            signingConfig = signingConfigs.getByName("debug")
         }
         create("benchmark") {
             initWith(getByName("release"))
@@ -92,7 +93,7 @@ android {
 
     productFlavors {
         create("standard") {
-            buildConfigField("boolean", "INCLUDE_UPDATER", "true")
+            buildConfigField("boolean", "INCLUDE_UPDATER", "false")
             dimension = "default"
         }
         create("fdroid") {
