@@ -26,10 +26,10 @@ if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
 val supportedAbis = setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
 
 android {
-    namespace = "eu.fax."
+    namespace = "eu.kanade.tachiyomi"
 
     defaultConfig {
-        applicationId = "eu.fax.faxyomi"
+        applicationId = "eu.kanade.tachiyomi.faxyomi"
 
         versionCode = 72
         versionName = "1.11.0"
