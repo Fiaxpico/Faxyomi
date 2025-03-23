@@ -893,8 +893,8 @@
     <string name="download_queue_size_warning">Warning: large bulk downloads may lead to sources becoming slower and/or blocking Tachiyomi. Tap to learn more.</string>
 
     <!-- Library update service notifications -->
-    <string name="notification_updating_progress">Updating library… (%s)</string>
-    <string name="notification_size_warning">Large updates harm sources and may lead to slower updates and also increased battery usage. Tap to learn more.</string>
+    <string name="notification_updating_progress">Updating libwawy… (%s)</string>
+    <string name="notification_size_warning">Large updates harm sources bla bla bla bla plz don do dis tenk u</string>
     <string name="notification_new_chapters">New chapters found</string>
     <string name="notification_chapters_single">Chapter %1$s</string>
     <string name="notification_chapters_single_and_more">Chapter %1$s and %2$d more</string>
