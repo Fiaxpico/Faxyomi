@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">TachiyomiSY</string>
+    <string name="app_name" translatable="false">Faxyomi</string>
 
     <!-- Generic strings -->
     <string name="on">On</string>
@@ -829,8 +829,8 @@
     <string name="loader_not_implemented_error">Source not found</string>
 
     <!-- Updates -->
-    <string name="updating_library">Updating library</string>
-    <string name="update_already_running">An update is already running</string>
+    <string name="updating_library">Updating libwawy</string>
+    <string name="update_already_running">An update is already wunning</string>
     <string name="cant_open_last_read_chapter">Unable to open last read chapter</string>
     <string name="updates_last_update_info">Library last updated: %s</string>
     <string name="updates_last_update_info_just_now">Just now</string>
@@ -872,7 +872,7 @@
     <!-- Stats screen -->
     <string name="label_overview_section">Overview</string>
     <string name="label_completed_titles">Completed entries</string>
-    <string name="label_read_duration">Read duration</string>
+    <string name="label_read_duration">Time thrown away</string>
     <string name="label_titles_section">Entries</string>
     <string name="label_titles_in_global_update">In global update</string>
     <string name="label_total_chapters">Total</string>
