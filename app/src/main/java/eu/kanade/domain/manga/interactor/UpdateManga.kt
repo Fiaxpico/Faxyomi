@@ -1,9 +1,9 @@
 package eu.kanade.domain.manga.interactor
 
 import eu.kanade.domain.manga.model.hasCustomCover
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.data.cache.CoverCache
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.source.model.SManga
 import tachiyomi.domain.manga.interactor.FetchInterval
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.domain.manga.model.MangaUpdate

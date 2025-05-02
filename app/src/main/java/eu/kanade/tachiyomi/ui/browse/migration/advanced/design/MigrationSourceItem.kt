@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.design
+package eu.fiax.faxyomi.ui.browse.migration.advanced.design
 
 import android.os.Parcelable
 import android.view.View
@@ -6,8 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.source.online.HttpSource
 import kotlinx.parcelize.Parcelize
 import tachiyomi.domain.source.service.SourceManager
 

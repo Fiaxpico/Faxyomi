@@ -1,6 +1,6 @@
 @file:Suppress("PropertyName")
 
-package eu.kanade.tachiyomi.data.database.models
+package eu.fiax.faxyomi.data.database.models
 
 class TrackImpl : Track {
 

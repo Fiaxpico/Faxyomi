@@ -1,8 +1,8 @@
 @file:Suppress("PropertyName")
 
-package eu.kanade.tachiyomi.data.track.model
+package eu.fiax.faxyomi.data.track.model
 
-import eu.kanade.tachiyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.database.models.Track
 
 class TrackSearch : Track {
 

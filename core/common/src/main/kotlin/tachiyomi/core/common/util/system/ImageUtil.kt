@@ -24,7 +24,7 @@ import androidx.core.graphics.green
 import androidx.core.graphics.red
 import androidx.exifinterface.media.ExifInterface
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.util.system.GLUtil
+import eu.fiax.faxyomi.util.system.GLUtil
 import logcat.LogPriority
 import okio.Buffer
 import okio.BufferedSource

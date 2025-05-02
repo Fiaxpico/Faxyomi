@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.extension.api
+package eu.fiax.faxyomi.extension.api
 
 import android.content.Context
 import eu.kanade.domain.source.service.SourcePreferences
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.LoadResult
-import eu.kanade.tachiyomi.extension.util.ExtensionLoader
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.extension.model.Extension
+import eu.fiax.faxyomi.extension.model.LoadResult
+import eu.fiax.faxyomi.extension.util.ExtensionLoader
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.parseAs
 import exh.source.BlacklistedSources
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

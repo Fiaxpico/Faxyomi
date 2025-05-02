@@ -19,10 +19,10 @@ import eu.kanade.presentation.browse.components.RemoveMangaDialog
 import eu.kanade.presentation.category.components.ChangeCategoryDialog
 import eu.kanade.presentation.manga.DuplicateMangaDialog
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.design.PreMigrationScreen
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreenModel
-import eu.kanade.tachiyomi.ui.category.CategoryScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.browse.migration.advanced.design.PreMigrationScreen
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreenModel
+import eu.fiax.faxyomi.ui.category.CategoryScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
 import exh.ui.ifSourcesLoaded
 import mihon.presentation.core.util.collectAsLazyPagingItems
 import tachiyomi.core.common.util.lang.launchIO

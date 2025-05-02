@@ -1,11 +1,11 @@
 package exh.source
 
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.online.HttpSource
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response

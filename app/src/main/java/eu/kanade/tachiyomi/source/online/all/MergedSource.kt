@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.source.online.all
+package eu.fiax.faxyomi.source.online.all
 
 import eu.kanade.domain.chapter.interactor.SyncChaptersWithSource
 import eu.kanade.domain.manga.interactor.UpdateManga
 import eu.kanade.domain.manga.model.toSManga
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.model.copy
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.copy
+import eu.fiax.faxyomi.source.online.HttpSource
 import exh.source.MERGED_SOURCE_ID
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.async

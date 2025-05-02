@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.saver
+package eu.fiax.faxyomi.data.saver
 
 import android.content.ContentUris
 import android.content.Context
@@ -11,9 +11,9 @@ import android.webkit.MimeTypeMap
 import androidx.annotation.RequiresApi
 import androidx.core.content.contentValuesOf
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.util.storage.DiskUtil
-import eu.kanade.tachiyomi.util.storage.cacheImageDir
-import eu.kanade.tachiyomi.util.storage.getUriCompat
+import eu.fiax.faxyomi.util.storage.DiskUtil
+import eu.fiax.faxyomi.util.storage.cacheImageDir
+import eu.fiax.faxyomi.util.storage.getUriCompat
 import logcat.LogPriority
 import okio.IOException
 import tachiyomi.core.common.i18n.stringResource

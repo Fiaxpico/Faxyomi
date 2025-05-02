@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.storage
+package eu.fiax.faxyomi.util.storage
 
 import android.content.Context
 import android.media.MediaScannerConnection
@@ -7,7 +7,7 @@ import android.os.Environment
 import android.os.StatFs
 import androidx.core.content.ContextCompat
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.util.lang.Hash
+import eu.fiax.faxyomi.util.lang.Hash
 import java.io.File
 
 object DiskUtil {

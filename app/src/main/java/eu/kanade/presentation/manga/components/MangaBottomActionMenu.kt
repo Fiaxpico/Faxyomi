@@ -56,8 +56,8 @@ import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.components.DownloadDropdownMenu
 import eu.kanade.presentation.components.DropdownMenu
 import eu.kanade.presentation.manga.DownloadAction
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.isTabletUi
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.util.system.isTabletUi
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive

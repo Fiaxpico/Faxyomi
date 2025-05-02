@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.export
+package eu.fiax.faxyomi.data.export
 
 import android.content.Context
 import android.net.Uri

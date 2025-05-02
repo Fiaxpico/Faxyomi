@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.fiax.faxyomi.ui.reader.viewer
 
 import android.content.Context
 import android.util.AttributeSet
@@ -13,8 +13,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.AbstractComposeView
 import eu.kanade.presentation.reader.ChapterTransition
 import eu.kanade.presentation.theme.TachiyomiTheme
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.ui.reader.model.ChapterTransition
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.source.local.isLocal
 

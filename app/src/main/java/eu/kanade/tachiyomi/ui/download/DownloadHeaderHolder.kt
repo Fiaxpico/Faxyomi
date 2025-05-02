@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.fiax.faxyomi.ui.download
 
 import android.annotation.SuppressLint
 import android.view.View
 import androidx.recyclerview.widget.ItemTouchHelper
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.viewholders.ExpandableViewHolder
-import eu.kanade.tachiyomi.databinding.DownloadHeaderBinding
+import eu.fiax.faxyomi.databinding.DownloadHeaderBinding
 
 class DownloadHeaderHolder(view: View, adapter: FlexibleAdapter<*>) : ExpandableViewHolder(view, adapter) {
 

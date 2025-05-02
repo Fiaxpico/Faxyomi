@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.source
+package eu.fiax.faxyomi.source
 
 /**
  * A source that explicitly doesn't require traffic considerations.

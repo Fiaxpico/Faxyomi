@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.fiax.faxyomi.ui.download
 
 import android.view.LayoutInflater
 import androidx.compose.animation.AnimatedVisibility
@@ -51,7 +51,7 @@ import eu.kanade.presentation.components.AppBarActions
 import eu.kanade.presentation.components.DropdownMenu
 import eu.kanade.presentation.components.NestedMenuItem
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.databinding.DownloadListBinding
+import eu.fiax.faxyomi.databinding.DownloadListBinding
 import kotlinx.collections.immutable.persistentListOf
 import tachiyomi.core.common.util.lang.launchUI
 import tachiyomi.i18n.MR

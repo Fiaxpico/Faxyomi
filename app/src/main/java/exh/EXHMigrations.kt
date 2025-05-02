@@ -1,6 +1,6 @@
 package exh
 
-import eu.kanade.tachiyomi.source.online.all.NHentai
+import eu.fiax.faxyomi.source.online.all.NHentai
 import exh.source.BlacklistedSources
 import exh.source.EH_SOURCE_ID
 import exh.source.HBROWSE_SOURCE_ID

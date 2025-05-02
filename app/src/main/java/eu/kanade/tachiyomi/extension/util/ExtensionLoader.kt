@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.fiax.faxyomi.extension.util
 
 import android.content.Context
 import android.content.pm.ApplicationInfo
@@ -8,14 +8,14 @@ import android.os.Build
 import androidx.core.content.pm.PackageInfoCompat
 import eu.kanade.domain.extension.interactor.TrustExtension
 import eu.kanade.domain.source.service.SourcePreferences
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.LoadResult
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.SourceFactory
-import eu.kanade.tachiyomi.util.lang.Hash
-import eu.kanade.tachiyomi.util.storage.copyAndSetReadOnlyTo
-import eu.kanade.tachiyomi.util.system.ChildFirstPathClassLoader
+import eu.fiax.faxyomi.extension.model.Extension
+import eu.fiax.faxyomi.extension.model.LoadResult
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.SourceFactory
+import eu.fiax.faxyomi.util.lang.Hash
+import eu.fiax.faxyomi.util.storage.copyAndSetReadOnlyTo
+import eu.fiax.faxyomi.util.system.ChildFirstPathClassLoader
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.runBlocking

@@ -28,9 +28,9 @@ import androidx.core.graphics.drawable.toBitmap
 import coil3.compose.AsyncImage
 import eu.kanade.domain.source.model.icon
 import eu.kanade.presentation.util.rememberResourceBitmapPainter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.util.ExtensionLoader
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.extension.model.Extension
+import eu.fiax.faxyomi.extension.util.ExtensionLoader
 import tachiyomi.core.common.util.lang.withIOContext
 import tachiyomi.domain.source.model.Source
 import tachiyomi.source.local.isLocal

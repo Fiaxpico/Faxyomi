@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.ui.reader.loader
+package eu.fiax.faxyomi.ui.reader.loader
 
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.util.storage.EpubFile
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.util.storage.EpubFile
 import mihon.core.common.archive.ArchiveReader
 
 /**

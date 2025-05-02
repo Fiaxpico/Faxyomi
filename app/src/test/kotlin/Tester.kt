@@ -1,7 +1,7 @@
 
-import eu.kanade.tachiyomi.data.backup.models.Backup
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.online.all.EHentai
+import eu.fiax.faxyomi.data.backup.models.Backup
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.online.all.EHentai
 import exh.favorites.LocalFavoritesStorage
 import exh.metadata.metadata.EHentaiSearchMetadata
 import exh.source.EXH_SOURCE_ID

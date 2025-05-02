@@ -22,7 +22,7 @@ import eu.kanade.presentation.browse.components.BrowseSourceEHentaiList
 import eu.kanade.presentation.browse.components.BrowseSourceList
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.util.formattedMessage
-import eu.kanade.tachiyomi.source.Source
+import eu.fiax.faxyomi.source.Source
 import exh.metadata.metadata.RaisedSearchMetadata
 import exh.source.isEhBasedSource
 import kotlinx.collections.immutable.persistentListOf

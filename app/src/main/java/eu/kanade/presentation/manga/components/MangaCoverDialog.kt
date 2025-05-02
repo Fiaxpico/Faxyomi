@@ -47,7 +47,7 @@ import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.AppBarActions
 import eu.kanade.presentation.components.DropdownMenu
 import eu.kanade.presentation.manga.EditCoverAction
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderPageImageView
+import eu.fiax.faxyomi.ui.reader.viewer.ReaderPageImageView
 import kotlinx.collections.immutable.persistentListOf
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.i18n.MR

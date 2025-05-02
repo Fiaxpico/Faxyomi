@@ -11,7 +11,7 @@ import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.domain.sync.SyncPreferences
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.data.sync.models.SyncTriggerOptions
+import eu.fiax.faxyomi.data.sync.models.SyncTriggerOptions
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.flow.update
 import tachiyomi.i18n.MR

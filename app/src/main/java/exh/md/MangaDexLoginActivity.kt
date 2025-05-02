@@ -2,7 +2,7 @@ package exh.md
 
 import android.net.Uri
 import androidx.lifecycle.lifecycleScope
-import eu.kanade.tachiyomi.ui.setting.track.BaseOAuthLoginActivity
+import eu.fiax.faxyomi.ui.setting.track.BaseOAuthLoginActivity
 import exh.md.utils.MdUtil
 import kotlinx.coroutines.flow.first
 import tachiyomi.core.common.util.lang.launchIO

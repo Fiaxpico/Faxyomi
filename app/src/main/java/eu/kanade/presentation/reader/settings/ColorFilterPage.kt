@@ -10,8 +10,8 @@ import androidx.core.graphics.alpha
 import androidx.core.graphics.blue
 import androidx.core.graphics.green
 import androidx.core.graphics.red
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences.Companion.ColorFilterMode
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderSettingsScreenModel
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences.Companion.ColorFilterMode
+import eu.fiax.faxyomi.ui.reader.setting.ReaderSettingsScreenModel
 import tachiyomi.core.common.preference.getAndSet
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.components.CheckboxItem

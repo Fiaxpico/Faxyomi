@@ -1,12 +1,12 @@
 package exh.recs.sources
 
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.online.all.MangaDex
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.online.all.MangaDex
 import exh.md.similar.MangaDexSimilarPagingSource
 import exh.pref.DelegateSourcePreferences
 import exh.source.getMainSource

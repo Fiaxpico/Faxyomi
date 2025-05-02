@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.network
+package eu.fiax.faxyomi.network
 
 import tachiyomi.core.common.preference.Preference
 import tachiyomi.core.common.preference.PreferenceStore

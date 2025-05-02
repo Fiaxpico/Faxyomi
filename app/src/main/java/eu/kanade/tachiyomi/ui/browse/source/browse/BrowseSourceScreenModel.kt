@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source.browse
+package eu.fiax.faxyomi.ui.browse.source.browse
 
 import android.content.res.Configuration
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -23,12 +23,12 @@ import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.domain.track.interactor.AddTracks
 import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.presentation.util.ioCoroutineScope
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.online.MetadataSource
-import eu.kanade.tachiyomi.source.online.all.MangaDex
-import eu.kanade.tachiyomi.util.removeCovers
+import eu.fiax.faxyomi.data.cache.CoverCache
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.online.MetadataSource
+import eu.fiax.faxyomi.source.online.all.MangaDex
+import eu.fiax.faxyomi.util.removeCovers
 import exh.metadata.metadata.RaisedSearchMetadata
 import exh.source.getMainSource
 import exh.source.mangaDexSourceIds
@@ -82,7 +82,7 @@ import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import xyz.nulldev.ts.api.http.serializer.FilterSerializer
 import java.time.Instant
-import eu.kanade.tachiyomi.source.model.Filter as SourceModelFilter
+import eu.fiax.faxyomi.source.model.Filter as SourceModelFilter
 
 open class BrowseSourceScreenModel(
     private val sourceId: Long,

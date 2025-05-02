@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.backup
+package eu.fiax.faxyomi.data.backup
 
 import android.content.Context
 import android.net.Uri
-import eu.kanade.tachiyomi.data.backup.models.Backup
+import eu.fiax.faxyomi.data.backup.models.Backup
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.protobuf.ProtoBuf
 import okio.buffer

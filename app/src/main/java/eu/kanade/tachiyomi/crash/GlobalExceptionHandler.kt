@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.crash
+package eu.fiax.faxyomi.crash
 
 import android.content.Context
 import android.content.Intent

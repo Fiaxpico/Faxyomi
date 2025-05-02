@@ -2,8 +2,8 @@ package eu.kanade.domain.base
 
 import android.content.Context
 import eu.kanade.domain.base.BasePreferences.ExtensionInstaller
-import eu.kanade.tachiyomi.util.system.hasMiuiPackageInstaller
-import eu.kanade.tachiyomi.util.system.isShizukuInstalled
+import eu.fiax.faxyomi.util.system.hasMiuiPackageInstaller
+import eu.fiax.faxyomi.util.system.isShizukuInstalled
 import kotlinx.coroutines.CoroutineScope
 import tachiyomi.core.common.preference.Preference
 import tachiyomi.core.common.preference.PreferenceStore

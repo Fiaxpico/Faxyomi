@@ -25,9 +25,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.browse.components.BaseSourceItem
-import eu.kanade.tachiyomi.ui.browse.source.SourcesScreenModel
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreenModel.Listing
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.ui.browse.source.SourcesScreenModel
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreenModel.Listing
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import kotlinx.collections.immutable.ImmutableList
 import tachiyomi.domain.source.model.Pin
 import tachiyomi.domain.source.model.Source

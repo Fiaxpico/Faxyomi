@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.webtoon
+package eu.fiax.faxyomi.ui.reader.viewer.webtoon
 
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderPageImageView
-import eu.kanade.tachiyomi.ui.reader.viewer.calculateChapterGap
-import eu.kanade.tachiyomi.util.system.createReaderThemeContext
+import eu.fiax.faxyomi.ui.reader.model.ChapterTransition
+import eu.fiax.faxyomi.ui.reader.model.ReaderChapter
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.ui.reader.model.ViewerChapters
+import eu.fiax.faxyomi.ui.reader.viewer.ReaderPageImageView
+import eu.fiax.faxyomi.ui.reader.viewer.calculateChapterGap
+import eu.fiax.faxyomi.util.system.createReaderThemeContext
 
 /**
  * RecyclerView Adapter used by this [viewer] to where [ViewerChapters] updates are posted.

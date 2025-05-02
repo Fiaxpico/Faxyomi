@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source.feed
+package eu.fiax.faxyomi.ui.browse.source.feed
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.runtime.Composable
@@ -13,11 +13,11 @@ import eu.kanade.presentation.browse.SourceFeedScreen
 import eu.kanade.presentation.browse.components.SourceFeedAddDialog
 import eu.kanade.presentation.browse.components.SourceFeedDeleteDialog
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreen
-import eu.kanade.tachiyomi.ui.browse.source.browse.SourceFilterDialog
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreen
+import eu.fiax.faxyomi.ui.browse.source.browse.SourceFilterDialog
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.util.system.toast
 import exh.md.follows.MangaDexFollowsScreen
 import exh.ui.ifSourcesLoaded
 import exh.util.nullIfBlank

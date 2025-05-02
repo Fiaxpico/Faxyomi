@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.backup.restore.restorers
+package eu.fiax.faxyomi.data.backup.restore.restorers
 
-import eu.kanade.tachiyomi.data.backup.models.BackupExtensionRepos
+import eu.fiax.faxyomi.data.backup.models.BackupExtensionRepos
 import mihon.domain.extensionrepo.interactor.GetExtensionRepo
 import tachiyomi.data.DatabaseHandler
 import uy.kohesive.injekt.Injekt

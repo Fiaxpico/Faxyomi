@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.fiax.faxyomi.widget
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,8 +6,8 @@ import android.widget.EditText
 import androidx.core.view.inputmethod.EditorInfoCompat
 import com.google.android.material.textfield.TextInputEditText
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.widget.TachiyomiTextInputEditText.Companion.setIncognito
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.widget.TachiyomiTextInputEditText.Companion.setIncognito
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

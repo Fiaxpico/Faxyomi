@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.track
+package eu.fiax.faxyomi.ui.manga.track
 
 import android.app.Application
 import android.content.Context
@@ -54,16 +54,16 @@ import eu.kanade.presentation.track.TrackScoreSelector
 import eu.kanade.presentation.track.TrackStatusSelector
 import eu.kanade.presentation.track.TrackerSearch
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.data.track.DeletableTracker
-import eu.kanade.tachiyomi.data.track.EnhancedTracker
-import eu.kanade.tachiyomi.data.track.Tracker
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.source.online.MetadataSource
-import eu.kanade.tachiyomi.util.lang.convertEpochMillisZone
-import eu.kanade.tachiyomi.util.system.copyToClipboard
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.data.track.DeletableTracker
+import eu.fiax.faxyomi.data.track.EnhancedTracker
+import eu.fiax.faxyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.source.online.MetadataSource
+import eu.fiax.faxyomi.util.lang.convertEpochMillisZone
+import eu.fiax.faxyomi.util.system.copyToClipboard
+import eu.fiax.faxyomi.util.system.openInBrowser
+import eu.fiax.faxyomi.util.system.toast
 import exh.metadata.metadata.base.TrackerIdMetadata
 import exh.source.getMainSource
 import kotlinx.collections.immutable.ImmutableList

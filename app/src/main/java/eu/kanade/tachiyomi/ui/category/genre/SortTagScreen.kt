@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.category.genre
+package eu.fiax.faxyomi.ui.category.genre
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -11,7 +11,7 @@ import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.category.components.CategoryCreateDialog
 import eu.kanade.presentation.category.components.CategoryDeleteDialog
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.util.system.toast
 import kotlinx.coroutines.flow.collectLatest
 import tachiyomi.i18n.sy.SYMR
 import tachiyomi.presentation.core.i18n.stringResource

@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.source.online
+package eu.fiax.faxyomi.source.online
 
 import android.net.Uri
-import eu.kanade.tachiyomi.source.Source
+import eu.fiax.faxyomi.source.Source
 import java.net.URI
 import java.net.URISyntaxException
 

@@ -1,8 +1,8 @@
 package eu.kanade.presentation.util
 
 import android.content.Context
-import eu.kanade.tachiyomi.network.HttpException
-import eu.kanade.tachiyomi.util.system.isOnline
+import eu.fiax.faxyomi.network.HttpException
+import eu.fiax.faxyomi.util.system.isOnline
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.data.source.NoResultsException
 import tachiyomi.domain.source.model.SourceNotInstalledException

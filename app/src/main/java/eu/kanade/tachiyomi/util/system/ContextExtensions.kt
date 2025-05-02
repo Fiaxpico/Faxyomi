@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.fiax.faxyomi.util.system
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -16,10 +16,10 @@ import androidx.core.net.toUri
 import com.hippo.unifile.UniFile
 import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.domain.ui.model.ThemeMode
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.base.delegate.ThemingDelegate
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
-import eu.kanade.tachiyomi.util.lang.truncateCenter
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.base.delegate.ThemingDelegate
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.util.lang.truncateCenter
 import logcat.LogPriority
 import rikka.sui.Sui
 import tachiyomi.core.common.i18n.stringResource

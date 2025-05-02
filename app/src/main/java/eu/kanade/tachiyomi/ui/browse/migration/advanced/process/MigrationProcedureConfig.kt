@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.process
+package eu.fiax.faxyomi.ui.browse.migration.advanced.process
 
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.design.MigrationType
+import eu.fiax.faxyomi.ui.browse.migration.advanced.design.MigrationType
 import java.io.Serializable
 
 data class MigrationProcedureConfig(

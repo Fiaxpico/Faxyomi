@@ -15,11 +15,11 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import eu.kanade.presentation.webview.EhLoginWebViewScreen
 import eu.kanade.presentation.webview.components.IgneousDialog
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.base.activity.BaseActivity
-import eu.kanade.tachiyomi.util.system.WebViewUtil
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.view.setComposeContent
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.base.activity.BaseActivity
+import eu.fiax.faxyomi.util.system.WebViewUtil
+import eu.fiax.faxyomi.util.system.toast
+import eu.fiax.faxyomi.util.view.setComposeContent
 import exh.log.xLogD
 import tachiyomi.domain.UnsortedPreferences
 import tachiyomi.i18n.MR

@@ -22,8 +22,8 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.isPreviewBuildType
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.util.system.isPreviewBuildType
 import kotlinx.serialization.Serializable
 import nl.adaptivity.xmlutil.core.AndroidXmlReader
 import nl.adaptivity.xmlutil.serialization.XML

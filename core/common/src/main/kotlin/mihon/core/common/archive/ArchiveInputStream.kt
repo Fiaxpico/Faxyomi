@@ -1,6 +1,6 @@
 package mihon.core.common.archive
 
-import eu.kanade.tachiyomi.util.storage.CbzCrypto
+import eu.fiax.faxyomi.util.storage.CbzCrypto
 import me.zhanghai.android.libarchive.Archive
 import me.zhanghai.android.libarchive.ArchiveEntry
 import me.zhanghai.android.libarchive.ArchiveException

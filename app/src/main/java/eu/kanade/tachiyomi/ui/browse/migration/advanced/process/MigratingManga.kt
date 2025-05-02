@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.process
+package eu.fiax.faxyomi.ui.browse.migration.advanced.process
 
 import android.content.Context
 import kotlinx.coroutines.CoroutineScope

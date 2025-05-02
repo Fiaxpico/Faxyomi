@@ -25,8 +25,8 @@ import eu.kanade.presentation.components.ChipBorder
 import eu.kanade.presentation.components.SuggestionChip
 import eu.kanade.presentation.components.SuggestionChipDefaults
 import eu.kanade.presentation.theme.TachiyomiPreviewTheme
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.online.all.EHentai
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.online.all.EHentai
 import exh.metadata.metadata.EHentaiSearchMetadata
 import exh.metadata.metadata.RaisedSearchMetadata
 import exh.metadata.metadata.base.RaisedTag

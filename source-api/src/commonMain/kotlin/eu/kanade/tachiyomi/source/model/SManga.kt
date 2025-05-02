@@ -1,6 +1,6 @@
 @file:Suppress("PropertyName")
 
-package eu.kanade.tachiyomi.source.model
+package eu.fiax.faxyomi.source.model
 
 import java.io.Serializable
 

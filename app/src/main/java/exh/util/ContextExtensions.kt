@@ -8,7 +8,7 @@ import android.net.wifi.WifiManager
 import android.os.Build
 import android.os.PowerManager
 import androidx.core.content.getSystemService
-import eu.kanade.tachiyomi.util.system.powerManager
+import eu.fiax.faxyomi.util.system.powerManager
 
 /**
  * Property to get the wifi manager from the context.

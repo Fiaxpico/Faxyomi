@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader
+package eu.fiax.faxyomi.ui.reader
 
 import android.content.Context
 import android.graphics.Canvas
@@ -11,8 +11,8 @@ import android.view.ViewPropertyAnimator
 import androidx.core.graphics.withScale
 import androidx.core.graphics.withTranslation
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.DisabledNavigation
+import eu.fiax.faxyomi.ui.reader.viewer.ViewerNavigation
+import eu.fiax.faxyomi.ui.reader.viewer.navigation.DisabledNavigation
 import tachiyomi.core.common.i18n.stringResource
 import kotlin.math.abs
 

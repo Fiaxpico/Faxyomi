@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.model
+package eu.fiax.faxyomi.ui.reader.model
 
 sealed class ChapterTransition : ReaderItem {
 

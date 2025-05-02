@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.fiax.faxyomi.ui.library
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.graphics.res.animatedVectorResource
@@ -39,17 +39,17 @@ import eu.kanade.presentation.library.components.SyncFavoritesWarningDialog
 import eu.kanade.presentation.manga.components.LibraryBottomActionMenu
 import eu.kanade.presentation.more.onboarding.GETTING_STARTED_URL
 import eu.kanade.presentation.util.Tab
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.data.sync.SyncDataJob
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.design.PreMigrationScreen
-import eu.kanade.tachiyomi.ui.browse.source.globalsearch.GlobalSearchScreen
-import eu.kanade.tachiyomi.ui.category.CategoryScreen
-import eu.kanade.tachiyomi.ui.home.HomeScreen
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.library.LibraryUpdateJob
+import eu.fiax.faxyomi.data.sync.SyncDataJob
+import eu.fiax.faxyomi.ui.browse.migration.advanced.design.PreMigrationScreen
+import eu.fiax.faxyomi.ui.browse.source.globalsearch.GlobalSearchScreen
+import eu.fiax.faxyomi.ui.category.CategoryScreen
+import eu.fiax.faxyomi.ui.home.HomeScreen
+import eu.fiax.faxyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.reader.ReaderActivity
+import eu.fiax.faxyomi.util.system.toast
 import exh.favorites.FavoritesSyncStatus
 import exh.recs.RecommendsScreen
 import exh.recs.batch.RecommendationSearchBottomSheetDialog

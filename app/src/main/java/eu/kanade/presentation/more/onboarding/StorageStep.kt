@@ -18,7 +18,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.more.settings.screen.SettingsDataScreen
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.util.system.toast
 import kotlinx.coroutines.flow.collectLatest
 import tachiyomi.domain.storage.service.StoragePreferences
 import tachiyomi.i18n.MR

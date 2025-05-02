@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.source.online
+package eu.fiax.faxyomi.source.online
 
-import eu.kanade.tachiyomi.source.Source
+import eu.fiax.faxyomi.source.Source
 
 interface RandomMangaSource : Source {
     suspend fun fetchRandomMangaUrl(): String

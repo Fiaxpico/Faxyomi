@@ -26,13 +26,13 @@ if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
 val supportedAbis = setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
 
 android {
-    namespace = "eu.kanade.tachiyomi"
+    namespace = "eu.fiax"
 
     defaultConfig {
-        applicationId = "eu.kanade.tachiyomi.faxyomi"
+        applicationId = "eu.fiax.faxyomi"
 
         versionCode = 72
-        versionName = "1.11.1"
+        versionName = "1.11.2"
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")

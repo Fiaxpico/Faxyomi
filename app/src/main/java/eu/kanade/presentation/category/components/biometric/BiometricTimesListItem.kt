@@ -16,7 +16,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import eu.kanade.tachiyomi.ui.category.biometric.TimeRangeItem
+import eu.fiax.faxyomi.ui.category.biometric.TimeRangeItem
 import tachiyomi.presentation.core.components.material.padding
 
 @Composable

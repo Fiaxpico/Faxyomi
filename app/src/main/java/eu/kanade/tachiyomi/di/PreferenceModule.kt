@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.di
+package eu.fiax.faxyomi.di
 
 import android.app.Application
 import eu.kanade.domain.base.BasePreferences
@@ -6,11 +6,11 @@ import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.domain.sync.SyncPreferences
 import eu.kanade.domain.track.service.TrackPreferences
 import eu.kanade.domain.ui.UiPreferences
-import eu.kanade.tachiyomi.core.security.PrivacyPreferences
-import eu.kanade.tachiyomi.core.security.SecurityPreferences
-import eu.kanade.tachiyomi.network.NetworkPreferences
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
-import eu.kanade.tachiyomi.util.system.isDevFlavor
+import eu.fiax.faxyomi.core.security.PrivacyPreferences
+import eu.fiax.faxyomi.core.security.SecurityPreferences
+import eu.fiax.faxyomi.network.NetworkPreferences
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.util.system.isDevFlavor
 import tachiyomi.core.common.preference.AndroidPreferenceStore
 import tachiyomi.core.common.preference.PreferenceStore
 import tachiyomi.core.common.storage.AndroidStorageFolderProvider

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.category.biometric
+package eu.fiax.faxyomi.ui.category.biometric
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -12,8 +12,8 @@ import com.google.android.material.timepicker.MaterialTimePicker
 import eu.kanade.presentation.category.BiometricTimesScreen
 import eu.kanade.presentation.category.components.CategoryDeleteDialog
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.util.system.toast
 import kotlinx.coroutines.flow.collectLatest
 import tachiyomi.i18n.sy.SYMR
 import tachiyomi.presentation.core.i18n.stringResource

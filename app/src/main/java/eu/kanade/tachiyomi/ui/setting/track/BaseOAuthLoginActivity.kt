@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.setting.track
+package eu.fiax.faxyomi.ui.setting.track
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.ui.base.activity.BaseActivity
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.view.setComposeContent
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.ui.base.activity.BaseActivity
+import eu.fiax.faxyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.util.view.setComposeContent
 import tachiyomi.presentation.core.screens.LoadingScreen
 import uy.kohesive.injekt.injectLazy
 

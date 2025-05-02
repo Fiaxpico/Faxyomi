@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.setting
+package eu.fiax.faxyomi.ui.reader.setting
 
 import dev.icerock.moko.resources.StringResource
 import tachiyomi.i18n.MR

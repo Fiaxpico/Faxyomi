@@ -5,11 +5,11 @@ import eu.kanade.domain.chapter.model.toSChapter
 import eu.kanade.domain.manga.interactor.GetExcludedScanlators
 import eu.kanade.domain.manga.interactor.UpdateManga
 import eu.kanade.domain.manga.model.toSManga
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.DownloadProvider
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.download.DownloadProvider
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.online.HttpSource
 import exh.source.isEhBasedManga
 import tachiyomi.data.chapter.ChapterSanitizer
 import tachiyomi.domain.chapter.interactor.GetChaptersByMangaId

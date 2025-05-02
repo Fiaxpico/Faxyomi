@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.track.kitsu.dto
+package eu.fiax.faxyomi.data.track.kitsu.dto
 
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.data.track.kitsu.KitsuApi
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.data.track.kitsu.KitsuApi
+import eu.fiax.faxyomi.data.track.model.TrackSearch
 import kotlinx.serialization.Serializable
 import java.text.SimpleDateFormat
 import java.util.Date

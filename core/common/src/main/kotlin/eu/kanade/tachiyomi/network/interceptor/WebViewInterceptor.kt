@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.network.interceptor
+package eu.fiax.faxyomi.network.interceptor
 
 import android.content.Context
 import android.os.Build
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.widget.Toast
-import eu.kanade.tachiyomi.util.system.DeviceUtil
-import eu.kanade.tachiyomi.util.system.WebViewUtil
-import eu.kanade.tachiyomi.util.system.setDefaultSettings
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.util.system.DeviceUtil
+import eu.fiax.faxyomi.util.system.WebViewUtil
+import eu.fiax.faxyomi.util.system.setDefaultSettings
+import eu.fiax.faxyomi.util.system.toast
 import kotlinx.coroutines.DelicateCoroutinesApi
 import okhttp3.Headers
 import okhttp3.Interceptor

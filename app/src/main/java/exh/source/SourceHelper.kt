@@ -1,12 +1,12 @@
 package exh.source
 
-import eu.kanade.tachiyomi.source.AndroidSourceManager
-import eu.kanade.tachiyomi.source.online.all.MangaDex
-import eu.kanade.tachiyomi.source.online.all.NHentai
-import eu.kanade.tachiyomi.source.online.english.EightMuses
-import eu.kanade.tachiyomi.source.online.english.HBrowse
-import eu.kanade.tachiyomi.source.online.english.Pururin
-import eu.kanade.tachiyomi.source.online.english.Tsumino
+import eu.fiax.faxyomi.source.AndroidSourceManager
+import eu.fiax.faxyomi.source.online.all.MangaDex
+import eu.fiax.faxyomi.source.online.all.NHentai
+import eu.fiax.faxyomi.source.online.english.EightMuses
+import eu.fiax.faxyomi.source.online.english.HBrowse
+import eu.fiax.faxyomi.source.online.english.Pururin
+import eu.fiax.faxyomi.source.online.english.Tsumino
 
 /**
  * Source helpers

@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.util.system
+package eu.fiax.faxyomi.util.system
 
 import android.content.Context
 import androidx.core.os.LocaleListCompat
-import eu.kanade.tachiyomi.ui.browse.source.SourcesScreenModel
+import eu.fiax.faxyomi.ui.browse.source.SourcesScreenModel
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.i18n.MR
 import java.util.Locale

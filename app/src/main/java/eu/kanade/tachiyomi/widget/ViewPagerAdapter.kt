@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.fiax.faxyomi.widget
 
 import android.view.View
 import android.view.ViewGroup

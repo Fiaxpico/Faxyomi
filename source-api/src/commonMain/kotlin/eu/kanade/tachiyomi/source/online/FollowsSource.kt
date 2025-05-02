@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.source.online
+package eu.fiax.faxyomi.source.online
 
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.SManga
 import exh.metadata.metadata.RaisedSearchMetadata
 
 interface FollowsSource : CatalogueSource {

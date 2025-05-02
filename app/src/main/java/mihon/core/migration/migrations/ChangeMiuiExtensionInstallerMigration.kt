@@ -1,7 +1,7 @@
 package mihon.core.migration.migrations
 
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.util.system.DeviceUtil
+import eu.fiax.faxyomi.util.system.DeviceUtil
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
 import tachiyomi.core.common.util.lang.withIOContext

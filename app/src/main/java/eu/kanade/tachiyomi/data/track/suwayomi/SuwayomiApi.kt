@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.track.suwayomi
+package eu.fiax.faxyomi.data.track.suwayomi
 
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.network.PUT
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.network.PUT
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.parseAs
 import kotlinx.serialization.json.Json
 import okhttp3.Credentials
 import okhttp3.Dns

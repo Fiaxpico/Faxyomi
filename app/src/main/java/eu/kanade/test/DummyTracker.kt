@@ -2,9 +2,9 @@ package eu.kanade.test
 
 import android.graphics.Color
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.track.Tracker
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.model.TrackSearch
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.flow.Flow

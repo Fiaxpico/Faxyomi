@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.fiax.faxyomi.ui.reader.viewer
 
 import android.graphics.Color
 import android.graphics.PointF
 import android.graphics.RectF
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
-import eu.kanade.tachiyomi.util.lang.invert
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.util.lang.invert
 import tachiyomi.i18n.MR
 
 abstract class ViewerNavigation {

@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.track.mdlist
+package eu.fiax.faxyomi.data.track.mdlist
 
 import android.graphics.Color
 import dev.icerock.moko.resources.StringResource
 import eu.kanade.domain.track.model.toDbTrack
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.BaseTracker
-import eu.kanade.tachiyomi.data.track.model.TrackMangaMetadata
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.BaseTracker
+import eu.fiax.faxyomi.data.track.model.TrackMangaMetadata
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.SManga
 import exh.md.network.MangaDexAuthInterceptor
 import exh.md.utils.FollowStatus
 import exh.md.utils.MdUtil

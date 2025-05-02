@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.merged
+package eu.fiax.faxyomi.ui.manga.merged
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -22,9 +22,9 @@ import androidx.compose.ui.window.DialogProperties
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import eu.kanade.tachiyomi.databinding.EditMergedSettingsDialogBinding
-import eu.kanade.tachiyomi.ui.manga.MergedMangaData
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.databinding.EditMergedSettingsDialogBinding
+import eu.fiax.faxyomi.ui.manga.MergedMangaData
+import eu.fiax.faxyomi.util.system.toast
 import exh.source.MERGED_SOURCE_ID
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.domain.manga.model.MergedMangaReference

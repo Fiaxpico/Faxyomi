@@ -1,10 +1,10 @@
 package tachiyomi.data.source
 
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.MetadataMangasPage
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.MetadataMangasPage
+import eu.fiax.faxyomi.source.model.SManga
 import exh.metadata.metadata.RaisedSearchMetadata
 
 abstract class EHentaiPagingSource(override val source: CatalogueSource) : SourcePagingSource(source) {

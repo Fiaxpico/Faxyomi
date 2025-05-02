@@ -1,12 +1,12 @@
 package exh.md.handlers
 
 import eu.kanade.domain.track.service.TrackPreferences
-import eu.kanade.tachiyomi.data.track.mdlist.MdList
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.newCachelessCallWithProgress
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.model.SChapter
+import eu.fiax.faxyomi.data.track.mdlist.MdList
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.newCachelessCallWithProgress
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.model.SChapter
 import exh.log.xLogD
 import exh.md.dto.AtHomeDto
 import exh.md.service.MangaDexService

@@ -1,18 +1,18 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.fiax.faxyomi.ui.reader.viewer.pager
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Bitmap
 import android.view.LayoutInflater
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.databinding.ReaderErrorBinding
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.ui.reader.model.InsertPage
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderPageImageView
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderProgressIndicator
-import eu.kanade.tachiyomi.ui.webview.WebViewActivity
-import eu.kanade.tachiyomi.widget.ViewPagerAdapter
+import eu.fiax.faxyomi.databinding.ReaderErrorBinding
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.ui.reader.model.InsertPage
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.ui.reader.viewer.ReaderPageImageView
+import eu.fiax.faxyomi.ui.reader.viewer.ReaderProgressIndicator
+import eu.fiax.faxyomi.ui.webview.WebViewActivity
+import eu.fiax.faxyomi.widget.ViewPagerAdapter
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay

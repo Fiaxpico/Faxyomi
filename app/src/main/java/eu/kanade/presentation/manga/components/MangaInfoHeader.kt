@@ -78,9 +78,9 @@ import coil3.compose.AsyncImage
 import coil3.request.ImageRequest
 import coil3.request.crossfade
 import eu.kanade.presentation.components.DropdownMenu
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.util.system.copyToClipboard
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.util.system.copyToClipboard
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.i18n.MR
 import tachiyomi.i18n.sy.SYMR

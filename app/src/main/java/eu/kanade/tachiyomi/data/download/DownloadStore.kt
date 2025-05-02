@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.data.download
+package eu.fiax.faxyomi.data.download
 
 import android.content.Context
 import androidx.core.content.edit
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.data.download.model.Download
+import eu.fiax.faxyomi.source.online.HttpSource
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString

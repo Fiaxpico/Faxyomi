@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.extension.model
+package eu.fiax.faxyomi.extension.model
 
 import android.graphics.drawable.Drawable
-import eu.kanade.tachiyomi.source.Source
+import eu.fiax.faxyomi.source.Source
 import tachiyomi.domain.source.model.StubSource
 
 sealed class Extension {

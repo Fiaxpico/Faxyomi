@@ -41,8 +41,8 @@ import androidx.core.app.ActivityCompat
 import eu.kanade.domain.ui.model.AppTheme
 import eu.kanade.presentation.manga.components.MangaCover
 import eu.kanade.presentation.theme.TachiyomiTheme
-import eu.kanade.tachiyomi.util.system.DeviceUtil
-import eu.kanade.tachiyomi.util.system.isDynamicColorAvailable
+import eu.fiax.faxyomi.util.system.DeviceUtil
+import eu.fiax.faxyomi.util.system.isDynamicColorAvailable
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.components.material.padding
 import tachiyomi.presentation.core.i18n.stringResource

@@ -36,8 +36,8 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import eu.kanade.presentation.util.rememberRequestPackageInstallsPermissionState
-import eu.kanade.tachiyomi.core.security.PrivacyPreferences
-import eu.kanade.tachiyomi.util.system.launchRequestPackageInstallsPermission
+import eu.fiax.faxyomi.core.security.PrivacyPreferences
+import eu.fiax.faxyomi.util.system.launchRequestPackageInstallsPermission
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.i18n.stringResource
 import tachiyomi.presentation.core.util.collectAsState

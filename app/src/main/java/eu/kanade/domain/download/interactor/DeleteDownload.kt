@@ -1,6 +1,6 @@
 package eu.kanade.domain.download.interactor
 
-import eu.kanade.tachiyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.download.DownloadManager
 import tachiyomi.core.common.util.lang.withNonCancellableContext
 import tachiyomi.domain.chapter.model.Chapter
 import tachiyomi.domain.manga.model.Manga

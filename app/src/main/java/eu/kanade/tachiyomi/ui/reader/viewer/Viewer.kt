@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.fiax.faxyomi.ui.reader.viewer
 
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.View
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.ui.reader.model.ViewerChapters
 
 /**
  * Interface for implementing a viewer.

@@ -1,11 +1,11 @@
 package eu.kanade.domain.manga.model
 
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderOrientation
-import eu.kanade.tachiyomi.ui.reader.setting.ReadingMode
-import eu.kanade.tachiyomi.util.storage.CbzCrypto
+import eu.fiax.faxyomi.data.cache.CoverCache
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.ui.reader.setting.ReaderOrientation
+import eu.fiax.faxyomi.ui.reader.setting.ReadingMode
+import eu.fiax.faxyomi.util.storage.CbzCrypto
 import tachiyomi.core.common.preference.TriState
 import tachiyomi.core.metadata.comicinfo.ComicInfo
 import tachiyomi.core.metadata.comicinfo.ComicInfoPublishingStatus

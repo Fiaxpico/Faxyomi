@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.track.anilist
+package eu.fiax.faxyomi.data.track.anilist
 
 import eu.kanade.domain.track.service.TrackPreferences
-import eu.kanade.tachiyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.database.models.Track
 import uy.kohesive.injekt.injectLazy
 import tachiyomi.domain.track.model.Track as DomainTrack
 

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track
+package eu.fiax.faxyomi.data.track
 
 import tachiyomi.domain.track.model.Track
 

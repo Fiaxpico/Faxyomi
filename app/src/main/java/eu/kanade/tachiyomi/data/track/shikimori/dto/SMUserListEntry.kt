@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.track.shikimori.dto
+package eu.fiax.faxyomi.data.track.shikimori.dto
 
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.shikimori.ShikimoriApi
-import eu.kanade.tachiyomi.data.track.shikimori.toTrackStatus
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.shikimori.ShikimoriApi
+import eu.fiax.faxyomi.data.track.shikimori.toTrackStatus
 import kotlinx.serialization.Serializable
 
 @Serializable

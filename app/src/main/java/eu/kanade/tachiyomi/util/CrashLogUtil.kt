@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.util
+package eu.fiax.faxyomi.util
 
 import android.content.Context
 import android.os.Build
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.util.storage.getUriCompat
-import eu.kanade.tachiyomi.util.system.WebViewUtil
-import eu.kanade.tachiyomi.util.system.createFileInCacheDir
-import eu.kanade.tachiyomi.util.system.toShareIntent
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.util.storage.getUriCompat
+import eu.fiax.faxyomi.util.system.WebViewUtil
+import eu.fiax.faxyomi.util.system.createFileInCacheDir
+import eu.fiax.faxyomi.util.system.toShareIntent
+import eu.fiax.faxyomi.util.system.toast
 import exh.syDebugVersion
 import tachiyomi.core.common.util.lang.withNonCancellableContext
 import tachiyomi.core.common.util.lang.withUIContext

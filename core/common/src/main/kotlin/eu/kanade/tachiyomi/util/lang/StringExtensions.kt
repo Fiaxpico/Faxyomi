@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.lang
+package eu.fiax.faxyomi.util.lang
 
 import androidx.core.text.parseAsHtml
 import net.greypanther.natsort.CaseInsensitiveSimpleNaturalComparator

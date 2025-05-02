@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.backup
+package eu.fiax.faxyomi.data.backup
 
 import android.content.Context
 import android.net.Uri
-import eu.kanade.tachiyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.data.track.TrackerManager
 import tachiyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get

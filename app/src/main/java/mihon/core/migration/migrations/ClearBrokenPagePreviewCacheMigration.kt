@@ -1,7 +1,7 @@
 package mihon.core.migration.migrations
 
 import android.app.Application
-import eu.kanade.tachiyomi.data.cache.PagePreviewCache
+import eu.fiax.faxyomi.data.cache.PagePreviewCache
 import logcat.LogPriority
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext

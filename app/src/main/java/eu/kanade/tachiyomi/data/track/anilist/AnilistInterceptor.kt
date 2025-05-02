@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.track.anilist
+package eu.fiax.faxyomi.data.track.anilist
 
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.data.track.anilist.dto.ALOAuth
-import eu.kanade.tachiyomi.data.track.anilist.dto.isExpired
+import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.faxyomi.data.track.anilist.dto.ALOAuth
+import eu.fiax.faxyomi.data.track.anilist.dto.isExpired
 import okhttp3.Interceptor
 import okhttp3.Response
 import java.io.IOException

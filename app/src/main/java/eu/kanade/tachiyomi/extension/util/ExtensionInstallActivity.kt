@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.fiax.faxyomi.extension.util
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.util.system.hasMiuiPackageInstaller
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.extension.model.InstallStep
+import eu.fiax.faxyomi.util.system.hasMiuiPackageInstaller
+import eu.fiax.faxyomi.util.system.toast
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import kotlin.time.Duration.Companion.seconds

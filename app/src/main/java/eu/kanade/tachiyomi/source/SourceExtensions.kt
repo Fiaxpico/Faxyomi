@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.source
+package eu.fiax.faxyomi.source
 
 import eu.kanade.domain.source.service.SourcePreferences
 import tachiyomi.domain.source.model.StubSource

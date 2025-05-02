@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.data.track
+package eu.fiax.faxyomi.data.track
 
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.data.track.anilist.Anilist
-import eu.kanade.tachiyomi.data.track.bangumi.Bangumi
-import eu.kanade.tachiyomi.data.track.kitsu.Kitsu
-import eu.kanade.tachiyomi.data.track.komga.Komga
-import eu.kanade.tachiyomi.data.track.mangaupdates.MangaUpdates
-import eu.kanade.tachiyomi.data.track.myanimelist.MyAnimeList
-import eu.kanade.tachiyomi.data.track.shikimori.Shikimori
+import eu.fiax.faxyomi.data.track.anilist.Anilist
+import eu.fiax.faxyomi.data.track.bangumi.Bangumi
+import eu.fiax.faxyomi.data.track.kitsu.Kitsu
+import eu.fiax.faxyomi.data.track.komga.Komga
+import eu.fiax.faxyomi.data.track.mangaupdates.MangaUpdates
+import eu.fiax.faxyomi.data.track.myanimelist.MyAnimeList
+import eu.fiax.faxyomi.data.track.shikimori.Shikimori
 import exh.md.utils.FollowStatus
 import tachiyomi.i18n.MR
 import tachiyomi.i18n.sy.SYMR

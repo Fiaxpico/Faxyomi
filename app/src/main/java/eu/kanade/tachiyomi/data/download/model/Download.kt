@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.download.model
+package eu.fiax.faxyomi.data.download.model
 
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.online.HttpSource
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

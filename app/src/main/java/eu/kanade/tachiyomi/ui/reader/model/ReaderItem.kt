@@ -1,3 +1,3 @@
-package eu.kanade.tachiyomi.ui.reader.model
+package eu.fiax.faxyomi.ui.reader.model
 
 sealed interface ReaderItem

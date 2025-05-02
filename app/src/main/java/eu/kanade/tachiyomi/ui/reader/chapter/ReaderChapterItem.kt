@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.chapter
+package eu.fiax.faxyomi.ui.reader.chapter
 
 import tachiyomi.domain.chapter.model.Chapter
 import tachiyomi.domain.manga.model.Manga

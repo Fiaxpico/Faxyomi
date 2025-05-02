@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.backup.create.creators
+package eu.fiax.faxyomi.data.backup.create.creators
 
-import eu.kanade.tachiyomi.data.backup.models.BackupCategory
-import eu.kanade.tachiyomi.data.backup.models.backupCategoryMapper
+import eu.fiax.faxyomi.data.backup.models.BackupCategory
+import eu.fiax.faxyomi.data.backup.models.backupCategoryMapper
 import tachiyomi.domain.category.interactor.GetCategories
 import tachiyomi.domain.category.model.Category
 import uy.kohesive.injekt.Injekt

@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.fiax.faxyomi.util.chapter
 
-import eu.kanade.tachiyomi.data.download.DownloadCache
+import eu.fiax.faxyomi.data.download.DownloadCache
 import tachiyomi.domain.chapter.model.Chapter
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.source.local.isLocal

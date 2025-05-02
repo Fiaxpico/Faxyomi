@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.model
+package eu.fiax.faxyomi.data.track.model
 
 data class TrackMangaMetadata(
     val remoteId: Long? = null,

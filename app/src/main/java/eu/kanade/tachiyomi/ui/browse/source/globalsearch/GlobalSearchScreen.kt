@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source.globalsearch
+package eu.fiax.faxyomi.ui.browse.source.globalsearch
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -12,8 +12,8 @@ import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.browse.GlobalSearchScreen
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
 import exh.ui.ifSourcesLoaded
 import tachiyomi.presentation.core.screens.LoadingScreen
 

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.fiax.faxyomi.ui.setting
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.WindowInsetsSides

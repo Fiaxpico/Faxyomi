@@ -34,9 +34,9 @@ import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import eu.kanade.presentation.theme.TachiyomiPreviewTheme
-import eu.kanade.tachiyomi.data.database.models.toDomainChapter
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
+import eu.fiax.faxyomi.data.database.models.toDomainChapter
+import eu.fiax.faxyomi.ui.reader.model.ChapterTransition
+import eu.fiax.faxyomi.ui.reader.model.ReaderChapter
 import kotlinx.collections.immutable.persistentMapOf
 import tachiyomi.domain.chapter.model.Chapter
 import tachiyomi.domain.chapter.service.calculateChapterGap

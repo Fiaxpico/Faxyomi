@@ -1,8 +1,8 @@
 package eu.kanade.domain.chapter.model
 
 import eu.kanade.domain.manga.model.downloadedFilter
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.ui.manga.ChapterList
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.ui.manga.ChapterList
 import tachiyomi.domain.chapter.model.Chapter
 import tachiyomi.domain.chapter.service.getChapterSort
 import tachiyomi.domain.manga.model.Manga

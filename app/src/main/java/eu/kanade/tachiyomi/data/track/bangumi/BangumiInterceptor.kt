@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.track.bangumi
+package eu.fiax.faxyomi.data.track.bangumi
 
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.data.track.bangumi.dto.BGMOAuth
-import eu.kanade.tachiyomi.data.track.bangumi.dto.isExpired
+import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.faxyomi.data.track.bangumi.dto.BGMOAuth
+import eu.fiax.faxyomi.data.track.bangumi.dto.isExpired
 import kotlinx.serialization.json.Json
 import okhttp3.Interceptor
 import okhttp3.Response

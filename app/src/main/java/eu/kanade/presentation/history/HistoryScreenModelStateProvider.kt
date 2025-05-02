@@ -1,7 +1,7 @@
 package eu.kanade.presentation.history
 
 import androidx.compose.ui.tooling.preview.PreviewParameterProvider
-import eu.kanade.tachiyomi.ui.history.HistoryScreenModel
+import eu.fiax.faxyomi.ui.history.HistoryScreenModel
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList
 import tachiyomi.domain.history.model.HistoryWithRelations

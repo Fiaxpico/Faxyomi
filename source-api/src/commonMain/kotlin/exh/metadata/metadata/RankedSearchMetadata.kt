@@ -1,7 +1,7 @@
 package exh.metadata.metadata
 
 import android.content.Context
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.SManga
 import kotlinx.serialization.Serializable
 
 @Serializable

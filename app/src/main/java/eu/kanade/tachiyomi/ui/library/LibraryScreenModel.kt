@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.fiax.faxyomi.ui.library
 
 import android.app.Application
 import android.content.Context
@@ -26,17 +26,17 @@ import eu.kanade.domain.sync.SyncPreferences
 import eu.kanade.presentation.components.SEARCH_DEBOUNCE_MILLIS
 import eu.kanade.presentation.library.components.LibraryToolbarTitle
 import eu.kanade.presentation.manga.DownloadAction
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.download.DownloadCache
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.track.TrackStatus
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.source.online.all.MergedSource
-import eu.kanade.tachiyomi.util.chapter.getNextUnread
-import eu.kanade.tachiyomi.util.removeCovers
+import eu.fiax.faxyomi.data.cache.CoverCache
+import eu.fiax.faxyomi.data.download.DownloadCache
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.track.TrackStatus
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.source.online.all.MergedSource
+import eu.fiax.faxyomi.util.chapter.getNextUnread
+import eu.fiax.faxyomi.util.removeCovers
 import exh.favorites.FavoritesSyncHelper
 import exh.md.utils.FollowStatus
 import exh.md.utils.MdUtil

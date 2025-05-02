@@ -1,7 +1,7 @@
 package tachiyomi.source.local.image
 
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.SManga
 import java.io.InputStream
 
 expect class LocalCoverManager {

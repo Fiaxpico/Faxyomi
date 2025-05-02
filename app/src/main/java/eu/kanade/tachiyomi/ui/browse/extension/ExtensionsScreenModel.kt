@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.extension
+package eu.fiax.faxyomi.ui.browse.extension
 
 import android.app.Application
 import androidx.compose.runtime.Immutable
@@ -9,11 +9,11 @@ import eu.kanade.domain.base.BasePreferences
 import eu.kanade.domain.extension.interactor.GetExtensionsByType
 import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.presentation.components.SEARCH_DEBOUNCE_MILLIS
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.extension.model.Extension
+import eu.fiax.faxyomi.extension.model.InstallStep
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow

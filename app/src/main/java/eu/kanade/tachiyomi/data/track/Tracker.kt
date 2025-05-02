@@ -4,9 +4,9 @@ import androidx.annotation.CallSuper
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.model.TrackMangaMetadata
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.model.TrackMangaMetadata
+import eu.fiax.faxyomi.data.track.model.TrackSearch
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.flow.Flow
 import okhttp3.OkHttpClient

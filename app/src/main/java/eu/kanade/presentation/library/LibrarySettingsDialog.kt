@@ -22,10 +22,10 @@ import androidx.compose.ui.util.fastForEach
 import dev.icerock.moko.resources.StringResource
 import eu.kanade.presentation.components.TabbedDialog
 import eu.kanade.presentation.components.TabbedDialogPaddings
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.library.LibrarySettingsScreenModel
-import eu.kanade.tachiyomi.util.system.isDevFlavor
-import eu.kanade.tachiyomi.util.system.isPreviewBuildType
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.library.LibrarySettingsScreenModel
+import eu.fiax.faxyomi.util.system.isDevFlavor
+import eu.fiax.faxyomi.util.system.isPreviewBuildType
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.flow.map

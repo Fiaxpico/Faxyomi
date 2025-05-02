@@ -17,8 +17,8 @@ import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.AppBarActions
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.data.backup.models.Backup
-import eu.kanade.tachiyomi.util.system.copyToClipboard
+import eu.fiax.faxyomi.data.backup.models.Backup
+import eu.fiax.faxyomi.util.system.copyToClipboard
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.serialization.protobuf.schema.ProtoBufSchemaGenerator
 import tachiyomi.i18n.MR

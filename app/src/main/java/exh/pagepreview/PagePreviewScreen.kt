@@ -9,7 +9,7 @@ import cafe.adriel.voyager.core.model.rememberScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
+import eu.fiax.faxyomi.ui.reader.ReaderActivity
 import exh.pagepreview.components.PagePreviewScreen
 
 class PagePreviewScreen(private val mangaId: Long) : Screen() {

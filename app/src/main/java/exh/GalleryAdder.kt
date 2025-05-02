@@ -6,8 +6,8 @@ import eu.kanade.domain.chapter.interactor.SyncChaptersWithSource
 import eu.kanade.domain.manga.interactor.UpdateManga
 import eu.kanade.domain.manga.model.toSManga
 import eu.kanade.domain.source.service.SourcePreferences
-import eu.kanade.tachiyomi.source.online.UrlImportableSource
-import eu.kanade.tachiyomi.source.online.all.EHentai
+import eu.fiax.faxyomi.source.online.UrlImportableSource
+import eu.fiax.faxyomi.source.online.all.EHentai
 import exh.log.xLogStack
 import exh.source.getMainSource
 import tachiyomi.core.common.i18n.stringResource

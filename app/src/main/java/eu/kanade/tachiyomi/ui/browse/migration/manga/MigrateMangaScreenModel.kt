@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.browse.migration.manga
+package eu.fiax.faxyomi.ui.browse.migration.manga
 
 import androidx.compose.runtime.Immutable
 import cafe.adriel.voyager.core.model.StateScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import eu.kanade.tachiyomi.source.Source
+import eu.fiax.faxyomi.source.Source
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList

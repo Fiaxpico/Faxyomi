@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.fiax.faxyomi.util.chapter
 
 import tachiyomi.domain.chapter.model.Chapter
 

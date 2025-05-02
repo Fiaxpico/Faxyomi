@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse
+package eu.fiax.faxyomi.ui.browse
 
 import androidx.compose.animation.graphics.res.animatedVectorResource
 import androidx.compose.animation.graphics.res.rememberAnimatedVectorPainter
@@ -19,14 +19,14 @@ import eu.kanade.core.preference.asState
 import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.presentation.components.TabbedScreen
 import eu.kanade.presentation.util.Tab
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.browse.extension.ExtensionsScreenModel
-import eu.kanade.tachiyomi.ui.browse.extension.extensionsTab
-import eu.kanade.tachiyomi.ui.browse.feed.feedTab
-import eu.kanade.tachiyomi.ui.browse.migration.sources.migrateSourceTab
-import eu.kanade.tachiyomi.ui.browse.source.globalsearch.GlobalSearchScreen
-import eu.kanade.tachiyomi.ui.browse.source.sourcesTab
-import eu.kanade.tachiyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.browse.extension.ExtensionsScreenModel
+import eu.fiax.faxyomi.ui.browse.extension.extensionsTab
+import eu.fiax.faxyomi.ui.browse.feed.feedTab
+import eu.fiax.faxyomi.ui.browse.migration.sources.migrateSourceTab
+import eu.fiax.faxyomi.ui.browse.source.globalsearch.GlobalSearchScreen
+import eu.fiax.faxyomi.ui.browse.source.sourcesTab
+import eu.fiax.faxyomi.ui.main.MainActivity
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.channels.Channel

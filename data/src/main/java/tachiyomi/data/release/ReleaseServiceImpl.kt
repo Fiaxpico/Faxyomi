@@ -1,9 +1,9 @@
 package tachiyomi.data.release
 
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.parseAs
 import kotlinx.serialization.json.Json
 import tachiyomi.domain.release.model.Release
 import tachiyomi.domain.release.service.ReleaseService

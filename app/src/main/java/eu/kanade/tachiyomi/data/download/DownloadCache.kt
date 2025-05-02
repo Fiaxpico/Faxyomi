@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.data.download
+package eu.fiax.faxyomi.data.download
 
 import android.app.Application
 import android.content.Context
 import androidx.core.net.toUri
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.source.Source
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.source.Source
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

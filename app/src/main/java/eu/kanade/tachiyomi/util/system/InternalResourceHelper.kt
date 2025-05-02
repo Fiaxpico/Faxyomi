@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.fiax.faxyomi.util.system
 
 import android.annotation.SuppressLint
 import android.content.Context

@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.reader.loader
+package eu.fiax.faxyomi.ui.reader.loader
 
 import androidx.annotation.CallSuper
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
 
 /**
  * A loader used to load pages into the reader. Any open resources must be cleaned up when the

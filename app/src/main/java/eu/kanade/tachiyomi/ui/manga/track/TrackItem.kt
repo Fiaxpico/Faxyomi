@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.manga.track
+package eu.fiax.faxyomi.ui.manga.track
 
-import eu.kanade.tachiyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.Tracker
 import tachiyomi.domain.track.model.Track
 
 data class TrackItem(val track: Track?, val tracker: Tracker)

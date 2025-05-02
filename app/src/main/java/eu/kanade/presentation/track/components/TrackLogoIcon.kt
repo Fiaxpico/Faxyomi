@@ -15,7 +15,7 @@ import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.theme.TachiyomiPreviewTheme
-import eu.kanade.tachiyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.Tracker
 import tachiyomi.presentation.core.util.clickableNoIndication
 
 @Composable

@@ -12,8 +12,8 @@ import androidx.core.graphics.alpha
 import androidx.core.graphics.blue
 import androidx.core.graphics.green
 import androidx.core.graphics.red
-import eu.kanade.tachiyomi.source.R
-import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.fiax.faxyomi.source.R
+import eu.fiax.faxyomi.util.system.dpToPx
 import exh.util.SourceTagsUtil
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.i18n.sy.SYMR

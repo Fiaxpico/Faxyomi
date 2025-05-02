@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.source.model
+package eu.fiax.faxyomi.source.model
 
 import androidx.compose.runtime.Stable
 

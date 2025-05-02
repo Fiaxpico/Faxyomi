@@ -1,8 +1,8 @@
 package exh.metadata.metadata
 
 import android.content.Context
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.model.copy
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.copy
 import exh.metadata.MetadataUtil
 import kotlinx.serialization.Serializable
 import tachiyomi.core.common.i18n.stringResource

@@ -1,8 +1,8 @@
 package eu.kanade.domain.track.service
 
 import eu.kanade.domain.track.model.AutoTrackState
-import eu.kanade.tachiyomi.data.track.Tracker
-import eu.kanade.tachiyomi.data.track.anilist.Anilist
+import eu.fiax.faxyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.anilist.Anilist
 import tachiyomi.core.common.preference.Preference
 import tachiyomi.core.common.preference.PreferenceStore
 import tachiyomi.core.common.preference.getEnum

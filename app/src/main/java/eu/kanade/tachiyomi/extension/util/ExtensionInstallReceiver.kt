@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.fiax.faxyomi.extension.util
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -6,9 +6,9 @@ import android.content.Intent
 import android.content.IntentFilter
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.LoadResult
+import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.faxyomi.extension.model.Extension
+import eu.fiax.faxyomi.extension.model.LoadResult
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch

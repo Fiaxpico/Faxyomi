@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.core.security
+package eu.fiax.faxyomi.core.security
 
 import dev.icerock.moko.resources.StringResource
 import tachiyomi.core.common.preference.Preference

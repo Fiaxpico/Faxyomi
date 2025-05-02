@@ -1,6 +1,6 @@
 @file:Suppress("FunctionName")
 
-package eu.kanade.tachiyomi.network
+package eu.fiax.faxyomi.network
 
 import okhttp3.CacheControl
 import okhttp3.FormBody

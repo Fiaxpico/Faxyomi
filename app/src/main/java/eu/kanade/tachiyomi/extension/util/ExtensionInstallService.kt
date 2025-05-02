@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.fiax.faxyomi.extension.util
 
 import android.app.Service
 import android.content.Context
@@ -6,14 +6,14 @@ import android.content.Intent
 import android.net.Uri
 import android.os.IBinder
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.extension.installer.Installer
-import eu.kanade.tachiyomi.extension.installer.PackageInstallerInstaller
-import eu.kanade.tachiyomi.extension.installer.ShizukuInstaller
-import eu.kanade.tachiyomi.extension.util.ExtensionInstaller.Companion.EXTRA_DOWNLOAD_ID
-import eu.kanade.tachiyomi.util.system.getSerializableExtraCompat
-import eu.kanade.tachiyomi.util.system.notificationBuilder
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.notification.Notifications
+import eu.fiax.faxyomi.extension.installer.Installer
+import eu.fiax.faxyomi.extension.installer.PackageInstallerInstaller
+import eu.fiax.faxyomi.extension.installer.ShizukuInstaller
+import eu.fiax.faxyomi.extension.util.ExtensionInstaller.Companion.EXTRA_DOWNLOAD_ID
+import eu.fiax.faxyomi.util.system.getSerializableExtraCompat
+import eu.fiax.faxyomi.util.system.notificationBuilder
 import logcat.LogPriority
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.core.common.util.system.logcat

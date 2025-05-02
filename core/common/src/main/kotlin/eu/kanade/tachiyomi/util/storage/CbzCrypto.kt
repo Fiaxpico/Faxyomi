@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.util.storage
+package eu.fiax.faxyomi.util.storage
 
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
 import android.util.Base64
-import eu.kanade.tachiyomi.core.security.SecurityPreferences
+import eu.fiax.faxyomi.core.security.SecurityPreferences
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow

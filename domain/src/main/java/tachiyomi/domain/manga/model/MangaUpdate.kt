@@ -1,6 +1,6 @@
 package tachiyomi.domain.manga.model
 
-import eu.kanade.tachiyomi.source.model.UpdateStrategy
+import eu.fiax.faxyomi.source.model.UpdateStrategy
 
 data class MangaUpdate(
     val id: Long,

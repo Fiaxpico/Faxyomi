@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.stats
+package eu.fiax.faxyomi.ui.stats
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.view
+package eu.fiax.faxyomi.util.view
 
 import android.view.Window
 import android.view.WindowManager

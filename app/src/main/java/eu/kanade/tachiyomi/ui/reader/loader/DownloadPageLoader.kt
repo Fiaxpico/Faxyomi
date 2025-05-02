@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.ui.reader.loader
+package eu.fiax.faxyomi.ui.reader.loader
 
 import android.app.Application
 import android.net.Uri
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.data.database.models.toDomainChapter
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.DownloadProvider
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.data.database.models.toDomainChapter
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.download.DownloadProvider
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.ui.reader.model.ReaderChapter
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
 import mihon.core.common.archive.archiveReader
 import tachiyomi.domain.manga.model.Manga
 import uy.kohesive.injekt.injectLazy

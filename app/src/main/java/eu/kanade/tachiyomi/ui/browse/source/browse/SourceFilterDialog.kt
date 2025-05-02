@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source.browse
+package eu.fiax.faxyomi.ui.browse.source.browse
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -20,8 +20,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.components.AdaptiveSheet
-import eu.kanade.tachiyomi.source.model.Filter
-import eu.kanade.tachiyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.Filter
+import eu.fiax.faxyomi.source.model.FilterList
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import tachiyomi.core.common.preference.TriState

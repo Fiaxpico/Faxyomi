@@ -5,8 +5,8 @@ import eu.kanade.domain.track.model.toDbTrack
 import eu.kanade.domain.track.model.toDomainTrack
 import eu.kanade.domain.track.service.DelayedTrackingUpdateJob
 import eu.kanade.domain.track.store.DelayedTrackingStore
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.data.track.mdlist.MdList
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.data.track.mdlist.MdList
 import exh.md.utils.FollowStatus
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

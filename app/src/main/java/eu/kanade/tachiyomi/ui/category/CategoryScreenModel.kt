@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.category
+package eu.fiax.faxyomi.ui.category
 
 import androidx.compose.runtime.Immutable
 import cafe.adriel.voyager.core.model.StateScreenModel

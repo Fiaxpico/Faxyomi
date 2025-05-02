@@ -8,7 +8,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import eu.kanade.tachiyomi.ui.category.biometric.TimeRangeItem
+import eu.fiax.faxyomi.ui.category.biometric.TimeRangeItem
 import kotlinx.collections.immutable.ImmutableList
 import tachiyomi.presentation.core.components.material.padding
 

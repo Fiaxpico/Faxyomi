@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga
+package eu.fiax.faxyomi.ui.manga
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -32,16 +32,16 @@ import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import eu.kanade.presentation.track.components.TrackLogoIcon
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.track.EnhancedTracker
-import eu.kanade.tachiyomi.data.track.Tracker
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.databinding.EditMangaDialogBinding
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.util.lang.chop
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.widget.materialdialogs.setTextInput
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.track.EnhancedTracker
+import eu.fiax.faxyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.databinding.EditMangaDialogBinding
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.util.lang.chop
+import eu.fiax.faxyomi.util.system.dpToPx
+import eu.fiax.faxyomi.util.system.toast
+import eu.fiax.faxyomi.widget.materialdialogs.setTextInput
 import exh.ui.metadata.adapters.MetadataUIUtil.getResourceColor
 import exh.util.dropBlank
 import exh.util.trimOrNull

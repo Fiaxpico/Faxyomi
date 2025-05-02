@@ -3,8 +3,8 @@ package mihon.core.migration.migrations
 import android.app.Application
 import androidx.core.content.edit
 import androidx.preference.PreferenceManager
-import eu.kanade.tachiyomi.network.NetworkPreferences
-import eu.kanade.tachiyomi.network.PREF_DOH_CLOUDFLARE
+import eu.fiax.faxyomi.network.NetworkPreferences
+import eu.fiax.faxyomi.network.PREF_DOH_CLOUDFLARE
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
 import tachiyomi.core.common.util.lang.withIOContext

@@ -19,8 +19,8 @@ import eu.kanade.domain.manga.model.readingMode
 import eu.kanade.presentation.components.AdaptiveSheet
 import eu.kanade.presentation.reader.components.ModeSelectionDialog
 import eu.kanade.presentation.theme.TachiyomiPreviewTheme
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderSettingsScreenModel
-import eu.kanade.tachiyomi.ui.reader.setting.ReadingMode
+import eu.fiax.faxyomi.ui.reader.setting.ReaderSettingsScreenModel
+import eu.fiax.faxyomi.ui.reader.setting.ReadingMode
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.components.SettingsIconGrid
 import tachiyomi.presentation.core.components.material.IconToggleButton

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source
+package eu.fiax.faxyomi.ui.browse.source
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.FilterList
@@ -16,11 +16,11 @@ import eu.kanade.presentation.browse.SourceOptionsDialog
 import eu.kanade.presentation.browse.SourcesScreen
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.TabContent
-import eu.kanade.tachiyomi.ui.browse.source.SourcesScreen.SmartSearchConfig
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreen
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreenModel.Listing
-import eu.kanade.tachiyomi.ui.browse.source.feed.SourceFeedScreen
-import eu.kanade.tachiyomi.ui.browse.source.globalsearch.GlobalSearchScreen
+import eu.fiax.faxyomi.ui.browse.source.SourcesScreen.SmartSearchConfig
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreen
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreenModel.Listing
+import eu.fiax.faxyomi.ui.browse.source.feed.SourceFeedScreen
+import eu.fiax.faxyomi.ui.browse.source.globalsearch.GlobalSearchScreen
 import exh.ui.smartsearch.SmartSearchScreen
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.flow.collectLatest

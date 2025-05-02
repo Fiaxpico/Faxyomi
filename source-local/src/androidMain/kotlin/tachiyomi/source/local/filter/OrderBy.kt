@@ -1,7 +1,7 @@
 package tachiyomi.source.local.filter
 
 import android.content.Context
-import eu.kanade.tachiyomi.source.model.Filter
+import eu.fiax.faxyomi.source.model.Filter
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.i18n.MR
 

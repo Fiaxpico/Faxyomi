@@ -1,3 +1,3 @@
-package eu.kanade.tachiyomi.ui.category.biometric
+package eu.fiax.faxyomi.ui.category.biometric
 
 data class TimeRangeItem(val timeRange: TimeRange, val formattedString: String)

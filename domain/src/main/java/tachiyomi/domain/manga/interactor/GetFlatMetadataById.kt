@@ -1,6 +1,6 @@
 package tachiyomi.domain.manga.interactor
 
-import eu.kanade.tachiyomi.source.online.MetadataSource
+import eu.fiax.faxyomi.source.online.MetadataSource
 import exh.metadata.metadata.base.FlatMetadata
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine

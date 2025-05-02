@@ -3,7 +3,7 @@ package mihon.core.migration.migrations
 import android.app.Application
 import android.widget.Toast
 import androidx.preference.PreferenceManager
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.util.system.toast
 import mihon.core.migration.MigrateUtils
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext

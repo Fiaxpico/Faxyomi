@@ -39,8 +39,8 @@ import eu.kanade.presentation.manga.components.DotSeparatorText
 import eu.kanade.presentation.manga.components.MangaCover
 import eu.kanade.presentation.util.animateItemFastScroll
 import eu.kanade.presentation.util.relativeTimeSpanString
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.ui.updates.UpdatesItem
+import eu.fiax.faxyomi.data.download.model.Download
+import eu.fiax.faxyomi.ui.updates.UpdatesItem
 import tachiyomi.domain.updates.model.UpdatesWithRelations
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.components.ListGroupHeader

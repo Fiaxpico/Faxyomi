@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.webview
+package eu.fiax.faxyomi.ui.webview
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source.browse
+package eu.fiax.faxyomi.ui.browse.source.browse
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.horizontalScroll
@@ -45,16 +45,16 @@ import eu.kanade.presentation.category.components.ChangeCategoryDialog
 import eu.kanade.presentation.manga.DuplicateMangaDialog
 import eu.kanade.presentation.util.AssistContentScreen
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.browse.extension.details.SourcePreferencesScreen
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.design.PreMigrationScreen
-import eu.kanade.tachiyomi.ui.browse.source.SourcesScreen
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreenModel.Listing
-import eu.kanade.tachiyomi.ui.category.CategoryScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.ui.webview.WebViewScreen
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.ui.browse.extension.details.SourcePreferencesScreen
+import eu.fiax.faxyomi.ui.browse.migration.advanced.design.PreMigrationScreen
+import eu.fiax.faxyomi.ui.browse.source.SourcesScreen
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreenModel.Listing
+import eu.fiax.faxyomi.ui.category.CategoryScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.webview.WebViewScreen
+import eu.fiax.faxyomi.util.system.toast
 import exh.md.follows.MangaDexFollowsScreen
 import exh.ui.ifSourcesLoaded
 import kotlinx.coroutines.channels.Channel

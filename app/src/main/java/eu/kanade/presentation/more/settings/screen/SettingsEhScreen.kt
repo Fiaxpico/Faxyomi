@@ -45,8 +45,8 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import eu.kanade.presentation.library.components.SyncFavoritesWarningDialog
 import eu.kanade.presentation.more.settings.Preference
-import eu.kanade.tachiyomi.ui.webview.WebViewActivity
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.ui.webview.WebViewActivity
+import eu.fiax.faxyomi.util.system.toast
 import exh.eh.EHentaiUpdateWorker
 import exh.eh.EHentaiUpdateWorkerConstants
 import exh.eh.EHentaiUpdaterStats

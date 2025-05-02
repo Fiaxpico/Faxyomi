@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.updater
+package eu.fiax.faxyomi.data.updater
 
 import android.content.Context
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.util.system.isPreviewBuildType
+import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.faxyomi.util.system.isPreviewBuildType
 import exh.syDebugVersion
 import tachiyomi.core.common.util.lang.withIOContext
 import tachiyomi.domain.release.interactor.GetApplicationRelease

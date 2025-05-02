@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.ui.webview
+package eu.fiax.faxyomi.ui.webview
 
 import android.content.Context
 import androidx.core.net.toUri
 import cafe.adriel.voyager.core.model.StateScreenModel
 import eu.kanade.presentation.more.stats.StatsScreenState
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.system.toShareIntent
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.util.system.openInBrowser
+import eu.fiax.faxyomi.util.system.toShareIntent
+import eu.fiax.faxyomi.util.system.toast
 import logcat.LogPriority
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import tachiyomi.core.common.util.system.logcat

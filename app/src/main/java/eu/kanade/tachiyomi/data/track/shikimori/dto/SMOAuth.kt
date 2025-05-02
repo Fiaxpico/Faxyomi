@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.shikimori.dto
+package eu.fiax.faxyomi.data.track.shikimori.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

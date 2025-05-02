@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.bangumi.dto
+package eu.fiax.faxyomi.data.track.bangumi.dto
 
 import kotlinx.serialization.DeserializationStrategy
 import kotlinx.serialization.SerialName

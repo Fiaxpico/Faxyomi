@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.data.notification
+package eu.fiax.faxyomi.data.notification
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.extension.util.ExtensionInstaller
-import eu.kanade.tachiyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.extension.util.ExtensionInstaller
+import eu.fiax.faxyomi.ui.main.MainActivity
 import tachiyomi.core.common.Constants
 
 /**

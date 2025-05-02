@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.preference
+package eu.fiax.faxyomi.data.preference
 
 import android.content.SharedPreferences
 import androidx.core.content.edit

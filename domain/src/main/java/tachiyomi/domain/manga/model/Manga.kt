@@ -1,8 +1,8 @@
 package tachiyomi.domain.manga.model
 
 import androidx.compose.runtime.Immutable
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.model.UpdateStrategy
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.UpdateStrategy
 import tachiyomi.core.common.preference.TriState
 import tachiyomi.domain.manga.interactor.GetCustomMangaInfo
 import uy.kohesive.injekt.injectLazy

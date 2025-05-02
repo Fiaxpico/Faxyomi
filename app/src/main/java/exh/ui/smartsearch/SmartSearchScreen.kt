@@ -21,10 +21,10 @@ import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.browse.source.SourcesScreen
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.ui.browse.source.SourcesScreen
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.util.system.toast
 import tachiyomi.i18n.sy.SYMR
 import tachiyomi.presentation.core.components.material.Scaffold
 import tachiyomi.presentation.core.i18n.stringResource

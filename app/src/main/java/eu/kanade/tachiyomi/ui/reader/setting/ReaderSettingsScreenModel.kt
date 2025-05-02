@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.ui.reader.setting
+package eu.fiax.faxyomi.ui.reader.setting
 
 import cafe.adriel.voyager.core.model.ScreenModel
 import eu.kanade.presentation.util.ioCoroutineScope
-import eu.kanade.tachiyomi.ui.reader.ReaderViewModel
+import eu.fiax.faxyomi.ui.reader.ReaderViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.distinctUntilChanged

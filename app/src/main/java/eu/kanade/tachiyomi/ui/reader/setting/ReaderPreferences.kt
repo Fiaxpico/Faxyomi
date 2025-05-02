@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.reader.setting
+package eu.fiax.faxyomi.ui.reader.setting
 
 import android.os.Build
 import androidx.compose.ui.graphics.BlendMode
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.PagerConfig
+import eu.fiax.faxyomi.ui.reader.viewer.pager.PagerConfig
 import tachiyomi.core.common.preference.PreferenceStore
 import tachiyomi.core.common.preference.getEnum
 import tachiyomi.i18n.MR

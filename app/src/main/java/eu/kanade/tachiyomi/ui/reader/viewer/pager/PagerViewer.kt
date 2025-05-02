@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.fiax.faxyomi.ui.reader.viewer.pager
 
 import android.graphics.PointF
 import android.view.InputDevice
@@ -10,16 +10,16 @@ import androidx.core.view.children
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.viewpager.widget.ViewPager
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.InsertPage
-import eu.kanade.tachiyomi.ui.reader.model.ReaderItem
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
-import eu.kanade.tachiyomi.ui.reader.viewer.Viewer
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation.NavigationRegion
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.ui.reader.ReaderActivity
+import eu.fiax.faxyomi.ui.reader.model.ChapterTransition
+import eu.fiax.faxyomi.ui.reader.model.InsertPage
+import eu.fiax.faxyomi.ui.reader.model.ReaderItem
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.ui.reader.model.ViewerChapters
+import eu.fiax.faxyomi.ui.reader.viewer.Viewer
+import eu.fiax.faxyomi.ui.reader.viewer.ViewerNavigation.NavigationRegion
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.cancel
 import tachiyomi.core.common.util.system.logcat

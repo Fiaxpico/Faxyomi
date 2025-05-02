@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package eu.kanade.tachiyomi.util.view
+package eu.fiax.faxyomi.util.view
 
 import android.content.res.Resources
 import android.graphics.Rect
@@ -21,7 +21,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import eu.kanade.presentation.theme.TachiyomiTheme
-import eu.kanade.tachiyomi.R
+import eu.fiax.faxyomi.R
 
 inline fun ComponentActivity.setComposeContent(
     parent: CompositionContext? = null,

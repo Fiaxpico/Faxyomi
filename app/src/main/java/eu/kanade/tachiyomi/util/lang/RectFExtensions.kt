@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.util.lang
+package eu.fiax.faxyomi.util.lang
 
 import android.graphics.RectF
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
 
 fun RectF.invert(invertMode: ReaderPreferences.TappingInvertMode): RectF {
     val horizontal = invertMode.shouldInvertHorizontal

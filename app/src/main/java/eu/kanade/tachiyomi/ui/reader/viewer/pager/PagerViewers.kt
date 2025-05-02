@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.fiax.faxyomi.ui.reader.viewer.pager
 
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
+import eu.fiax.faxyomi.ui.reader.ReaderActivity
 
 /**
  * Implementation of a left to right PagerViewer.

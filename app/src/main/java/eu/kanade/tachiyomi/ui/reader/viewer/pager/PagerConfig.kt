@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.fiax.faxyomi.ui.reader.viewer.pager
 
 import android.graphics.Color
 import androidx.annotation.ColorInt
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderPageImageView
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerConfig
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.DisabledNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.EdgeNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.KindlishNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.LNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.RightAndLeftNavigation
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.ui.reader.viewer.ReaderPageImageView
+import eu.fiax.faxyomi.ui.reader.viewer.ViewerConfig
+import eu.fiax.faxyomi.ui.reader.viewer.ViewerNavigation
+import eu.fiax.faxyomi.ui.reader.viewer.navigation.DisabledNavigation
+import eu.fiax.faxyomi.ui.reader.viewer.navigation.EdgeNavigation
+import eu.fiax.faxyomi.ui.reader.viewer.navigation.KindlishNavigation
+import eu.fiax.faxyomi.ui.reader.viewer.navigation.LNavigation
+import eu.fiax.faxyomi.ui.reader.viewer.navigation.RightAndLeftNavigation
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.launchIn

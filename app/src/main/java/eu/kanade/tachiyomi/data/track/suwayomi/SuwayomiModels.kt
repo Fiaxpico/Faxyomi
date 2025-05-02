@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.suwayomi
+package eu.fiax.faxyomi.data.track.suwayomi
 
 import kotlinx.serialization.Serializable
 

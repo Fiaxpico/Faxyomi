@@ -1,8 +1,8 @@
 package tachiyomi.source.local.metadata
 
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.util.storage.EpubFile
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.util.storage.EpubFile
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.Locale

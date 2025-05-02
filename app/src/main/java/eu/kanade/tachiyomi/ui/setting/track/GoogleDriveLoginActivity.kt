@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.setting.track
+package eu.fiax.faxyomi.ui.setting.track
 
 import android.net.Uri
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
-import eu.kanade.tachiyomi.data.sync.service.GoogleDriveService
+import eu.fiax.faxyomi.data.sync.service.GoogleDriveService
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.core.common.util.lang.launchIO
 import tachiyomi.i18n.sy.SYMR

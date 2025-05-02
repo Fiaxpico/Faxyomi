@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.design
+package eu.fiax.faxyomi.ui.browse.migration.advanced.design
 
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.kanade.domain.source.service.SourcePreferences

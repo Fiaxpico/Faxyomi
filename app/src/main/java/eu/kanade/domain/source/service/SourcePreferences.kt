@@ -1,7 +1,7 @@
 package eu.kanade.domain.source.service
 
 import eu.kanade.domain.source.interactor.SetMigrateSorting
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import tachiyomi.core.common.preference.Preference
 import tachiyomi.core.common.preference.PreferenceStore
 import tachiyomi.core.common.preference.getEnum

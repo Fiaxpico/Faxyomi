@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.sync.models
+package eu.fiax.faxyomi.data.sync.models
 
 import dev.icerock.moko.resources.StringResource
 import kotlinx.collections.immutable.persistentListOf

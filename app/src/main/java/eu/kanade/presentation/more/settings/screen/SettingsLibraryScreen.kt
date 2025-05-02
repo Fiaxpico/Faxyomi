@@ -18,9 +18,9 @@ import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.category.visualName
 import eu.kanade.presentation.more.settings.Preference
 import eu.kanade.presentation.more.settings.widget.TriStateListDialog
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.ui.category.CategoryScreen
-import eu.kanade.tachiyomi.ui.category.genre.SortTagScreen
+import eu.fiax.faxyomi.data.library.LibraryUpdateJob
+import eu.fiax.faxyomi.ui.category.CategoryScreen
+import eu.fiax.faxyomi.ui.category.genre.SortTagScreen
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.persistentMapOf
 import kotlinx.collections.immutable.toImmutableMap

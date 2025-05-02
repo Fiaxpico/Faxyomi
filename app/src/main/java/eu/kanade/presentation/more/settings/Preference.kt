@@ -4,7 +4,7 @@ import androidx.annotation.IntRange
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.vector.ImageVector
-import eu.kanade.tachiyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.Tracker
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.ImmutableMap
 import tachiyomi.i18n.MR

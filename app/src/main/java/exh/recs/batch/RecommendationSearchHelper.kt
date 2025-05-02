@@ -7,8 +7,8 @@ import androidx.annotation.StringRes
 import androidx.core.net.toUri
 import eu.kanade.domain.manga.model.toDomainManga
 import eu.kanade.domain.manga.model.toSManga
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.model.SManga
 import exh.log.xLog
 import exh.recs.sources.RecommendationPagingSource
 import exh.recs.sources.TrackerRecommendationPagingSource

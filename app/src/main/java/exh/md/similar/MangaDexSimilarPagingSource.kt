@@ -2,10 +2,10 @@ package exh.md.similar
 
 import dev.icerock.moko.resources.StringResource
 import eu.kanade.domain.manga.model.toSManga
-import eu.kanade.tachiyomi.network.HttpException
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.MetadataMangasPage
-import eu.kanade.tachiyomi.source.online.all.MangaDex
+import eu.fiax.faxyomi.network.HttpException
+import eu.fiax.faxyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.MetadataMangasPage
+import eu.fiax.faxyomi.source.online.all.MangaDex
 import exh.recs.sources.RecommendationPagingSource
 import exh.source.getMainSource
 import kotlinx.coroutines.async

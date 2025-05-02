@@ -9,8 +9,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.more.settings.widget.SwitchPreferenceWidget
-import eu.kanade.tachiyomi.ui.browse.extension.ExtensionFilterState
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.ui.browse.extension.ExtensionFilterState
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.components.material.Scaffold
 import tachiyomi.presentation.core.i18n.stringResource

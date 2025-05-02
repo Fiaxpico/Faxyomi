@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.track.kavita
+package eu.fiax.faxyomi.data.track.kavita
 
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.data.track.model.TrackSearch
 import kotlinx.serialization.Serializable
 
 @Serializable

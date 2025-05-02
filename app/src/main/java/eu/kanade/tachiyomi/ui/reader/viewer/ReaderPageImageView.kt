@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.fiax.faxyomi.ui.reader.viewer
 
 import android.content.Context
 import android.graphics.PointF
@@ -34,11 +34,11 @@ import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView.EASE_OUT_QU
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView.SCALE_TYPE_CENTER_INSIDE
 import com.github.chrisbanes.photoview.PhotoView
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.data.coil.cropBorders
-import eu.kanade.tachiyomi.data.coil.customDecoder
-import eu.kanade.tachiyomi.ui.reader.viewer.webtoon.WebtoonSubsamplingImageView
-import eu.kanade.tachiyomi.util.system.animatorDurationScale
-import eu.kanade.tachiyomi.util.view.isVisibleOnScreen
+import eu.fiax.faxyomi.data.coil.cropBorders
+import eu.fiax.faxyomi.data.coil.customDecoder
+import eu.fiax.faxyomi.ui.reader.viewer.webtoon.WebtoonSubsamplingImageView
+import eu.fiax.faxyomi.util.system.animatorDurationScale
+import eu.fiax.faxyomi.util.view.isVisibleOnScreen
 import okio.BufferedSource
 import tachiyomi.core.common.util.system.ImageUtil
 import uy.kohesive.injekt.Injekt

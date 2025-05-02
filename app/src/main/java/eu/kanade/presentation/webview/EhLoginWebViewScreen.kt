@@ -37,8 +37,8 @@ import com.kevinnzou.web.WebView
 import com.kevinnzou.web.rememberWebViewNavigator
 import com.kevinnzou.web.rememberWebViewState
 import eu.kanade.presentation.components.AppBar
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.util.system.setDefaultSettings
+import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.faxyomi.util.system.setDefaultSettings
 import tachiyomi.i18n.MR
 import tachiyomi.i18n.sy.SYMR
 import tachiyomi.presentation.core.components.material.Button

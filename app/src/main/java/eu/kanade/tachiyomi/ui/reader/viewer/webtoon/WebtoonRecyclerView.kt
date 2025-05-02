@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.webtoon
+package eu.fiax.faxyomi.ui.reader.viewer.webtoon
 
 import android.animation.AnimatorSet
 import android.animation.ValueAnimator
@@ -11,7 +11,7 @@ import android.view.animation.DecelerateInterpolator
 import androidx.core.animation.doOnEnd
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.ui.reader.viewer.GestureDetectorWithLongTap
+import eu.fiax.faxyomi.ui.reader.viewer.GestureDetectorWithLongTap
 import kotlin.math.abs
 
 /**

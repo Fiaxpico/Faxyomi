@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.source
+package eu.fiax.faxyomi.source
 
 import android.app.Application
 import android.content.Context

@@ -1,15 +1,16 @@
-package eu.kanade.tachiyomi.data.track
+package eu.fiax.faxyomi.data.track
 
 import android.app.Application
 import androidx.annotation.CallSuper
 import eu.kanade.domain.track.interactor.AddTracks
 import eu.kanade.domain.track.model.toDomainTrack
 import eu.kanade.domain.track.service.TrackPreferences
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.model.TrackMangaMetadata
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.model.TrackMangaMetadata
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.util.system.toast
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import logcat.LogPriority

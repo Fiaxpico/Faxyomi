@@ -1,6 +1,6 @@
 package mihon.core.migration.migrations
 
-import eu.kanade.tachiyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.data.track.TrackerManager
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
 import tachiyomi.core.common.util.lang.withIOContext

@@ -29,9 +29,9 @@ import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.AppBarActions
 import eu.kanade.presentation.util.Screen
 import eu.kanade.presentation.util.ioCoroutineScope
-import eu.kanade.tachiyomi.util.lang.toDateTimestampString
-import eu.kanade.tachiyomi.util.system.copyToClipboard
-import eu.kanade.tachiyomi.util.system.workManager
+import eu.fiax.faxyomi.util.lang.toDateTimestampString
+import eu.fiax.faxyomi.util.system.copyToClipboard
+import eu.fiax.faxyomi.util.system.workManager
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map

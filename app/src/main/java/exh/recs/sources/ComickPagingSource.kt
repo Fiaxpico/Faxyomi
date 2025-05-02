@@ -1,13 +1,13 @@
 package exh.recs.sources
 
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.parseAs
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.SManga
 import kotlinx.coroutines.coroutineScope
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject

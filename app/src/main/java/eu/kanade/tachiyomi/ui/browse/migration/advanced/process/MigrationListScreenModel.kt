@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.process
+package eu.fiax.faxyomi.ui.browse.migration.advanced.process
 
 import android.content.Context
 import android.widget.Toast
@@ -8,15 +8,15 @@ import eu.kanade.domain.chapter.interactor.SyncChaptersWithSource
 import eu.kanade.domain.manga.interactor.UpdateManga
 import eu.kanade.domain.manga.model.hasCustomCover
 import eu.kanade.domain.manga.model.toSManga
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.getNameForMangaInfo
-import eu.kanade.tachiyomi.source.online.all.EHentai
-import eu.kanade.tachiyomi.ui.browse.migration.MigrationFlags
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.design.MigrationType
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.process.MigratingManga.SearchResult
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.data.cache.CoverCache
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.getNameForMangaInfo
+import eu.fiax.faxyomi.source.online.all.EHentai
+import eu.fiax.faxyomi.ui.browse.migration.MigrationFlags
+import eu.fiax.faxyomi.ui.browse.migration.advanced.design.MigrationType
+import eu.fiax.faxyomi.ui.browse.migration.advanced.process.MigratingManga.SearchResult
+import eu.fiax.faxyomi.util.system.toast
 import exh.smartsearch.SmartSourceSearchEngine
 import exh.source.MERGED_SOURCE_ID
 import exh.util.ThrottleManager

@@ -21,7 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import eu.kanade.tachiyomi.util.system.copyToClipboard
+import eu.fiax.faxyomi.util.system.copyToClipboard
 import kotlinx.collections.immutable.ImmutableSet
 import mihon.domain.extensionrepo.model.ExtensionRepo
 import tachiyomi.i18n.MR

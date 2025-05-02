@@ -7,11 +7,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalView
 import eu.kanade.presentation.more.settings.Preference
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderBottomButton
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderOrientation
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
-import eu.kanade.tachiyomi.ui.reader.setting.ReadingMode
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.PagerConfig
+import eu.fiax.faxyomi.ui.reader.setting.ReaderBottomButton
+import eu.fiax.faxyomi.ui.reader.setting.ReaderOrientation
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.ui.reader.setting.ReadingMode
+import eu.fiax.faxyomi.ui.reader.viewer.pager.PagerConfig
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.persistentMapOf
 import kotlinx.collections.immutable.toImmutableMap

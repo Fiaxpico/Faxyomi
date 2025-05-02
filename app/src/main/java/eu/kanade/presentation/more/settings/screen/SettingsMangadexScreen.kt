@@ -32,11 +32,11 @@ import eu.kanade.domain.track.service.TrackPreferences
 import eu.kanade.presentation.more.settings.Preference
 import eu.kanade.presentation.more.settings.widget.BasePreferenceWidget
 import eu.kanade.presentation.more.settings.widget.PrefsHorizontalPadding
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.source.online.all.MangaDex
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.library.LibraryUpdateJob
+import eu.fiax.faxyomi.source.online.all.MangaDex
+import eu.fiax.faxyomi.util.system.openInBrowser
+import eu.fiax.faxyomi.util.system.toast
 import exh.md.utils.MdConstants
 import exh.md.utils.MdUtil
 import kotlinx.collections.immutable.toImmutableMap

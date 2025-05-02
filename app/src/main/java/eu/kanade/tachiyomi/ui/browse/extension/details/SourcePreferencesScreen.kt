@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.extension.details
+package eu.fiax.faxyomi.ui.browse.extension.details
 
 import android.content.Context
 import android.os.Bundle
@@ -33,11 +33,11 @@ import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.SharedPreferencesDataStore
-import eu.kanade.tachiyomi.source.ConfigurableSource
-import eu.kanade.tachiyomi.source.sourcePreferences
-import eu.kanade.tachiyomi.widget.TachiyomiTextInputEditText.Companion.setIncognito
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.preference.SharedPreferencesDataStore
+import eu.fiax.faxyomi.source.ConfigurableSource
+import eu.fiax.faxyomi.source.sourcePreferences
+import eu.fiax.faxyomi.widget.TachiyomiTextInputEditText.Companion.setIncognito
 import exh.source.EnhancedHttpSource
 import exh.ui.ifSourcesLoaded
 import tachiyomi.domain.source.service.SourceManager

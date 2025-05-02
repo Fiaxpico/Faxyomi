@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.fiax.faxyomi.ui.reader.viewer
 
 import android.content.Context
 import android.util.AttributeSet

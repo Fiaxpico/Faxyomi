@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.kitsu
+package eu.fiax.faxyomi.data.track.kitsu
 
-import eu.kanade.tachiyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.database.models.Track
 
 fun Track.toApiStatus() = when (status) {
     Kitsu.READING -> "current"

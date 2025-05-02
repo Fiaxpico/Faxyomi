@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi
+package eu.fiax.faxyomi
 
 import tachiyomi.core.common.util.system.ImageUtil
 

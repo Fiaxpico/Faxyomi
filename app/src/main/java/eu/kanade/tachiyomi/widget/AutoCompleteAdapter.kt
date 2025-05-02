@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.fiax.faxyomi.widget
 
 import android.content.Context
 import android.widget.ArrayAdapter

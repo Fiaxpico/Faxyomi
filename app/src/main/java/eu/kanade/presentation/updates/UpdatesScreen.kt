@@ -24,9 +24,9 @@ import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.AppBarActions
 import eu.kanade.presentation.manga.components.ChapterDownloadAction
 import eu.kanade.presentation.manga.components.MangaBottomActionMenu
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.ui.updates.UpdatesItem
-import eu.kanade.tachiyomi.ui.updates.UpdatesScreenModel
+import eu.fiax.faxyomi.data.download.model.Download
+import eu.fiax.faxyomi.ui.updates.UpdatesItem
+import eu.fiax.faxyomi.ui.updates.UpdatesScreenModel
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

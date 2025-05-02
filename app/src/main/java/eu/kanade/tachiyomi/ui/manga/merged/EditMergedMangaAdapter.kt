@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.merged
+package eu.fiax.faxyomi.ui.manga.merged
 
 import eu.davidea.flexibleadapter.FlexibleAdapter
 

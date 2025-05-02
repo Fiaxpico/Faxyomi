@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.download
+package eu.fiax.faxyomi.data.download
 
 import android.content.Context
 import androidx.core.content.edit

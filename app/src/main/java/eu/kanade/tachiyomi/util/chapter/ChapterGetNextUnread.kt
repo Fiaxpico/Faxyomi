@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.fiax.faxyomi.util.chapter
 
 import eu.kanade.domain.chapter.model.applyFilters
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.ui.manga.ChapterList
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.ui.manga.ChapterList
 import exh.source.isEhBasedManga
 import tachiyomi.domain.chapter.model.Chapter
 import tachiyomi.domain.manga.model.Manga

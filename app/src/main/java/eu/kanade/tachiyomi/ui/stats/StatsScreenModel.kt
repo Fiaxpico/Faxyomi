@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.stats
+package eu.fiax.faxyomi.ui.stats
 
 import androidx.compose.ui.util.fastDistinctBy
 import androidx.compose.ui.util.fastFilter
@@ -9,9 +9,9 @@ import eu.kanade.core.util.fastCountNot
 import eu.kanade.core.util.fastFilterNot
 import eu.kanade.presentation.more.stats.StatsScreenState
 import eu.kanade.presentation.more.stats.data.StatsData
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.source.model.SManga
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.launchIn

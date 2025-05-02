@@ -29,7 +29,7 @@ import eu.kanade.presentation.browse.components.MigrationItemResult
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.AppBarActions
 import eu.kanade.presentation.util.animateItemFastScroll
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.process.MigratingManga
+import eu.fiax.faxyomi.ui.browse.migration.advanced.process.MigratingManga
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import tachiyomi.core.common.util.lang.withIOContext

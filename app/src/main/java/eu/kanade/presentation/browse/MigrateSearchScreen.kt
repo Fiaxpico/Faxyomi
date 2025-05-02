@@ -3,9 +3,9 @@ package eu.kanade.presentation.browse
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import eu.kanade.presentation.browse.components.GlobalSearchToolbar
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.ui.browse.source.globalsearch.SearchScreenModel
-import eu.kanade.tachiyomi.ui.browse.source.globalsearch.SourceFilter
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.ui.browse.source.globalsearch.SearchScreenModel
+import eu.fiax.faxyomi.ui.browse.source.globalsearch.SourceFilter
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.presentation.core.components.material.Scaffold
 

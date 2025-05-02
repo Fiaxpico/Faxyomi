@@ -1,8 +1,8 @@
 package exh.recs.sources
 
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.MetadataMangasPage
+import eu.fiax.faxyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.MetadataMangasPage
 import exh.metadata.metadata.RankedSearchMetadata
 import exh.recs.batch.RankedSearchResults
 import tachiyomi.domain.manga.model.Manga

@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.bangumi
+package eu.fiax.faxyomi.data.track.bangumi
 
-import eu.kanade.tachiyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.database.models.Track
 
 fun Track.toApiStatus() = when (status) {
     Bangumi.PLAN_TO_READ -> 1

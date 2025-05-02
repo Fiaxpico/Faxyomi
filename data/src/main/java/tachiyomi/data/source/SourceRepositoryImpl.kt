@@ -1,9 +1,9 @@
 package tachiyomi.data.source
 
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.online.HttpSource
 import exh.source.MERGED_SOURCE_ID
 import exh.source.isEhBasedSource
 import kotlinx.coroutines.flow.Flow

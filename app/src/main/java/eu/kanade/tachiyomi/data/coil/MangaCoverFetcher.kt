@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.coil
+package eu.fiax.faxyomi.data.coil
 
 import androidx.core.net.toUri
 import coil3.Extras
@@ -12,10 +12,10 @@ import coil3.fetch.SourceFetchResult
 import coil3.getOrDefault
 import coil3.request.Options
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.coil.MangaCoverFetcher.Companion.USE_CUSTOM_COVER_KEY
-import eu.kanade.tachiyomi.network.await
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.data.cache.CoverCache
+import eu.fiax.faxyomi.data.coil.MangaCoverFetcher.Companion.USE_CUSTOM_COVER_KEY
+import eu.fiax.faxyomi.network.await
+import eu.fiax.faxyomi.source.online.HttpSource
 import logcat.LogPriority
 import okhttp3.CacheControl
 import okhttp3.Call

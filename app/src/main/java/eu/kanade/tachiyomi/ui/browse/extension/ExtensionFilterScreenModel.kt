@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.extension
+package eu.fiax.faxyomi.ui.browse.extension
 
 import androidx.compose.runtime.Immutable
 import cafe.adriel.voyager.core.model.StateScreenModel

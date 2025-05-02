@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.fiax.faxyomi.ui.reader.viewer.pager
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,12 +10,12 @@ import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.LinearLayout
 import androidx.appcompat.widget.AppCompatTextView
 import com.google.android.material.progressindicator.CircularProgressIndicator
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderButton
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderTransitionView
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.widget.ViewPagerAdapter
+import eu.fiax.faxyomi.ui.reader.model.ChapterTransition
+import eu.fiax.faxyomi.ui.reader.model.ReaderChapter
+import eu.fiax.faxyomi.ui.reader.viewer.ReaderButton
+import eu.fiax.faxyomi.ui.reader.viewer.ReaderTransitionView
+import eu.fiax.faxyomi.util.system.dpToPx
+import eu.fiax.faxyomi.widget.ViewPagerAdapter
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.collectLatest

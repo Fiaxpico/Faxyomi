@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.sources
+package eu.fiax.faxyomi.ui.browse.migration.sources
 
 import androidx.compose.runtime.Composable
 import cafe.adriel.voyager.navigator.LocalNavigator

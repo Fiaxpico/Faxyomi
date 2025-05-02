@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.extension.details
+package eu.fiax.faxyomi.ui.browse.extension.details
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

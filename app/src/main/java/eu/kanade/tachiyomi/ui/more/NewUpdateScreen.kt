@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.more
+package eu.fiax.faxyomi.ui.more
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -7,8 +7,8 @@ import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.more.NewUpdateScreen
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.data.updater.AppUpdateDownloadJob
-import eu.kanade.tachiyomi.util.system.openInBrowser
+import eu.fiax.faxyomi.data.updater.AppUpdateDownloadJob
+import eu.fiax.faxyomi.util.system.openInBrowser
 
 class NewUpdateScreen(
     private val versionName: String,

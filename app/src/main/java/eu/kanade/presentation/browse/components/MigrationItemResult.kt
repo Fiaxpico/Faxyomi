@@ -23,8 +23,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.manga.components.MangaCover
 import eu.kanade.presentation.util.rememberResourceBitmapPainter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.process.MigratingManga
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.browse.migration.advanced.process.MigratingManga
 import tachiyomi.core.common.util.lang.withIOContext
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.i18n.sy.SYMR

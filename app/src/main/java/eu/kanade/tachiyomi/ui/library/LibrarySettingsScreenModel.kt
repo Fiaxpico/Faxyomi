@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.fiax.faxyomi.ui.library
 
 import androidx.compose.runtime.getValue
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import eu.kanade.core.preference.asState
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.data.track.TrackerManager
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
 import tachiyomi.core.common.preference.Preference

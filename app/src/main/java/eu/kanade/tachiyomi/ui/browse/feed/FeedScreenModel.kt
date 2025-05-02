@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.feed
+package eu.fiax.faxyomi.ui.browse.feed
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
@@ -10,9 +10,9 @@ import eu.kanade.domain.manga.interactor.UpdateManga
 import eu.kanade.domain.manga.model.toDomainManga
 import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.presentation.browse.FeedItemUI
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga
+package eu.fiax.faxyomi.ui.manga
 
 import android.content.Context
 import android.net.Uri
@@ -10,13 +10,13 @@ import coil3.imageLoader
 import coil3.request.ImageRequest
 import coil3.size.Size
 import eu.kanade.domain.manga.interactor.UpdateManga
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.saver.Image
-import eu.kanade.tachiyomi.data.saver.ImageSaver
-import eu.kanade.tachiyomi.data.saver.Location
-import eu.kanade.tachiyomi.util.editCover
-import eu.kanade.tachiyomi.util.system.getBitmapOrNull
-import eu.kanade.tachiyomi.util.system.toShareIntent
+import eu.fiax.faxyomi.data.cache.CoverCache
+import eu.fiax.faxyomi.data.saver.Image
+import eu.fiax.faxyomi.data.saver.ImageSaver
+import eu.fiax.faxyomi.data.saver.Location
+import eu.fiax.faxyomi.util.editCover
+import eu.fiax.faxyomi.util.system.getBitmapOrNull
+import eu.fiax.faxyomi.util.system.toShareIntent
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import logcat.LogPriority

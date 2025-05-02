@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.di
+package eu.fiax.faxyomi.di
 
 import android.content.Context
 import logcat.LogPriority

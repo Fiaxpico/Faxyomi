@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.installer
+package eu.fiax.faxyomi.extension.installer
 
 import android.app.Service
 import android.content.BroadcastReceiver
@@ -8,8 +8,8 @@ import android.content.IntentFilter
 import android.net.Uri
 import androidx.annotation.CallSuper
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.model.InstallStep
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.extension.model.InstallStep
 import uy.kohesive.injekt.injectLazy
 import java.util.Collections
 import java.util.concurrent.atomic.AtomicReference

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.backup.create
+package eu.fiax.faxyomi.data.backup.create
 
 import dev.icerock.moko.resources.StringResource
 import kotlinx.collections.immutable.persistentListOf

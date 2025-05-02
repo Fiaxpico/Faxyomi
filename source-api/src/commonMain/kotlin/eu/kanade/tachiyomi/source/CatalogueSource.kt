@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.source
+package eu.fiax.faxyomi.source
 
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.MangasPage
 import rx.Observable
 import tachiyomi.core.common.util.lang.awaitSingle
 

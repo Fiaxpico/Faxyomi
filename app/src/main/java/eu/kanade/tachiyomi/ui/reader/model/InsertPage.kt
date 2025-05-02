@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.model
+package eu.fiax.faxyomi.ui.reader.model
 
 class InsertPage(val parent: ReaderPage) : ReaderPage(parent.index, parent.url, parent.imageUrl) {
 

@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.reader.model
+package eu.fiax.faxyomi.ui.reader.model
 
-import eu.kanade.tachiyomi.source.model.Page
+import eu.fiax.faxyomi.source.model.Page
 import java.io.InputStream
 
 open class ReaderPage(

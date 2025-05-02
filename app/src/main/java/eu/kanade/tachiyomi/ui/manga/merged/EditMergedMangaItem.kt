@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.manga.merged
+package eu.fiax.faxyomi.ui.manga.merged
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.EditMergedSettingsItemBinding
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.databinding.EditMergedSettingsItemBinding
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.domain.manga.model.MergedMangaReference
 

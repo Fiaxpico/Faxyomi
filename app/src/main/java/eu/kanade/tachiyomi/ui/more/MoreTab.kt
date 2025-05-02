@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.more
+package eu.fiax.faxyomi.ui.more
 
 import androidx.compose.animation.graphics.res.animatedVectorResource
 import androidx.compose.animation.graphics.res.rememberAnimatedVectorPainter
@@ -21,14 +21,14 @@ import eu.kanade.domain.base.BasePreferences
 import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.presentation.more.MoreScreen
 import eu.kanade.presentation.util.Tab
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.ui.category.CategoryScreen
-import eu.kanade.tachiyomi.ui.download.DownloadQueueScreen
-import eu.kanade.tachiyomi.ui.history.HistoryTab
-import eu.kanade.tachiyomi.ui.setting.SettingsScreen
-import eu.kanade.tachiyomi.ui.stats.StatsScreen
-import eu.kanade.tachiyomi.ui.updates.UpdatesTab
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.ui.category.CategoryScreen
+import eu.fiax.faxyomi.ui.download.DownloadQueueScreen
+import eu.fiax.faxyomi.ui.history.HistoryTab
+import eu.fiax.faxyomi.ui.setting.SettingsScreen
+import eu.fiax.faxyomi.ui.stats.StatsScreen
+import eu.fiax.faxyomi.ui.updates.UpdatesTab
 import exh.ui.batchadd.BatchAddScreen
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

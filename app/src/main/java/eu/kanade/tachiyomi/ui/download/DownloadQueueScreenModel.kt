@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.fiax.faxyomi.ui.download
 
 import android.view.MenuItem
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.databinding.DownloadListBinding
-import eu.kanade.tachiyomi.source.model.Page
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.download.model.Download
+import eu.fiax.faxyomi.databinding.DownloadListBinding
+import eu.fiax.faxyomi.source.model.Page
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

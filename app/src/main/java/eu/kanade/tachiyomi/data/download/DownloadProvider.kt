@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.data.download
+package eu.fiax.faxyomi.data.download
 
 import android.content.Context
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.util.storage.DiskUtil
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.util.storage.DiskUtil
 import logcat.LogPriority
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.core.common.storage.displayablePath

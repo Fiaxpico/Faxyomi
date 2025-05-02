@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.mangaupdates.dto
+package eu.fiax.faxyomi.data.track.mangaupdates.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

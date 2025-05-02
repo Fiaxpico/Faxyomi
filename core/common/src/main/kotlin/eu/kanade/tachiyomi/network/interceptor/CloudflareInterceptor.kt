@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.network.interceptor
+package eu.fiax.faxyomi.network.interceptor
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.webkit.WebView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import eu.kanade.tachiyomi.network.AndroidCookieJar
-import eu.kanade.tachiyomi.util.system.WebViewClientCompat
-import eu.kanade.tachiyomi.util.system.isOutdated
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.network.AndroidCookieJar
+import eu.fiax.faxyomi.util.system.WebViewClientCompat
+import eu.fiax.faxyomi.util.system.isOutdated
+import eu.fiax.faxyomi.util.system.toast
 import okhttp3.Cookie
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.Interceptor

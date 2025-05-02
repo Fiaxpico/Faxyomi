@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source.globalsearch
+package eu.fiax.faxyomi.ui.browse.source.globalsearch
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
@@ -8,8 +8,8 @@ import cafe.adriel.voyager.core.model.screenModelScope
 import eu.kanade.domain.manga.model.toDomainManga
 import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.presentation.util.ioCoroutineScope
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.source.CatalogueSource
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.source.CatalogueSource
 import kotlinx.collections.immutable.PersistentMap
 import kotlinx.collections.immutable.mutate
 import kotlinx.collections.immutable.persistentMapOf

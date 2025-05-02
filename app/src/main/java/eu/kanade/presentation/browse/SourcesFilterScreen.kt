@@ -12,8 +12,8 @@ import eu.kanade.presentation.browse.components.BaseSourceItem
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.more.settings.widget.SwitchPreferenceWidget
 import eu.kanade.presentation.util.animateItemFastScroll
-import eu.kanade.tachiyomi.ui.browse.source.SourcesFilterScreenModel
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.ui.browse.source.SourcesFilterScreenModel
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import tachiyomi.domain.source.model.Source
 import tachiyomi.i18n.MR
 import tachiyomi.i18n.sy.SYMR

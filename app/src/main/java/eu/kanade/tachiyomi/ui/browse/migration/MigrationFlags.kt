@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration
+package eu.fiax.faxyomi.ui.browse.migration
 
 object MigrationFlags {
 

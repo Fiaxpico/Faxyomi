@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.source
+package eu.fiax.faxyomi.source
 
-import eu.kanade.tachiyomi.network.ProgressListener
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.network.ProgressListener
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.model.SManga
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.serialization.Serializable

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.storage
+package eu.fiax.faxyomi.util.storage
 
 import mihon.core.common.archive.ArchiveReader
 import org.jsoup.Jsoup

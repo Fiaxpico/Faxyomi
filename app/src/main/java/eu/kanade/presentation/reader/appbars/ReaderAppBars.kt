@@ -29,10 +29,10 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.reader.components.ChapterNavigator
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderOrientation
-import eu.kanade.tachiyomi.ui.reader.setting.ReadingMode
-import eu.kanade.tachiyomi.ui.reader.viewer.Viewer
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.R2LPagerViewer
+import eu.fiax.faxyomi.ui.reader.setting.ReaderOrientation
+import eu.fiax.faxyomi.ui.reader.setting.ReadingMode
+import eu.fiax.faxyomi.ui.reader.viewer.Viewer
+import eu.fiax.faxyomi.ui.reader.viewer.pager.R2LPagerViewer
 import kotlinx.collections.immutable.ImmutableSet
 import tachiyomi.presentation.core.components.material.padding
 

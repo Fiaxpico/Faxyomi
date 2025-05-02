@@ -8,9 +8,9 @@ import cafe.adriel.voyager.core.model.rememberScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.browse.source.SourcesScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.ui.webview.WebViewActivity
+import eu.fiax.faxyomi.ui.browse.source.SourcesScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.webview.WebViewActivity
 import exh.recs.RecommendsScreen.Args.MergedSourceMangas
 import exh.recs.RecommendsScreen.Args.SingleSourceManga
 import exh.recs.batch.RankedSearchResults

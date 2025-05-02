@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.installer
+package eu.fiax.faxyomi.extension.installer
 
 import android.app.PendingIntent
 import android.app.Service
@@ -10,10 +10,10 @@ import android.content.pm.PackageInstaller
 import android.os.Build
 import androidx.core.content.ContextCompat
 import androidx.core.content.IntentSanitizer
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.util.lang.use
-import eu.kanade.tachiyomi.util.system.getParcelableExtraCompat
-import eu.kanade.tachiyomi.util.system.getUriSize
+import eu.fiax.faxyomi.extension.model.InstallStep
+import eu.fiax.faxyomi.util.lang.use
+import eu.fiax.faxyomi.util.system.getParcelableExtraCompat
+import eu.fiax.faxyomi.util.system.getUriSize
 import logcat.LogPriority
 import tachiyomi.core.common.util.system.logcat
 

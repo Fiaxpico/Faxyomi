@@ -15,8 +15,8 @@ import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.presentation.more.settings.Preference
 import eu.kanade.presentation.more.settings.screen.browse.ExtensionReposScreen
-import eu.kanade.tachiyomi.ui.category.sources.SourceCategoryScreen
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil.authenticate
+import eu.fiax.faxyomi.ui.category.sources.SourceCategoryScreen
+import eu.fiax.faxyomi.util.system.AuthenticatorUtil.authenticate
 import kotlinx.collections.immutable.persistentListOf
 import mihon.domain.extensionrepo.interactor.GetExtensionRepoCount
 import tachiyomi.core.common.i18n.stringResource

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.merged
+package eu.fiax.faxyomi.ui.manga.merged
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.databinding.EditMergedSettingsHeaderBinding
+import eu.fiax.faxyomi.databinding.EditMergedSettingsHeaderBinding
 import exh.log.xLogD
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.domain.manga.model.MergedMangaReference

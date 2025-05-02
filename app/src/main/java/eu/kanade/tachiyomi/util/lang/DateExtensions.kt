@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.lang
+package eu.fiax.faxyomi.util.lang
 
 import android.content.Context
 import tachiyomi.core.common.i18n.pluralStringResource

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util
+package eu.fiax.faxyomi.util
 
 import rx.Observable
 import tachiyomi.core.common.util.lang.awaitSingle

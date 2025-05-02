@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.data.download
+package eu.fiax.faxyomi.data.download
 
 import android.content.Context
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.util.storage.DiskUtil
+import eu.fiax.faxyomi.data.download.model.Download
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.util.storage.DiskUtil
 import exh.log.xLogE
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.flow.Flow

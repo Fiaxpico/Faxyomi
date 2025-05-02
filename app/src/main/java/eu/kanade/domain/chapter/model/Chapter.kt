@@ -1,9 +1,9 @@
 package eu.kanade.domain.chapter.model
 
-import eu.kanade.tachiyomi.data.database.models.ChapterImpl
-import eu.kanade.tachiyomi.source.model.SChapter
+import eu.fiax.faxyomi.data.database.models.ChapterImpl
+import eu.fiax.faxyomi.source.model.SChapter
 import tachiyomi.domain.chapter.model.Chapter
-import eu.kanade.tachiyomi.data.database.models.Chapter as DbChapter
+import eu.fiax.faxyomi.data.database.models.Chapter as DbChapter
 
 // TODO: Remove when all deps are migrated
 fun Chapter.toSChapter(): SChapter {

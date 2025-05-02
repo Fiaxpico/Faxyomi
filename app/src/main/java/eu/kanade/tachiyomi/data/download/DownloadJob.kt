@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.download
+package eu.fiax.faxyomi.data.download
 
 import android.content.Context
 import android.content.pm.ServiceInfo
@@ -11,13 +11,13 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.system.NetworkState
-import eu.kanade.tachiyomi.util.system.activeNetworkState
-import eu.kanade.tachiyomi.util.system.networkStateFlow
-import eu.kanade.tachiyomi.util.system.notificationBuilder
-import eu.kanade.tachiyomi.util.system.setForegroundSafely
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.notification.Notifications
+import eu.fiax.faxyomi.util.system.NetworkState
+import eu.fiax.faxyomi.util.system.activeNetworkState
+import eu.fiax.faxyomi.util.system.networkStateFlow
+import eu.fiax.faxyomi.util.system.notificationBuilder
+import eu.fiax.faxyomi.util.system.setForegroundSafely
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combineTransform

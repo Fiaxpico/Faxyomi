@@ -2,8 +2,8 @@ package eu.kanade.domain.track.interactor
 
 import eu.kanade.domain.track.model.toDbTrack
 import eu.kanade.domain.track.model.toDomainTrack
-import eu.kanade.tachiyomi.data.track.Tracker
-import eu.kanade.tachiyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.TrackerManager
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.supervisorScope

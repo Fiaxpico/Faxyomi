@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import eu.kanade.presentation.category.components.CategoryFloatingActionButton
 import eu.kanade.presentation.category.components.genre.SortTagContent
 import eu.kanade.presentation.components.AppBar
-import eu.kanade.tachiyomi.ui.category.genre.SortTagScreenState
+import eu.fiax.faxyomi.ui.category.genre.SortTagScreenState
 import tachiyomi.i18n.sy.SYMR
 import tachiyomi.presentation.core.components.material.Scaffold
 import tachiyomi.presentation.core.components.material.padding

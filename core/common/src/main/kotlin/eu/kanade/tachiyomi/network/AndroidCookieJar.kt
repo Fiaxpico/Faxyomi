@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.network
+package eu.fiax.faxyomi.network
 
 import android.webkit.CookieManager
 import okhttp3.Cookie

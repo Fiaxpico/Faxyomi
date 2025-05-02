@@ -1,6 +1,6 @@
 package tachiyomi.domain.source.model
 
-import eu.kanade.tachiyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.FilterList
 
 data class EXHSavedSearch(
     val id: Long,

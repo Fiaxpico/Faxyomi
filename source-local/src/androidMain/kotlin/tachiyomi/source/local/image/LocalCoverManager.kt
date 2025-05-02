@@ -2,8 +2,8 @@ package tachiyomi.source.local.image
 
 import android.content.Context
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.util.storage.DiskUtil
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.util.storage.DiskUtil
 import mihon.core.common.archive.ZipWriter
 import tachiyomi.core.common.storage.nameWithoutExtension
 import tachiyomi.core.common.util.system.ImageUtil

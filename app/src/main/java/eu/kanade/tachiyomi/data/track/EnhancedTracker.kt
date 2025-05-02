@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.track
+package eu.fiax.faxyomi.data.track
 
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.source.Source
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.source.Source
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.domain.track.model.Track
 

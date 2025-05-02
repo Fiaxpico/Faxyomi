@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.fiax.faxyomi.ui.reader.viewer
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.MotionEvent
 import com.google.android.material.button.MaterialButton
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.PagerViewer
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.reader.viewer.pager.PagerViewer
 
 /**
  * A button class to be used by child views of the pager viewer. All tap gestures are handled by

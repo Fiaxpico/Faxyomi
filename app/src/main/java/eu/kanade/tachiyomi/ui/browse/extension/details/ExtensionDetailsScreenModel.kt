@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.extension.details
+package eu.fiax.faxyomi.ui.browse.extension.details
 
 import android.content.Context
 import androidx.compose.runtime.Immutable
@@ -9,11 +9,11 @@ import eu.kanade.domain.extension.interactor.GetExtensionSources
 import eu.kanade.domain.source.interactor.ToggleIncognito
 import eu.kanade.domain.source.interactor.ToggleSource
 import eu.kanade.domain.source.service.SourcePreferences
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.extension.model.Extension
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList

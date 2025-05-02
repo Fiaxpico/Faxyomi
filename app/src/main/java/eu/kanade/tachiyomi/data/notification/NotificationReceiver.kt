@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.notification
+package eu.fiax.faxyomi.data.notification
 
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
@@ -7,18 +7,18 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.data.backup.restore.BackupRestoreJob
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.data.sync.SyncDataJob
-import eu.kanade.tachiyomi.data.updater.AppUpdateDownloadJob
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.util.system.cancelNotification
-import eu.kanade.tachiyomi.util.system.getParcelableExtraCompat
-import eu.kanade.tachiyomi.util.system.notificationManager
-import eu.kanade.tachiyomi.util.system.toShareIntent
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.data.backup.restore.BackupRestoreJob
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.library.LibraryUpdateJob
+import eu.fiax.faxyomi.data.sync.SyncDataJob
+import eu.fiax.faxyomi.data.updater.AppUpdateDownloadJob
+import eu.fiax.faxyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.ui.reader.ReaderActivity
+import eu.fiax.faxyomi.util.system.cancelNotification
+import eu.fiax.faxyomi.util.system.getParcelableExtraCompat
+import eu.fiax.faxyomi.util.system.notificationManager
+import eu.fiax.faxyomi.util.system.toShareIntent
+import eu.fiax.faxyomi.util.system.toast
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.runBlocking
 import tachiyomi.core.common.Constants
@@ -35,7 +35,7 @@ import tachiyomi.i18n.MR
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
-import eu.kanade.tachiyomi.BuildConfig.APPLICATION_ID as ID
+import eu.fiax.faxyomi.BuildConfig.APPLICATION_ID as ID
 
 /**
  * Global [BroadcastReceiver] that runs on UI thread

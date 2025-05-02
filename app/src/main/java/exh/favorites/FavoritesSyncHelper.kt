@@ -4,10 +4,10 @@ import android.content.Context
 import android.net.wifi.WifiManager
 import android.os.PowerManager
 import eu.kanade.domain.manga.interactor.UpdateManga
-import eu.kanade.tachiyomi.network.POST
-import eu.kanade.tachiyomi.network.await
-import eu.kanade.tachiyomi.source.online.all.EHentai
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.network.POST
+import eu.fiax.faxyomi.network.await
+import eu.fiax.faxyomi.source.online.all.EHentai
+import eu.fiax.faxyomi.util.system.toast
 import exh.GalleryAddEvent
 import exh.GalleryAdder
 import exh.eh.EHentaiUpdateWorker

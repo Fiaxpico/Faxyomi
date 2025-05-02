@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.backup.models.metadata
+package eu.fiax.faxyomi.data.backup.models.metadata
 
 import exh.metadata.sql.models.SearchTag
 import kotlinx.serialization.Serializable

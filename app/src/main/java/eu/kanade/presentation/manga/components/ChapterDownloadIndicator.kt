@@ -32,8 +32,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.components.DropdownMenu
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.model.Download
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.download.model.Download
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.components.material.IconButtonTokens
 import tachiyomi.presentation.core.i18n.stringResource

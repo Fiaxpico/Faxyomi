@@ -1,17 +1,17 @@
-package eu.kanade.tachiyomi.source.online.english
+package eu.fiax.faxyomi.source.online.english
 
 import android.content.Context
 import android.net.Uri
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.source.online.MetadataSource
-import eu.kanade.tachiyomi.source.online.NamespaceSource
-import eu.kanade.tachiyomi.source.online.UrlImportableSource
-import eu.kanade.tachiyomi.util.asJsoup
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.MangasPage
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.source.online.MetadataSource
+import eu.fiax.faxyomi.source.online.NamespaceSource
+import eu.fiax.faxyomi.source.online.UrlImportableSource
+import eu.fiax.faxyomi.util.asJsoup
 import exh.metadata.metadata.PururinSearchMetadata
 import exh.metadata.metadata.RaisedSearchMetadata
 import exh.metadata.metadata.base.RaisedTag

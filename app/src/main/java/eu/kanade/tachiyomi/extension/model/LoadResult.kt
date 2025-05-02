@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.model
+package eu.fiax.faxyomi.extension.model
 
 sealed interface LoadResult {
     data class Success(val extension: Extension.Installed) : LoadResult

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.kitsu
+package eu.fiax.faxyomi.data.track.kitsu
 
 import java.text.SimpleDateFormat
 import java.util.Date

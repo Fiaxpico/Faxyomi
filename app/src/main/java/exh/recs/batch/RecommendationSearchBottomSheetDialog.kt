@@ -7,7 +7,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
 import eu.kanade.presentation.components.AdaptiveSheet
-import eu.kanade.tachiyomi.databinding.RecommendationSearchBottomSheetBinding
+import eu.fiax.faxyomi.databinding.RecommendationSearchBottomSheetBinding
 import tachiyomi.domain.UnsortedPreferences
 import uy.kohesive.injekt.injectLazy
 

@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.ui.reader.setting
+package eu.fiax.faxyomi.ui.reader.setting
 
 import androidx.annotation.DrawableRes
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.ui.reader.viewer.Viewer
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.L2RPagerViewer
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.R2LPagerViewer
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.VerticalPagerViewer
-import eu.kanade.tachiyomi.ui.reader.viewer.webtoon.WebtoonViewer
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.reader.ReaderActivity
+import eu.fiax.faxyomi.ui.reader.viewer.Viewer
+import eu.fiax.faxyomi.ui.reader.viewer.pager.L2RPagerViewer
+import eu.fiax.faxyomi.ui.reader.viewer.pager.R2LPagerViewer
+import eu.fiax.faxyomi.ui.reader.viewer.pager.VerticalPagerViewer
+import eu.fiax.faxyomi.ui.reader.viewer.webtoon.WebtoonViewer
 import tachiyomi.i18n.MR
 
 enum class ReadingMode(

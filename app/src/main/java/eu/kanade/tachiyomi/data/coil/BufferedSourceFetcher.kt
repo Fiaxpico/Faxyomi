@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.coil
+package eu.fiax.faxyomi.data.coil
 
 import coil3.ImageLoader
 import coil3.decode.DataSource

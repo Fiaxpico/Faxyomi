@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.fiax.faxyomi.ui.reader.viewer.pager
 
 import android.view.View
 import android.view.ViewGroup
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.InsertPage
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.model.ReaderItem
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
-import eu.kanade.tachiyomi.ui.reader.viewer.calculateChapterGap
-import eu.kanade.tachiyomi.util.system.createReaderThemeContext
-import eu.kanade.tachiyomi.widget.ViewPagerAdapter
+import eu.fiax.faxyomi.ui.reader.model.ChapterTransition
+import eu.fiax.faxyomi.ui.reader.model.InsertPage
+import eu.fiax.faxyomi.ui.reader.model.ReaderChapter
+import eu.fiax.faxyomi.ui.reader.model.ReaderItem
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.ui.reader.model.ViewerChapters
+import eu.fiax.faxyomi.ui.reader.viewer.calculateChapterGap
+import eu.fiax.faxyomi.util.system.createReaderThemeContext
+import eu.fiax.faxyomi.widget.ViewPagerAdapter
 import kotlinx.coroutines.delay
 import tachiyomi.core.common.util.lang.launchUI
 import tachiyomi.core.common.util.system.logcat

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.coil
+package eu.fiax.faxyomi.data.coil
 
 import coil3.ImageLoader
 import coil3.decode.DataSource
@@ -9,10 +9,10 @@ import coil3.fetch.Fetcher
 import coil3.fetch.SourceFetchResult
 import coil3.request.Options
 import eu.kanade.domain.manga.model.PagePreview
-import eu.kanade.tachiyomi.data.cache.PagePreviewCache
-import eu.kanade.tachiyomi.network.await
-import eu.kanade.tachiyomi.source.PagePreviewSource
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.data.cache.PagePreviewCache
+import eu.fiax.faxyomi.network.await
+import eu.fiax.faxyomi.source.PagePreviewSource
+import eu.fiax.faxyomi.source.online.HttpSource
 import logcat.LogPriority
 import okhttp3.CacheControl
 import okhttp3.Call

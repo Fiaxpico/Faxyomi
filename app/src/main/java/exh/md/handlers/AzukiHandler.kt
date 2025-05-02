@@ -1,8 +1,8 @@
 package exh.md.handlers
 
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.source.model.Page
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.source.model.Page
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject

@@ -10,11 +10,11 @@ import eu.kanade.presentation.browse.components.GlobalSearchErrorResultItem
 import eu.kanade.presentation.browse.components.GlobalSearchLoadingResultItem
 import eu.kanade.presentation.browse.components.GlobalSearchResultItem
 import eu.kanade.presentation.browse.components.GlobalSearchToolbar
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.ui.browse.source.globalsearch.SearchItemResult
-import eu.kanade.tachiyomi.ui.browse.source.globalsearch.SearchScreenModel
-import eu.kanade.tachiyomi.ui.browse.source.globalsearch.SourceFilter
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.ui.browse.source.globalsearch.SearchItemResult
+import eu.fiax.faxyomi.ui.browse.source.globalsearch.SearchScreenModel
+import eu.fiax.faxyomi.ui.browse.source.globalsearch.SourceFilter
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import kotlinx.collections.immutable.ImmutableMap
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.presentation.core.components.material.Scaffold

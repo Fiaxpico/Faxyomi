@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.data.notification
+package eu.fiax.faxyomi.data.notification
 
 import android.content.Context
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.app.NotificationManagerCompat.IMPORTANCE_DEFAULT
 import androidx.core.app.NotificationManagerCompat.IMPORTANCE_HIGH
 import androidx.core.app.NotificationManagerCompat.IMPORTANCE_LOW
-import eu.kanade.tachiyomi.util.system.buildNotificationChannel
-import eu.kanade.tachiyomi.util.system.buildNotificationChannelGroup
+import eu.fiax.faxyomi.util.system.buildNotificationChannel
+import eu.fiax.faxyomi.util.system.buildNotificationChannelGroup
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.i18n.MR
 

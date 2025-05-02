@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.data.backup.restore.restorers
+package eu.fiax.faxyomi.data.backup.restore.restorers
 
 import eu.kanade.domain.manga.interactor.UpdateManga
-import eu.kanade.tachiyomi.data.backup.models.BackupCategory
-import eu.kanade.tachiyomi.data.backup.models.BackupChapter
-import eu.kanade.tachiyomi.data.backup.models.BackupFlatMetadata
-import eu.kanade.tachiyomi.data.backup.models.BackupHistory
-import eu.kanade.tachiyomi.data.backup.models.BackupManga
-import eu.kanade.tachiyomi.data.backup.models.BackupMergedMangaReference
-import eu.kanade.tachiyomi.data.backup.models.BackupTracking
+import eu.fiax.faxyomi.data.backup.models.BackupCategory
+import eu.fiax.faxyomi.data.backup.models.BackupChapter
+import eu.fiax.faxyomi.data.backup.models.BackupFlatMetadata
+import eu.fiax.faxyomi.data.backup.models.BackupHistory
+import eu.fiax.faxyomi.data.backup.models.BackupManga
+import eu.fiax.faxyomi.data.backup.models.BackupMergedMangaReference
+import eu.fiax.faxyomi.data.backup.models.BackupTracking
 import exh.EXHMigrations
 import tachiyomi.data.DatabaseHandler
 import tachiyomi.data.UpdateStrategyColumnAdapter

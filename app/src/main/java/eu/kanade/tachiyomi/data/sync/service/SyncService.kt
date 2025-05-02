@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.sync.service
+package eu.fiax.faxyomi.data.sync.service
 
 import android.content.Context
 import eu.kanade.domain.sync.SyncPreferences
-import eu.kanade.tachiyomi.data.backup.models.Backup
-import eu.kanade.tachiyomi.data.backup.models.BackupCategory
-import eu.kanade.tachiyomi.data.backup.models.BackupChapter
-import eu.kanade.tachiyomi.data.backup.models.BackupManga
-import eu.kanade.tachiyomi.data.backup.models.BackupPreference
-import eu.kanade.tachiyomi.data.backup.models.BackupSavedSearch
-import eu.kanade.tachiyomi.data.backup.models.BackupSource
-import eu.kanade.tachiyomi.data.backup.models.BackupSourcePreferences
+import eu.fiax.faxyomi.data.backup.models.Backup
+import eu.fiax.faxyomi.data.backup.models.BackupCategory
+import eu.fiax.faxyomi.data.backup.models.BackupChapter
+import eu.fiax.faxyomi.data.backup.models.BackupManga
+import eu.fiax.faxyomi.data.backup.models.BackupPreference
+import eu.fiax.faxyomi.data.backup.models.BackupSavedSearch
+import eu.fiax.faxyomi.data.backup.models.BackupSource
+import eu.fiax.faxyomi.data.backup.models.BackupSourcePreferences
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import logcat.LogPriority

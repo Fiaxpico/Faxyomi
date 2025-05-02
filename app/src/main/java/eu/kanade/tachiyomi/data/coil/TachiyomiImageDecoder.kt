@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.coil
+package eu.fiax.faxyomi.data.coil
 
 import android.app.Application
 import android.graphics.Bitmap
@@ -13,8 +13,8 @@ import coil3.fetch.SourceFetchResult
 import coil3.request.Options
 import coil3.request.bitmapConfig
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.util.storage.CbzCrypto
-import eu.kanade.tachiyomi.util.storage.CbzCrypto.getCoverStream
+import eu.fiax.faxyomi.util.storage.CbzCrypto
+import eu.fiax.faxyomi.util.storage.CbzCrypto.getCoverStream
 import mihon.core.common.archive.archiveReader
 import okio.BufferedSource
 import tachiyomi.core.common.util.system.ImageUtil

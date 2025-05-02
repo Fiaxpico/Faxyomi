@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.cache
+package eu.fiax.faxyomi.data.cache
 
 import android.content.Context
-import eu.kanade.tachiyomi.util.storage.DiskUtil
+import eu.fiax.faxyomi.util.storage.DiskUtil
 import tachiyomi.domain.manga.model.Manga
 import java.io.File
 import java.io.IOException

@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.bangumi.dto
+package eu.fiax.faxyomi.data.track.bangumi.dto
 
-import eu.kanade.tachiyomi.data.track.bangumi.Bangumi
+import eu.fiax.faxyomi.data.track.bangumi.Bangumi
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

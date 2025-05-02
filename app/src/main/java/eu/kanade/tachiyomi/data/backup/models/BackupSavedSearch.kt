@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.backup.models
+package eu.fiax.faxyomi.data.backup.models
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.protobuf.ProtoNumber

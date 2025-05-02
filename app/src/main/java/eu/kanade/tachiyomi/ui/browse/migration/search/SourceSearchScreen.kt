@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.search
+package eu.fiax.faxyomi.ui.browse.migration.search
 
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
@@ -15,12 +15,12 @@ import eu.kanade.presentation.browse.BrowseSourceContent
 import eu.kanade.presentation.browse.components.BrowseSourceFloatingActionButton
 import eu.kanade.presentation.components.SearchToolbar
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.process.MigrationListScreen
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreenModel
-import eu.kanade.tachiyomi.ui.browse.source.browse.SourceFilterDialog
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.ui.webview.WebViewScreen
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.ui.browse.migration.advanced.process.MigrationListScreen
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreenModel
+import eu.fiax.faxyomi.ui.browse.source.browse.SourceFilterDialog
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.webview.WebViewScreen
 import exh.ui.ifSourcesLoaded
 import kotlinx.collections.immutable.persistentListOf
 import mihon.presentation.core.util.collectAsLazyPagingItems

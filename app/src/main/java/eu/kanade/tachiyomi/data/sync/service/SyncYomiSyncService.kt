@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.data.sync.service
+package eu.fiax.faxyomi.data.sync.service
 
 import android.content.Context
 import eu.kanade.domain.sync.SyncPreferences
-import eu.kanade.tachiyomi.data.backup.models.Backup
-import eu.kanade.tachiyomi.data.sync.SyncNotifier
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.PUT
-import eu.kanade.tachiyomi.network.await
+import eu.fiax.faxyomi.data.backup.models.Backup
+import eu.fiax.faxyomi.data.sync.SyncNotifier
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.PUT
+import eu.fiax.faxyomi.network.await
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.protobuf.ProtoBuf

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.feed
+package eu.fiax.faxyomi.ui.browse.feed
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Add
@@ -18,8 +18,8 @@ import eu.kanade.presentation.browse.FeedDeleteConfirmDialog
 import eu.kanade.presentation.browse.FeedScreen
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.TabContent
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

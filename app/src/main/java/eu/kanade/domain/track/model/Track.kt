@@ -1,7 +1,7 @@
 package eu.kanade.domain.track.model
 
 import tachiyomi.domain.track.model.Track
-import eu.kanade.tachiyomi.data.database.models.Track as DbTrack
+import eu.fiax.faxyomi.data.database.models.Track as DbTrack
 
 fun Track.copyPersonalFrom(other: Track): Track {
     return this.copy(

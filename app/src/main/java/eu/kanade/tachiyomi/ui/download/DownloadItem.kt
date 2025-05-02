@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.fiax.faxyomi.ui.download
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.model.Download
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.download.model.Download
 
 class DownloadItem(
     val download: Download,

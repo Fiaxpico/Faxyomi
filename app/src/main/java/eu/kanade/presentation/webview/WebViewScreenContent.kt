@@ -38,11 +38,11 @@ import com.kevinnzou.web.rememberWebViewState
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.AppBarActions
 import eu.kanade.presentation.components.WarningBanner
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.util.system.WebViewUtil
-import eu.kanade.tachiyomi.util.system.getHtml
-import eu.kanade.tachiyomi.util.system.setDefaultSettings
+import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.util.system.WebViewUtil
+import eu.fiax.faxyomi.util.system.getHtml
+import eu.fiax.faxyomi.util.system.setDefaultSettings
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.launch
 import okhttp3.Request

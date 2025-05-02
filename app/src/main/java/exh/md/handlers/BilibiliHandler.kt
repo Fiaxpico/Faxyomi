@@ -1,11 +1,11 @@
 package exh.md.handlers
 
-import eu.kanade.tachiyomi.network.POST
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.interceptor.rateLimit
-import eu.kanade.tachiyomi.network.parseAs
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.model.SChapter
+import eu.fiax.faxyomi.network.POST
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.interceptor.rateLimit
+import eu.fiax.faxyomi.network.parseAs
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.model.SChapter
 import exh.log.xLogD
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

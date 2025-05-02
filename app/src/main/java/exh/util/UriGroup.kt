@@ -1,7 +1,7 @@
 package exh.util
 
 import android.net.Uri
-import eu.kanade.tachiyomi.source.model.Filter
+import eu.fiax.faxyomi.source.model.Filter
 
 /**
  * UriGroup

@@ -14,11 +14,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import eu.kanade.presentation.components.AdaptiveSheet
 import eu.kanade.presentation.manga.components.MangaChapterListItem
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.ui.reader.chapter.ReaderChapterItem
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderSettingsScreenModel
-import eu.kanade.tachiyomi.util.lang.toRelativeString
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.download.model.Download
+import eu.fiax.faxyomi.ui.reader.chapter.ReaderChapterItem
+import eu.fiax.faxyomi.ui.reader.setting.ReaderSettingsScreenModel
+import eu.fiax.faxyomi.util.lang.toRelativeString
 import exh.metadata.MetadataUtil
 import exh.source.isEhBasedManga
 import kotlinx.collections.immutable.ImmutableList

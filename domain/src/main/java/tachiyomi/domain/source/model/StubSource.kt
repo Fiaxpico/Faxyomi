@@ -1,9 +1,9 @@
 package tachiyomi.domain.source.model
 
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.model.SManga
 
 class StubSource(
     override val id: Long,

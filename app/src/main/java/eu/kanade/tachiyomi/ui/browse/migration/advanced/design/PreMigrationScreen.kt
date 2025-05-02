@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.design
+package eu.fiax.faxyomi.ui.browse.migration.advanced.design
 
 import android.view.LayoutInflater
 import androidx.compose.foundation.layout.Box
@@ -37,9 +37,9 @@ import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.AppBarActions
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.databinding.PreMigrationListBinding
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.process.MigrationListScreen
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.process.MigrationProcedureConfig
+import eu.fiax.faxyomi.databinding.PreMigrationListBinding
+import eu.fiax.faxyomi.ui.browse.migration.advanced.process.MigrationListScreen
+import eu.fiax.faxyomi.ui.browse.migration.advanced.process.MigrationProcedureConfig
 import kotlinx.collections.immutable.persistentListOf
 import tachiyomi.i18n.MR
 import tachiyomi.i18n.sy.SYMR

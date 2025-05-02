@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.category.biometric
+package eu.fiax.faxyomi.ui.category.biometric
 
 import android.app.Application
 import androidx.compose.runtime.Immutable
 import cafe.adriel.voyager.core.model.StateScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.core.security.SecurityPreferences
+import eu.fiax.faxyomi.core.security.SecurityPreferences
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.channels.Channel

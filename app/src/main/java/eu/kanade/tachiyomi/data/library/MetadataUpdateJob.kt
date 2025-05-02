@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.library
+package eu.fiax.faxyomi.data.library
 
 import android.content.Context
 import android.content.pm.ServiceInfo
@@ -13,12 +13,12 @@ import androidx.work.WorkerParameters
 import eu.kanade.domain.manga.interactor.UpdateManga
 import eu.kanade.domain.manga.model.copyFrom
 import eu.kanade.domain.manga.model.toSManga
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.prepUpdateCover
-import eu.kanade.tachiyomi.util.system.isRunning
-import eu.kanade.tachiyomi.util.system.setForegroundSafely
-import eu.kanade.tachiyomi.util.system.workManager
+import eu.fiax.faxyomi.data.cache.CoverCache
+import eu.fiax.faxyomi.data.notification.Notifications
+import eu.fiax.faxyomi.util.prepUpdateCover
+import eu.fiax.faxyomi.util.system.isRunning
+import eu.fiax.faxyomi.util.system.setForegroundSafely
+import eu.fiax.faxyomi.util.system.workManager
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

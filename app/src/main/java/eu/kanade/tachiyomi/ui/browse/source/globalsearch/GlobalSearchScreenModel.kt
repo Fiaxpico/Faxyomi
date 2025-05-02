@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.browse.source.globalsearch
+package eu.fiax.faxyomi.ui.browse.source.globalsearch
 
-import eu.kanade.tachiyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.CatalogueSource
 
 class GlobalSearchScreenModel(
     initialQuery: String = "",

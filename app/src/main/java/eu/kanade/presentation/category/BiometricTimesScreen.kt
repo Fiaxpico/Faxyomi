@@ -9,8 +9,8 @@ import androidx.compose.ui.Modifier
 import eu.kanade.presentation.category.components.CategoryFloatingActionButton
 import eu.kanade.presentation.category.components.biometric.BiometricTimesContent
 import eu.kanade.presentation.components.AppBar
-import eu.kanade.tachiyomi.ui.category.biometric.BiometricTimesScreenState
-import eu.kanade.tachiyomi.ui.category.biometric.TimeRangeItem
+import eu.fiax.faxyomi.ui.category.biometric.BiometricTimesScreenState
+import eu.fiax.faxyomi.ui.category.biometric.TimeRangeItem
 import tachiyomi.i18n.sy.SYMR
 import tachiyomi.presentation.core.components.material.Scaffold
 import tachiyomi.presentation.core.components.material.padding

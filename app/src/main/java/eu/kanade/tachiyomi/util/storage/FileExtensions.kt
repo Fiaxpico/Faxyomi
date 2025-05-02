@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.util.storage
+package eu.fiax.faxyomi.util.storage
 
 import android.content.Context
 import android.net.Uri
 import android.os.Build
 import androidx.core.content.FileProvider
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.BuildConfig
+import eu.fiax.faxyomi.BuildConfig
 import java.io.File
 
 val Context.cacheImageDir: File

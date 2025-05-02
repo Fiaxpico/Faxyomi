@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.data.track.komga
+package eu.fiax.faxyomi.data.track.komga
 
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
+import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.parseAs
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import logcat.LogPriority

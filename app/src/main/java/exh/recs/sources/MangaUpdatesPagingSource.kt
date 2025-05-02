@@ -1,11 +1,11 @@
 package exh.recs.sources
 
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.POST
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.POST
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.parseAs
+import eu.fiax.faxyomi.source.model.SManga
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject

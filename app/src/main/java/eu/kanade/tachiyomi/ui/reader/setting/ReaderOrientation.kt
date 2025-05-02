@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.setting
+package eu.fiax.faxyomi.ui.reader.setting
 
 import android.content.pm.ActivityInfo
 import androidx.compose.material.icons.Icons

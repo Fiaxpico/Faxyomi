@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.util.system
+package eu.fiax.faxyomi.util.system
 
-import eu.kanade.tachiyomi.BuildConfig
+import eu.fiax.faxyomi.BuildConfig
 import exh.syDebugVersion
 
 val isDevFlavor: Boolean

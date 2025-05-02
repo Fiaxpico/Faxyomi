@@ -2,12 +2,12 @@ package eu.kanade.domain.track.interactor
 
 import eu.kanade.domain.track.model.toDbTrack
 import eu.kanade.domain.track.model.toDomainTrack
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.EnhancedTracker
-import eu.kanade.tachiyomi.data.track.Tracker
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.util.lang.convertEpochMillisZone
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.EnhancedTracker
+import eu.fiax.faxyomi.data.track.Tracker
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.util.lang.convertEpochMillisZone
 import logcat.LogPriority
 import tachiyomi.core.common.util.lang.withIOContext
 import tachiyomi.core.common.util.lang.withNonCancellableContext

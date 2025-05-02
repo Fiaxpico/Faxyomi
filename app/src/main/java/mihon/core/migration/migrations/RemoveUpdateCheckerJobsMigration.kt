@@ -3,8 +3,8 @@ package mihon.core.migration.migrations
 import android.app.Application
 import androidx.core.content.edit
 import androidx.preference.PreferenceManager
-import eu.kanade.tachiyomi.data.track.TrackerManager
-import eu.kanade.tachiyomi.util.system.workManager
+import eu.fiax.faxyomi.data.track.TrackerManager
+import eu.fiax.faxyomi.util.system.workManager
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
 import tachiyomi.core.common.preference.PreferenceStore

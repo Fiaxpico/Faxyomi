@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget.materialdialogs
+package eu.fiax.faxyomi.widget.materialdialogs
 
 import android.view.LayoutInflater
 import android.view.inputmethod.InputMethodManager
@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.core.content.getSystemService
 import androidx.core.widget.doAfterTextChanged
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import eu.kanade.tachiyomi.databinding.DialogStubTextinputBinding
+import eu.fiax.faxyomi.databinding.DialogStubTextinputBinding
 
 fun MaterialAlertDialogBuilder.setTextInput(
     hint: String? = null,

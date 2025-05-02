@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.fiax.faxyomi.extension.util
 
 import android.app.DownloadManager
 import android.content.BroadcastReceiver
@@ -11,12 +11,12 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
 import androidx.core.net.toUri
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.installer.Installer
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.util.storage.getUriCompat
-import eu.kanade.tachiyomi.util.system.isPackageInstalled
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.extension.installer.Installer
+import eu.fiax.faxyomi.extension.model.Extension
+import eu.fiax.faxyomi.extension.model.InstallStep
+import eu.fiax.faxyomi.util.storage.getUriCompat
+import eu.fiax.faxyomi.util.system.isPackageInstalled
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow

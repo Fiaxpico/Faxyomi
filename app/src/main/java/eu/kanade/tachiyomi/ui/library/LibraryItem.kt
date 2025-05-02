@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.fiax.faxyomi.ui.library
 
-import eu.kanade.tachiyomi.source.getNameForMangaInfo
+import eu.fiax.faxyomi.source.getNameForMangaInfo
 import tachiyomi.domain.library.model.LibraryManga
 import tachiyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.updater
+package eu.fiax.faxyomi.data.updater
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -7,12 +7,12 @@ import android.content.Intent
 import android.net.Uri
 import androidx.core.app.NotificationCompat
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.NotificationHandler
-import eu.kanade.tachiyomi.data.notification.NotificationReceiver
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.system.notificationBuilder
-import eu.kanade.tachiyomi.util.system.notify
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.notification.NotificationHandler
+import eu.fiax.faxyomi.data.notification.NotificationReceiver
+import eu.fiax.faxyomi.data.notification.Notifications
+import eu.fiax.faxyomi.util.system.notificationBuilder
+import eu.fiax.faxyomi.util.system.notify
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.domain.release.model.Release
 import tachiyomi.i18n.MR

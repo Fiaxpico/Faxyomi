@@ -1,7 +1,7 @@
 package exh.metadata.metadata
 
 import android.content.Context
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.SManga
 import exh.metadata.metadata.base.FlatMetadata
 import exh.metadata.metadata.base.RaisedTag
 import exh.metadata.metadata.base.RaisedTitle

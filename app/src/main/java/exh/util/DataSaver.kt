@@ -4,9 +4,9 @@ import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.domain.source.service.SourcePreferences.DataSaver.BANDWIDTH_HERO
 import eu.kanade.domain.source.service.SourcePreferences.DataSaver.NONE
 import eu.kanade.domain.source.service.SourcePreferences.DataSaver.WSRV_NL
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.online.HttpSource
 import okhttp3.Response
 import tachiyomi.core.common.preference.Preference
 

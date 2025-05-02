@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.history
+package eu.fiax.faxyomi.ui.history
 
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.Immutable
@@ -8,7 +8,7 @@ import eu.kanade.core.util.insertSeparators
 import eu.kanade.domain.manga.interactor.UpdateManga
 import eu.kanade.domain.track.interactor.AddTracks
 import eu.kanade.presentation.history.HistoryUiModel
-import eu.kanade.tachiyomi.util.lang.toLocalDate
+import eu.fiax.faxyomi.util.lang.toLocalDate
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.Dispatchers

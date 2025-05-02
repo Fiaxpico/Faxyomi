@@ -6,7 +6,7 @@ import androidx.compose.runtime.produceState
 import cafe.adriel.voyager.core.model.StateScreenModel
 import eu.kanade.domain.manga.model.toDomainManga
 import eu.kanade.presentation.util.ioCoroutineScope
-import eu.kanade.tachiyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.CatalogueSource
 import exh.recs.sources.RecommendationPagingSource
 import exh.recs.sources.StaticResultPagingSource
 import kotlinx.collections.immutable.PersistentMap

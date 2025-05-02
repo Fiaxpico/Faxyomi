@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.fiax.faxyomi.ui.download
 
 import android.view.MenuItem
 import eu.davidea.flexibleadapter.FlexibleAdapter

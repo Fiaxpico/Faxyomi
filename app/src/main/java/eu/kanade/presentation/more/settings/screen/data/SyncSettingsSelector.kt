@@ -13,8 +13,8 @@ import eu.kanade.domain.sync.SyncPreferences
 import eu.kanade.domain.sync.models.SyncSettings
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.data.backup.create.BackupOptions
-import eu.kanade.tachiyomi.data.sync.SyncDataJob
+import eu.fiax.faxyomi.data.backup.create.BackupOptions
+import eu.fiax.faxyomi.data.sync.SyncDataJob
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.flow.update
 import tachiyomi.i18n.MR

@@ -8,10 +8,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.DescriptionAdapterMdBinding
-import eu.kanade.tachiyomi.ui.manga.MangaScreenModel.State
-import eu.kanade.tachiyomi.util.system.copyToClipboard
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.databinding.DescriptionAdapterMdBinding
+import eu.fiax.faxyomi.ui.manga.MangaScreenModel.State
+import eu.fiax.faxyomi.util.system.copyToClipboard
 import exh.metadata.metadata.MangaDexSearchMetadata
 import exh.ui.metadata.adapters.MetadataUIUtil.bindDrawable
 import exh.ui.metadata.adapters.MetadataUIUtil.getRatingString

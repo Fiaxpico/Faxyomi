@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.fiax.faxyomi.util.system
 
 import android.Manifest
 import android.app.Notification
@@ -12,7 +12,7 @@ import androidx.core.app.NotificationManagerCompat
 import androidx.core.app.NotificationManagerCompat.NotificationWithIdAndTag
 import androidx.core.content.PermissionChecker
 import androidx.core.content.getSystemService
-import eu.kanade.tachiyomi.R
+import eu.fiax.faxyomi.R
 
 val Context.notificationManager: NotificationManager
     get() = getSystemService()!!

@@ -1,7 +1,7 @@
 package exh.md.handlers
 
-import eu.kanade.tachiyomi.source.model.Filter
-import eu.kanade.tachiyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.Filter
+import eu.fiax.faxyomi.source.model.FilterList
 import java.util.Locale
 
 class FilterHandler {

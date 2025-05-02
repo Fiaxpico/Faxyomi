@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.deeplink
+package eu.fiax.faxyomi.ui.deeplink
 
 import androidx.compose.runtime.Immutable
 import cafe.adriel.voyager.core.model.StateScreenModel
@@ -6,11 +6,11 @@ import cafe.adriel.voyager.core.model.screenModelScope
 import eu.kanade.domain.chapter.interactor.SyncChaptersWithSource
 import eu.kanade.domain.manga.model.toDomainManga
 import eu.kanade.domain.manga.model.toSManga
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.online.ResolvableSource
-import eu.kanade.tachiyomi.source.online.UriType
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.online.ResolvableSource
+import eu.fiax.faxyomi.source.online.UriType
 import kotlinx.coroutines.flow.update
 import tachiyomi.core.common.util.lang.launchIO
 import tachiyomi.domain.chapter.interactor.GetChapterByUrlAndMangaId

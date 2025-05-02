@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.data.cache
+package eu.fiax.faxyomi.data.cache
 
 import android.content.Context
 import android.text.format.Formatter
 import com.jakewharton.disklrucache.DiskLruCache
-import eu.kanade.tachiyomi.source.PagePreviewPage
-import eu.kanade.tachiyomi.util.storage.DiskUtil
-import eu.kanade.tachiyomi.util.storage.saveTo
+import eu.fiax.faxyomi.source.PagePreviewPage
+import eu.fiax.faxyomi.util.storage.DiskUtil
+import eu.fiax.faxyomi.util.storage.saveTo
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import logcat.LogPriority

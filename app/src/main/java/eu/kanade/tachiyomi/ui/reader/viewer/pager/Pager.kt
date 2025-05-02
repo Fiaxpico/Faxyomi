@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.fiax.faxyomi.ui.reader.viewer.pager
 
 import android.content.Context
 import android.os.Parcelable
@@ -6,7 +6,7 @@ import android.view.HapticFeedbackConstants
 import android.view.KeyEvent
 import android.view.MotionEvent
 import androidx.viewpager.widget.DirectionalViewPager
-import eu.kanade.tachiyomi.ui.reader.viewer.GestureDetectorWithLongTap
+import eu.fiax.faxyomi.ui.reader.viewer.GestureDetectorWithLongTap
 
 /**
  * Pager implementation that listens for tap and long tap and allows temporarily disabling touch

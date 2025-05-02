@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.source.model
+package eu.fiax.faxyomi.source.model
 
 import android.net.Uri
-import eu.kanade.tachiyomi.network.ProgressListener
+import eu.fiax.faxyomi.network.ProgressListener
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.serialization.Serializable

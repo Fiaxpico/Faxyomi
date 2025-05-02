@@ -1,6 +1,6 @@
 package eu.kanade.domain.source.interactor
 
-import eu.kanade.tachiyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.FilterList
 import exh.log.xLogE
 import exh.util.nullIfBlank
 import kotlinx.coroutines.Dispatchers

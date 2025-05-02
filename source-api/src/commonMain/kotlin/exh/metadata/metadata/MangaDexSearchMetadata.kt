@@ -1,8 +1,8 @@
 package exh.metadata.metadata
 
 import android.content.Context
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.model.copy
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.copy
 import exh.md.utils.MangaDexRelation
 import exh.metadata.metadata.base.TrackerIdMetadata
 import kotlinx.serialization.Serializable

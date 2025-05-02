@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.track.myanimelist
+package eu.fiax.faxyomi.data.track.myanimelist
 
-import eu.kanade.tachiyomi.data.track.myanimelist.dto.MALOAuth
-import eu.kanade.tachiyomi.network.parseAs
+import eu.fiax.faxyomi.data.track.myanimelist.dto.MALOAuth
+import eu.fiax.faxyomi.network.parseAs
 import kotlinx.serialization.json.Json
 import okhttp3.Interceptor
 import okhttp3.Response

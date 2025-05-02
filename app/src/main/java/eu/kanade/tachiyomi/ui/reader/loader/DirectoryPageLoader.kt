@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.reader.loader
+package eu.fiax.faxyomi.ui.reader.loader
 
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.util.lang.compareToCaseInsensitiveNaturalOrder
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.util.lang.compareToCaseInsensitiveNaturalOrder
 import tachiyomi.core.common.util.system.ImageUtil
 
 /**

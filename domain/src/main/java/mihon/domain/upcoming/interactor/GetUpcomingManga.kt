@@ -1,6 +1,6 @@
 package mihon.domain.upcoming.interactor
 
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.SManga
 import kotlinx.coroutines.flow.Flow
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.domain.manga.repository.MangaRepository

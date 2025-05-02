@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source.browse
+package eu.fiax.faxyomi.ui.browse.source.browse
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row

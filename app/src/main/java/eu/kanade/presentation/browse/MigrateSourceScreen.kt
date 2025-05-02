@@ -26,8 +26,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import eu.kanade.domain.source.interactor.SetMigrateSorting
 import eu.kanade.presentation.browse.components.BaseSourceItem
 import eu.kanade.presentation.browse.components.SourceIcon
-import eu.kanade.tachiyomi.ui.browse.migration.sources.MigrateSourceScreenModel
-import eu.kanade.tachiyomi.util.system.copyToClipboard
+import eu.fiax.faxyomi.ui.browse.migration.sources.MigrateSourceScreenModel
+import eu.fiax.faxyomi.util.system.copyToClipboard
 import kotlinx.collections.immutable.ImmutableList
 import tachiyomi.domain.source.model.Source
 import tachiyomi.i18n.MR

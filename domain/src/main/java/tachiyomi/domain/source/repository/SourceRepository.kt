@@ -1,8 +1,8 @@
 package tachiyomi.domain.source.repository
 
 import androidx.paging.PagingSource
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.model.SManga
 import exh.metadata.metadata.RaisedSearchMetadata
 import kotlinx.coroutines.flow.Flow
 import tachiyomi.domain.source.model.Source

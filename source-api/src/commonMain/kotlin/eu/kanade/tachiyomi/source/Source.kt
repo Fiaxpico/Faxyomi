@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.source
+package eu.fiax.faxyomi.source
 
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.util.awaitSingle
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.model.SManga
+import eu.fiax.faxyomi.util.awaitSingle
 import rx.Observable
 
 /**

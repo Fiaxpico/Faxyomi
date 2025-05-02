@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.process
+package eu.fiax.faxyomi.ui.browse.migration.advanced.process
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.runtime.Composable
@@ -14,10 +14,10 @@ import eu.kanade.presentation.browse.components.MigrationExitDialog
 import eu.kanade.presentation.browse.components.MigrationMangaDialog
 import eu.kanade.presentation.browse.components.MigrationProgressDialog
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.design.PreMigrationScreen
-import eu.kanade.tachiyomi.ui.browse.migration.search.MigrateSearchScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.ui.browse.migration.advanced.design.PreMigrationScreen
+import eu.fiax.faxyomi.ui.browse.migration.search.MigrateSearchScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.util.system.toast
 import exh.util.overEq
 import exh.util.underEq
 import kotlinx.collections.immutable.persistentListOf

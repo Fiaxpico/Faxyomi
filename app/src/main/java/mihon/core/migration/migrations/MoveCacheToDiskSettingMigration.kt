@@ -2,7 +2,7 @@ package mihon.core.migration.migrations
 
 import android.app.Application
 import androidx.preference.PreferenceManager
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
 import tachiyomi.core.common.util.lang.withIOContext

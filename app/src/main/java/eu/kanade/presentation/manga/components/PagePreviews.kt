@@ -34,7 +34,7 @@ import coil3.compose.SubcomposeAsyncImage
 import coil3.compose.SubcomposeAsyncImageContent
 import eu.kanade.domain.manga.model.PagePreview
 import eu.kanade.presentation.manga.MangaScreenItem
-import eu.kanade.tachiyomi.ui.manga.PagePreviewState
+import eu.fiax.faxyomi.ui.manga.PagePreviewState
 import exh.util.floor
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList

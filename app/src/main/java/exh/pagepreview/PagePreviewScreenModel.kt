@@ -7,7 +7,7 @@ import cafe.adriel.voyager.core.model.StateScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import eu.kanade.domain.manga.interactor.GetPagePreviews
 import eu.kanade.domain.manga.model.PagePreview
-import eu.kanade.tachiyomi.source.Source
+import eu.fiax.faxyomi.source.Source
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collect

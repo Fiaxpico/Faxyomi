@@ -2,7 +2,7 @@ package mihon.core.migration.migrations
 
 import android.app.Application
 import androidx.preference.PreferenceManager
-import eu.kanade.tachiyomi.core.security.SecurityPreferences
+import eu.fiax.faxyomi.core.security.SecurityPreferences
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
 import tachiyomi.core.common.util.lang.withIOContext

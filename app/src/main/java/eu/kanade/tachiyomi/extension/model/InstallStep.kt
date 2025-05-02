@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.model
+package eu.fiax.faxyomi.extension.model
 
 enum class InstallStep {
     Idle,

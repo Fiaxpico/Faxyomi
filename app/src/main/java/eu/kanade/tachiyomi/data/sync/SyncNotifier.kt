@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.sync
+package eu.fiax.faxyomi.data.sync
 
 import android.content.Context
 import android.graphics.BitmapFactory
 import androidx.core.app.NotificationCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.core.security.SecurityPreferences
-import eu.kanade.tachiyomi.data.notification.NotificationReceiver
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.system.cancelNotification
-import eu.kanade.tachiyomi.util.system.notificationBuilder
-import eu.kanade.tachiyomi.util.system.notify
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.core.security.SecurityPreferences
+import eu.fiax.faxyomi.data.notification.NotificationReceiver
+import eu.fiax.faxyomi.data.notification.Notifications
+import eu.fiax.faxyomi.util.system.cancelNotification
+import eu.fiax.faxyomi.util.system.notificationBuilder
+import eu.fiax.faxyomi.util.system.notify
 import uy.kohesive.injekt.injectLazy
 
 class SyncNotifier(private val context: Context) {

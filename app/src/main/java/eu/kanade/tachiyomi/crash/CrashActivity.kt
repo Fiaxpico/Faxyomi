@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.crash
+package eu.fiax.faxyomi.crash
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.view.WindowCompat
 import eu.kanade.presentation.crash.CrashScreen
-import eu.kanade.tachiyomi.ui.base.activity.BaseActivity
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.view.setComposeContent
+import eu.fiax.faxyomi.ui.base.activity.BaseActivity
+import eu.fiax.faxyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.util.view.setComposeContent
 
 class CrashActivity : BaseActivity() {
 

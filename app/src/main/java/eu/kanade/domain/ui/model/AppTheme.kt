@@ -1,8 +1,8 @@
 package eu.kanade.domain.ui.model
 
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.util.system.isDevFlavor
-import eu.kanade.tachiyomi.util.system.isPreviewBuildType
+import eu.fiax.faxyomi.util.system.isDevFlavor
+import eu.fiax.faxyomi.util.system.isPreviewBuildType
 import tachiyomi.i18n.MR
 
 enum class AppTheme(val titleRes: StringResource?) {

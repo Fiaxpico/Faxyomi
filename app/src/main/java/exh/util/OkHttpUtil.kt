@@ -1,6 +1,6 @@
 package exh.util
 
-import eu.kanade.tachiyomi.util.asJsoup
+import eu.fiax.faxyomi.util.asJsoup
 import exh.log.xLogW
 import okhttp3.Response
 import okhttp3.ResponseBody.Companion.toResponseBody

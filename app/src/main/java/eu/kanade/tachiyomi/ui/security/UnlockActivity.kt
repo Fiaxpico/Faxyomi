@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.security
+package eu.fiax.faxyomi.ui.security
 
 import android.os.Bundle
 import androidx.biometric.BiometricPrompt
 import androidx.fragment.app.FragmentActivity
-import eu.kanade.tachiyomi.ui.base.activity.BaseActivity
-import eu.kanade.tachiyomi.ui.base.delegate.SecureActivityDelegate
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil.startAuthentication
+import eu.fiax.faxyomi.ui.base.activity.BaseActivity
+import eu.fiax.faxyomi.ui.base.delegate.SecureActivityDelegate
+import eu.fiax.faxyomi.util.system.AuthenticatorUtil
+import eu.fiax.faxyomi.util.system.AuthenticatorUtil.startAuthentication
 import logcat.LogPriority
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.core.common.util.system.logcat

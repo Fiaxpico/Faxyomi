@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.updates
+package eu.fiax.faxyomi.ui.updates
 
 import androidx.compose.animation.graphics.res.animatedVectorResource
 import androidx.compose.animation.graphics.res.rememberAnimatedVectorPainter
@@ -22,13 +22,13 @@ import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.presentation.updates.UpdateScreen
 import eu.kanade.presentation.updates.UpdatesDeleteConfirmationDialog
 import eu.kanade.presentation.util.Tab
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.download.DownloadQueueScreen
-import eu.kanade.tachiyomi.ui.home.HomeScreen
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.ui.updates.UpdatesScreenModel.Event
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.download.DownloadQueueScreen
+import eu.fiax.faxyomi.ui.home.HomeScreen
+import eu.fiax.faxyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.reader.ReaderActivity
+import eu.fiax.faxyomi.ui.updates.UpdatesScreenModel.Event
 import kotlinx.coroutines.flow.collectLatest
 import mihon.feature.upcoming.UpcomingScreen
 import tachiyomi.core.common.i18n.stringResource

@@ -13,7 +13,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.semantics.Role
 import coil3.compose.AsyncImage
 import eu.kanade.presentation.util.rememberResourceBitmapPainter
-import eu.kanade.tachiyomi.R
+import eu.fiax.faxyomi.R
 
 enum class MangaCover(val ratio: Float) {
     Square(1f / 1f),

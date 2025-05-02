@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.ui.reader.loader
+package eu.fiax.faxyomi.ui.reader.loader
 
 import eu.kanade.domain.source.service.SourcePreferences
-import eu.kanade.tachiyomi.data.cache.ChapterCache
-import eu.kanade.tachiyomi.data.database.models.toDomainChapter
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.data.cache.ChapterCache
+import eu.fiax.faxyomi.data.database.models.toDomainChapter
+import eu.fiax.faxyomi.source.model.Page
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.ui.reader.model.ReaderChapter
+import eu.fiax.faxyomi.ui.reader.model.ReaderPage
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
 import exh.source.isEhBasedSource
 import exh.util.DataSaver
 import exh.util.DataSaver.Companion.getImage

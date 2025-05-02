@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.navigation
+package eu.fiax.faxyomi.ui.reader.viewer.navigation
 
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation
+import eu.fiax.faxyomi.ui.reader.viewer.ViewerNavigation
 
 /**
  * Visualization of default state without any inversion

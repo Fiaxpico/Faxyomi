@@ -14,10 +14,10 @@ import eu.kanade.domain.source.interactor.GetSourceCategories
 import eu.kanade.domain.source.interactor.RenameSourceCategory
 import eu.kanade.domain.source.interactor.SetSourceCategories
 import eu.kanade.domain.source.interactor.ToggleExcludeFromDataSaver
-import eu.kanade.tachiyomi.di.InjektModule
-import eu.kanade.tachiyomi.di.addFactory
-import eu.kanade.tachiyomi.di.addSingletonFactory
-import eu.kanade.tachiyomi.source.online.MetadataSource
+import eu.fiax.faxyomi.di.InjektModule
+import eu.fiax.faxyomi.di.addFactory
+import eu.fiax.faxyomi.di.addSingletonFactory
+import eu.fiax.faxyomi.source.online.MetadataSource
 import exh.search.SearchEngine
 import tachiyomi.data.manga.CustomMangaRepositoryImpl
 import tachiyomi.data.manga.FavoritesEntryRepositoryImpl

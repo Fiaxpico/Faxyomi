@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.data.track.myanimelist
+package eu.fiax.faxyomi.data.track.myanimelist
 
 import android.graphics.Color
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.BaseTracker
-import eu.kanade.tachiyomi.data.track.DeletableTracker
-import eu.kanade.tachiyomi.data.track.model.TrackMangaMetadata
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.data.track.myanimelist.dto.MALOAuth
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.BaseTracker
+import eu.fiax.faxyomi.data.track.DeletableTracker
+import eu.fiax.faxyomi.data.track.model.TrackMangaMetadata
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.data.track.myanimelist.dto.MALOAuth
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.serialization.json.Json

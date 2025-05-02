@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.updates
+package eu.fiax.faxyomi.ui.updates
 
 import android.app.Application
 import androidx.compose.material3.SnackbarHostState
@@ -12,12 +12,12 @@ import eu.kanade.core.util.insertSeparators
 import eu.kanade.domain.chapter.interactor.SetReadStatus
 import eu.kanade.presentation.manga.components.ChapterDownloadAction
 import eu.kanade.presentation.updates.UpdatesUiModel
-import eu.kanade.tachiyomi.data.download.DownloadCache
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
-import eu.kanade.tachiyomi.util.lang.toLocalDate
+import eu.fiax.faxyomi.data.download.DownloadCache
+import eu.fiax.faxyomi.data.download.DownloadManager
+import eu.fiax.faxyomi.data.download.model.Download
+import eu.fiax.faxyomi.data.library.LibraryUpdateJob
+import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
+import eu.fiax.faxyomi.util.lang.toLocalDate
 import exh.source.EH_SOURCE_ID
 import exh.source.EXH_SOURCE_ID
 import kotlinx.collections.immutable.PersistentList

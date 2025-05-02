@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.network
+package eu.fiax.faxyomi.network
 
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.OkHttpClient

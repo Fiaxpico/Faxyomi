@@ -1,6 +1,6 @@
 package tachiyomi.source.local
 
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.UnmeteredSource
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.UnmeteredSource
 
 expect class LocalSource : CatalogueSource, UnmeteredSource

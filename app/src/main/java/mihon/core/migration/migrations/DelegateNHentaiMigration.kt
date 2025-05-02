@@ -1,6 +1,6 @@
 package mihon.core.migration.migrations
 
-import eu.kanade.tachiyomi.source.online.all.NHentai
+import eu.fiax.faxyomi.source.online.all.NHentai
 import mihon.core.migration.MigrateUtils
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext

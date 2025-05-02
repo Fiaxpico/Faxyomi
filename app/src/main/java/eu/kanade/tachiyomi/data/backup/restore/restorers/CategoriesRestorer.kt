@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.backup.restore.restorers
+package eu.fiax.faxyomi.data.backup.restore.restorers
 
-import eu.kanade.tachiyomi.data.backup.models.BackupCategory
+import eu.fiax.faxyomi.data.backup.models.BackupCategory
 import tachiyomi.data.DatabaseHandler
 import tachiyomi.domain.category.interactor.GetCategories
 import tachiyomi.domain.library.service.LibraryPreferences

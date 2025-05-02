@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.sync.service
+package eu.fiax.faxyomi.data.sync.service
 
 import android.app.Activity
 import android.content.Context
@@ -18,7 +18,7 @@ import com.google.api.services.drive.Drive
 import com.google.api.services.drive.DriveScopes
 import com.google.api.services.drive.model.File
 import eu.kanade.domain.sync.SyncPreferences
-import eu.kanade.tachiyomi.data.backup.models.Backup
+import eu.fiax.faxyomi.data.backup.models.Backup
 import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.protobuf.ProtoBuf

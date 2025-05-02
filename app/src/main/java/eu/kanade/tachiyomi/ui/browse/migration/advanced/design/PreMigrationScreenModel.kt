@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.design
+package eu.fiax.faxyomi.ui.browse.migration.advanced.design
 
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.kanade.domain.source.service.SourcePreferences
-import eu.kanade.tachiyomi.databinding.PreMigrationListBinding
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.databinding.PreMigrationListBinding
+import eu.fiax.faxyomi.source.online.HttpSource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

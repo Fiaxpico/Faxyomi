@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.kavita
+package eu.fiax.faxyomi.data.track.kavita
 
-import eu.kanade.tachiyomi.BuildConfig
+import eu.fiax.faxyomi.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.Response
 

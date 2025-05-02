@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.source.online
+package eu.fiax.faxyomi.source.online
 
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.model.SChapter
+import eu.fiax.faxyomi.source.model.SManga
 
 /**
  * A source that may handle opening an SManga or SChapter for a given URI.

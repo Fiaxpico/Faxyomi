@@ -1,6 +1,6 @@
 package eu.kanade.domain.manga.model
 
-import eu.kanade.tachiyomi.source.PagePreviewInfo
+import eu.fiax.faxyomi.source.PagePreviewInfo
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.serialization.Serializable

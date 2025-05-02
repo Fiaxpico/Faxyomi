@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.deeplink
+package eu.fiax.faxyomi.ui.deeplink
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import eu.kanade.tachiyomi.ui.main.MainActivity
+import eu.fiax.faxyomi.ui.main.MainActivity
 
 class DeepLinkActivity : Activity() {
 

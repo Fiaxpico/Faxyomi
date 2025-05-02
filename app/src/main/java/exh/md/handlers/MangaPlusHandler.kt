@@ -1,9 +1,9 @@
 package exh.md.handlers
 
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.interceptor.rateLimitHost
-import eu.kanade.tachiyomi.source.model.Page
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.interceptor.rateLimitHost
+import eu.fiax.faxyomi.source.model.Page
 import exh.md.dto.MangaPlusPage
 import exh.md.dto.MangaPlusResponse
 import kotlinx.serialization.decodeFromString

@@ -6,10 +6,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.DescriptionAdapterHbBinding
-import eu.kanade.tachiyomi.ui.manga.MangaScreenModel.State
-import eu.kanade.tachiyomi.util.system.copyToClipboard
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.databinding.DescriptionAdapterHbBinding
+import eu.fiax.faxyomi.ui.manga.MangaScreenModel.State
+import eu.fiax.faxyomi.util.system.copyToClipboard
 import exh.metadata.metadata.HBrowseSearchMetadata
 import exh.ui.metadata.adapters.MetadataUIUtil.bindDrawable
 import tachiyomi.core.common.i18n.pluralStringResource

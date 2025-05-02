@@ -25,8 +25,8 @@ import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.util.system.LocaleHelper
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import org.xmlpull.v1.XmlPullParser

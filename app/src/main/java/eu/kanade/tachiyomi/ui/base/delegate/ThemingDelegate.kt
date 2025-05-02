@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.base.delegate
+package eu.fiax.faxyomi.ui.base.delegate
 
 import android.app.Activity
 import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.domain.ui.model.AppTheme
-import eu.kanade.tachiyomi.R
+import eu.fiax.faxyomi.R
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

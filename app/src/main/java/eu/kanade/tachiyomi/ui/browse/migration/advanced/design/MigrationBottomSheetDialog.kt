@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.design
+package eu.fiax.faxyomi.ui.browse.migration.advanced.design
 
 import android.view.LayoutInflater
 import android.widget.CompoundButton
@@ -14,9 +14,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.isVisible
 import eu.kanade.presentation.components.AdaptiveSheet
-import eu.kanade.tachiyomi.databinding.MigrationBottomSheetBinding
-import eu.kanade.tachiyomi.ui.browse.migration.MigrationFlags
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.databinding.MigrationBottomSheetBinding
+import eu.fiax.faxyomi.ui.browse.migration.MigrationFlags
+import eu.fiax.faxyomi.util.system.toast
 import tachiyomi.core.common.preference.Preference
 import tachiyomi.core.common.util.lang.toLong
 import tachiyomi.domain.UnsortedPreferences

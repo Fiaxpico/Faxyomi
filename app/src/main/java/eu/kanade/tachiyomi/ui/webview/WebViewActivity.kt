@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.webview
+package eu.fiax.faxyomi.ui.webview
 
 import android.app.Activity
 import android.app.assist.AssistContent
@@ -9,15 +9,15 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.core.net.toUri
 import eu.kanade.presentation.webview.WebViewScreenContent
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.base.activity.BaseActivity
-import eu.kanade.tachiyomi.util.system.WebViewUtil
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.system.toShareIntent
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.view.setComposeContent
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.network.NetworkHelper
+import eu.fiax.faxyomi.source.online.HttpSource
+import eu.fiax.faxyomi.ui.base.activity.BaseActivity
+import eu.fiax.faxyomi.util.system.WebViewUtil
+import eu.fiax.faxyomi.util.system.openInBrowser
+import eu.fiax.faxyomi.util.system.toShareIntent
+import eu.fiax.faxyomi.util.system.toast
+import eu.fiax.faxyomi.util.view.setComposeContent
 import logcat.LogPriority
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import tachiyomi.core.common.util.system.logcat

@@ -1,6 +1,6 @@
 package xyz.nulldev.ts.api.http.serializer
 
-import eu.kanade.tachiyomi.source.model.Filter
+import eu.fiax.faxyomi.source.model.Filter
 import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonObjectBuilder

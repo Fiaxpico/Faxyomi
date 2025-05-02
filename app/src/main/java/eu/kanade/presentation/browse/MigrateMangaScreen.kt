@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.manga.components.BaseMangaListItem
-import eu.kanade.tachiyomi.ui.browse.migration.manga.MigrateMangaScreenModel
+import eu.fiax.faxyomi.ui.browse.migration.manga.MigrateMangaScreenModel
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.components.FastScrollLazyColumn

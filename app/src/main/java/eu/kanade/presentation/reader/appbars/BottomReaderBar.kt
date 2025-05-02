@@ -18,10 +18,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderBottomButton
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderOrientation
-import eu.kanade.tachiyomi.ui.reader.setting.ReadingMode
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.ui.reader.setting.ReaderBottomButton
+import eu.fiax.faxyomi.ui.reader.setting.ReaderOrientation
+import eu.fiax.faxyomi.ui.reader.setting.ReadingMode
 import kotlinx.collections.immutable.ImmutableSet
 import tachiyomi.i18n.MR
 import tachiyomi.i18n.sy.SYMR

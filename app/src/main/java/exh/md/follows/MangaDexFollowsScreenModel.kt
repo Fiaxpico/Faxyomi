@@ -1,8 +1,8 @@
 package exh.md.follows
 
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.online.all.MangaDex
-import eu.kanade.tachiyomi.ui.browse.source.browse.BrowseSourceScreenModel
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.online.all.MangaDex
+import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreenModel
 import exh.metadata.metadata.RaisedSearchMetadata
 import exh.source.getMainSource
 import kotlinx.coroutines.flow.Flow

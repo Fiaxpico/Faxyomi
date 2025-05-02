@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.source.feed
+package eu.fiax.faxyomi.ui.browse.source.feed
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
@@ -14,9 +14,9 @@ import eu.kanade.domain.manga.model.toDomainManga
 import eu.kanade.domain.source.interactor.GetExhSavedSearch
 import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.presentation.browse.SourceFeedUI
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.online.all.MangaDex
+import eu.fiax.faxyomi.source.CatalogueSource
+import eu.fiax.faxyomi.source.model.FilterList
+import eu.fiax.faxyomi.source.online.all.MangaDex
 import exh.source.getMainSource
 import exh.source.mangaDexSourceIds
 import exh.util.nullIfBlank

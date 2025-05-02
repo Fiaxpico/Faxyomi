@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.sync
+package eu.fiax.faxyomi.data.sync
 
 import android.content.Context
 import android.content.pm.ServiceInfo
@@ -13,12 +13,12 @@ import androidx.work.WorkInfo
 import androidx.work.WorkQuery
 import androidx.work.WorkerParameters
 import eu.kanade.domain.sync.SyncPreferences
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.system.cancelNotification
-import eu.kanade.tachiyomi.util.system.isOnline
-import eu.kanade.tachiyomi.util.system.isRunning
-import eu.kanade.tachiyomi.util.system.setForegroundSafely
-import eu.kanade.tachiyomi.util.system.workManager
+import eu.fiax.faxyomi.data.notification.Notifications
+import eu.fiax.faxyomi.util.system.cancelNotification
+import eu.fiax.faxyomi.util.system.isOnline
+import eu.fiax.faxyomi.util.system.isRunning
+import eu.fiax.faxyomi.util.system.setForegroundSafely
+import eu.fiax.faxyomi.util.system.workManager
 import logcat.LogPriority
 import tachiyomi.core.common.util.system.logcat
 import uy.kohesive.injekt.Injekt

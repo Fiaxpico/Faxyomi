@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.browse.migration.advanced.design
+package eu.fiax.faxyomi.ui.browse.migration.advanced.design
 
 import android.graphics.Paint.STRIKE_THRU_TEXT_FLAG
 import android.view.View
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.databinding.MigrationSourceItemBinding
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.fiax.faxyomi.databinding.MigrationSourceItemBinding
+import eu.fiax.faxyomi.extension.ExtensionManager
+import eu.fiax.faxyomi.source.online.HttpSource
 import exh.util.capitalize
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get

@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.data.track.kavita
+package eu.fiax.faxyomi.data.track.kavita
 
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.POST
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.network.GET
+import eu.fiax.faxyomi.network.POST
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.network.parseAs
 import kotlinx.serialization.json.Json
 import logcat.LogPriority
 import okhttp3.Dns

@@ -1,9 +1,9 @@
 package exh.uconfig
 
 import android.content.Context
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.source.online.all.EHentai
-import eu.kanade.tachiyomi.util.asJsoup
+import eu.fiax.faxyomi.network.awaitSuccess
+import eu.fiax.faxyomi.source.online.all.EHentai
+import eu.fiax.faxyomi.util.asJsoup
 import exh.log.maybeInjectEHLogger
 import exh.log.xLogD
 import exh.source.EH_SOURCE_ID

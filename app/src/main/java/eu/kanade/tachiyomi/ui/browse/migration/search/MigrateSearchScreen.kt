@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.search
+package eu.fiax.faxyomi.ui.browse.migration.search
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -8,8 +8,8 @@ import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.browse.MigrateSearchScreen
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.process.MigrationListScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.browse.migration.advanced.process.MigrationListScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
 
 class MigrateSearchScreen(private val mangaId: Long, private val validSources: List<Long>) : Screen() {
 

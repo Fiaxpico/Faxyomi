@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base.delegate
+package eu.fiax.faxyomi.ui.base.delegate
 
 import android.app.Activity
 import android.content.Intent
@@ -8,12 +8,12 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.core.security.SecurityPreferences
-import eu.kanade.tachiyomi.ui.category.biometric.TimeRange
-import eu.kanade.tachiyomi.ui.security.UnlockActivity
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil.isAuthenticationSupported
-import eu.kanade.tachiyomi.util.view.setSecureScreen
+import eu.fiax.faxyomi.core.security.SecurityPreferences
+import eu.fiax.faxyomi.ui.category.biometric.TimeRange
+import eu.fiax.faxyomi.ui.security.UnlockActivity
+import eu.fiax.faxyomi.util.system.AuthenticatorUtil
+import eu.fiax.faxyomi.util.system.AuthenticatorUtil.isAuthenticationSupported
+import eu.fiax.faxyomi.util.view.setSecureScreen
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

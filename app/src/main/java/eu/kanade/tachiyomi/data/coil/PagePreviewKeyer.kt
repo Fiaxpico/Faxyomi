@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.coil
+package eu.fiax.faxyomi.data.coil
 
 import coil3.key.Keyer
 import coil3.request.Options

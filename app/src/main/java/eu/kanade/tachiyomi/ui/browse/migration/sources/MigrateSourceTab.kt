@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.sources
+package eu.fiax.faxyomi.ui.browse.migration.sources
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.HelpOutline
@@ -13,8 +13,8 @@ import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.browse.MigrateSourceScreen
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.TabContent
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.design.PreMigrationScreen
-import eu.kanade.tachiyomi.ui.browse.migration.manga.MigrateMangaScreen
+import eu.fiax.faxyomi.ui.browse.migration.advanced.design.PreMigrationScreen
+import eu.fiax.faxyomi.ui.browse.migration.manga.MigrateMangaScreen
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.DelicateCoroutinesApi
 import tachiyomi.core.common.util.lang.launchIO

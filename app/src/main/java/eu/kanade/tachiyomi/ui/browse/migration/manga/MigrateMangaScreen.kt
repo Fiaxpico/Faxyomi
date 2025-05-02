@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.migration.manga
+package eu.fiax.faxyomi.ui.browse.migration.manga
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -10,9 +10,9 @@ import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.presentation.browse.MigrateMangaScreen
 import eu.kanade.presentation.util.Screen
-import eu.kanade.tachiyomi.ui.browse.migration.advanced.design.PreMigrationScreen
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.ui.browse.migration.advanced.design.PreMigrationScreen
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.util.system.toast
 import kotlinx.coroutines.flow.collectLatest
 import tachiyomi.domain.UnsortedPreferences
 import tachiyomi.i18n.MR

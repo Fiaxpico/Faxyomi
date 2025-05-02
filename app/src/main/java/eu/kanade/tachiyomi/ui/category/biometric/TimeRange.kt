@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.category.biometric
+package eu.fiax.faxyomi.ui.category.biometric
 
 import android.content.Context
 import android.text.format.DateFormat

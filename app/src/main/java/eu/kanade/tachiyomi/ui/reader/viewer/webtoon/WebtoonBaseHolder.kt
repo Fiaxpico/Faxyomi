@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.webtoon
+package eu.fiax.faxyomi.ui.reader.viewer.webtoon
 
 import android.content.Context
 import android.view.View

@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.extension.installer
+package eu.fiax.faxyomi.extension.installer
 
 import android.app.Service
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Process
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.util.system.getUriSize
-import eu.kanade.tachiyomi.util.system.toast
+import eu.fiax.faxyomi.extension.model.InstallStep
+import eu.fiax.faxyomi.util.system.getUriSize
+import eu.fiax.faxyomi.util.system.toast
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

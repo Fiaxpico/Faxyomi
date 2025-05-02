@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.browse.extension
+package eu.fiax.faxyomi.ui.browse.extension
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Text
@@ -16,10 +16,10 @@ import eu.kanade.presentation.browse.ExtensionScreen
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.TabContent
 import eu.kanade.presentation.more.settings.screen.browse.ExtensionReposScreen
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.ui.browse.extension.details.ExtensionDetailsScreen
-import eu.kanade.tachiyomi.ui.webview.WebViewScreen
-import eu.kanade.tachiyomi.util.system.isPackageInstalled
+import eu.fiax.faxyomi.extension.model.Extension
+import eu.fiax.faxyomi.ui.browse.extension.details.ExtensionDetailsScreen
+import eu.fiax.faxyomi.ui.webview.WebViewScreen
+import eu.fiax.faxyomi.util.system.isPackageInstalled
 import kotlinx.collections.immutable.persistentListOf
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.i18n.stringResource

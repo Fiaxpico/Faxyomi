@@ -1,3 +1,3 @@
-package eu.kanade.tachiyomi.source
+package eu.fiax.faxyomi.source
 
 actual typealias PreferenceScreen = androidx.preference.PreferenceScreen

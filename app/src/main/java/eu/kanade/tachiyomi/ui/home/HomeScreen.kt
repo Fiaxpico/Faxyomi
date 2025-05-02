@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.home
+package eu.fiax.faxyomi.ui.home
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedContent
@@ -41,13 +41,13 @@ import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.presentation.util.Screen
 import eu.kanade.presentation.util.isTabletUi
-import eu.kanade.tachiyomi.ui.browse.BrowseTab
-import eu.kanade.tachiyomi.ui.download.DownloadQueueScreen
-import eu.kanade.tachiyomi.ui.history.HistoryTab
-import eu.kanade.tachiyomi.ui.library.LibraryTab
-import eu.kanade.tachiyomi.ui.manga.MangaScreen
-import eu.kanade.tachiyomi.ui.more.MoreTab
-import eu.kanade.tachiyomi.ui.updates.UpdatesTab
+import eu.fiax.faxyomi.ui.browse.BrowseTab
+import eu.fiax.faxyomi.ui.download.DownloadQueueScreen
+import eu.fiax.faxyomi.ui.history.HistoryTab
+import eu.fiax.faxyomi.ui.library.LibraryTab
+import eu.fiax.faxyomi.ui.manga.MangaScreen
+import eu.fiax.faxyomi.ui.more.MoreTab
+import eu.fiax.faxyomi.ui.updates.UpdatesTab
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.combine

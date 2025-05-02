@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.track.kavita
+package eu.fiax.faxyomi.data.track.kavita
 
 import android.graphics.Color
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.BaseTracker
-import eu.kanade.tachiyomi.data.track.EnhancedTracker
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.source.ConfigurableSource
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.sourcePreferences
+import eu.fiax.faxyomi.R
+import eu.fiax.faxyomi.data.database.models.Track
+import eu.fiax.faxyomi.data.track.BaseTracker
+import eu.fiax.faxyomi.data.track.EnhancedTracker
+import eu.fiax.faxyomi.data.track.model.TrackSearch
+import eu.fiax.faxyomi.source.ConfigurableSource
+import eu.fiax.faxyomi.source.Source
+import eu.fiax.faxyomi.source.sourcePreferences
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import tachiyomi.domain.manga.model.Manga

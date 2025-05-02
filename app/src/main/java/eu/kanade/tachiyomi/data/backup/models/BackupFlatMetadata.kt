@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.backup.models
+package eu.fiax.faxyomi.data.backup.models
 
-import eu.kanade.tachiyomi.data.backup.models.metadata.BackupSearchMetadata
-import eu.kanade.tachiyomi.data.backup.models.metadata.BackupSearchTag
-import eu.kanade.tachiyomi.data.backup.models.metadata.BackupSearchTitle
+import eu.fiax.faxyomi.data.backup.models.metadata.BackupSearchMetadata
+import eu.fiax.faxyomi.data.backup.models.metadata.BackupSearchTag
+import eu.fiax.faxyomi.data.backup.models.metadata.BackupSearchTitle
 import exh.metadata.metadata.base.FlatMetadata
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.protobuf.ProtoNumber
