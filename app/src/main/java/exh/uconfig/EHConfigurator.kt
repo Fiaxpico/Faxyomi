@@ -11,10 +11,10 @@ import exh.source.EXH_SOURCE_ID
 import okhttp3.FormBody
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.domain.UnsortedPreferences
-import tachiyomi.domain.source.service.SourceManager
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.domain.UnsortedPreferences
+import faxyomi.domain.source.service.SourceManager
+import faxyomi.i18n.sy.SYMR
 import uy.kohesive.injekt.injectLazy
 import java.util.Locale
 
@@ -157,7 +157,7 @@ class EHConfigurator(val context: Context) {
     }
 
     companion object {
-        private const val PROFILE_NAME = "TachiyomiEH App"
+        private const val PROFILE_NAME = "faxyomiEH App"
         private const val UCONFIG_URL = "/uconfig.php"
 
         // Always use E-H here as EXH does not have a perks page

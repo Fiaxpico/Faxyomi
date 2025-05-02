@@ -2,8 +2,8 @@ package mihon.domain.upcoming.interactor
 
 import eu.fiax.faxyomi.source.model.SManga
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.repository.MangaRepository
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.repository.MangaRepository
 
 class GetUpcomingManga(
     private val mangaRepository: MangaRepository,

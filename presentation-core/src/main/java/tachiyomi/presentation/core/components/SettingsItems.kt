@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components
+package faxyomi.presentation.core.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -51,15 +51,15 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import dev.icerock.moko.resources.StringResource
-import tachiyomi.core.common.preference.Preference
-import tachiyomi.core.common.preference.TriState
-import tachiyomi.core.common.preference.toggle
-import tachiyomi.presentation.core.components.material.DISABLED_ALPHA
-import tachiyomi.presentation.core.components.material.Slider
-import tachiyomi.presentation.core.components.material.padding
-import tachiyomi.presentation.core.i18n.stringResource
-import tachiyomi.presentation.core.theme.header
-import tachiyomi.presentation.core.util.collectAsState
+import faxyomi.core.common.preference.Preference
+import faxyomi.core.common.preference.TriState
+import faxyomi.core.common.preference.toggle
+import faxyomi.presentation.core.components.material.DISABLED_ALPHA
+import faxyomi.presentation.core.components.material.Slider
+import faxyomi.presentation.core.components.material.padding
+import faxyomi.presentation.core.i18n.stringResource
+import faxyomi.presentation.core.theme.header
+import faxyomi.presentation.core.util.collectAsState
 
 object SettingsItemsPaddings {
     val Horizontal = 24.dp

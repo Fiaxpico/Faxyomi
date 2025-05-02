@@ -2,14 +2,14 @@ Looking to report an issue/bug or make a feature request? Please refer to the [R
 
 ---
 
-Thanks for your interest in contributing to Tachiyomi!
+Thanks for your interest in contributing to faxyomi!
 
 
 # Code contributions
 
 Pull requests are welcome!
 
-If you're interested in taking on [an open issue](https://github.com/jobobby04/TachiyomiSY/issues), please comment on it so others are aware.
+If you're interested in taking on [an open issue](https://github.com/jobobby04/faxyomiSY/issues), please comment on it so others are aware.
 You do not need to ask for permission nor an assignment.
 
 ## Prerequisites
@@ -42,7 +42,7 @@ When creating a fork, remember to:
 - To avoid confusion with the main app:
     - Change the app name
     - Change the app icon
-    - Change or disable the [app update checker](/app/src/main/java/eu/kanade/tachiyomi/data/updater/AppUpdateChecker.kt)
+    - Change or disable the [app update checker](/app/src/main/java/eu/fiax/faxyomi/data/updater/AppUpdateChecker.kt)
 - To avoid installation conflicts:
     - Change the `applicationId` in [`build.gradle.kts`](/app/build.gradle.kts)
 
@@ -58,7 +58,7 @@ When creating a fork, remember to:
 8. Click publish
 9. Go to API & Services -> Credentials
 10. Click Create credentials -> Oauth client ID
-11. Select Android, give it a name, and set `eu.kanade.google.oauth` as the package name
+11. Select Android, give it a name, and set `eu.fiax.google.oauth` as the package name
 12. To get the SHA-1 key, run `keytool -printcert -jarfile app-standard-universal-release.apk` on your apk, and copy the listed SHA-1
 13. Expand advanced settings, and enable Custom URL scheme
 14. After that just download the json, name it to `client_secrets.json` and put it in `app/src/main/assets/`

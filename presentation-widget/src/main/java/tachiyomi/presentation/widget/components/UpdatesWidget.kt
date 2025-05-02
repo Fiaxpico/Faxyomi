@@ -1,4 +1,4 @@
-package tachiyomi.presentation.widget.components
+package faxyomi.presentation.widget.components
 
 import android.content.Intent
 import android.graphics.Bitmap
@@ -22,10 +22,10 @@ import androidx.glance.text.Text
 import androidx.glance.text.TextStyle
 import androidx.glance.unit.ColorProvider
 import kotlinx.collections.immutable.ImmutableList
-import tachiyomi.core.common.Constants
-import tachiyomi.i18n.MR
-import tachiyomi.presentation.core.i18n.stringResource
-import tachiyomi.presentation.widget.util.calculateRowAndColumnCount
+import faxyomi.core.common.Constants
+import faxyomi.i18n.MR
+import faxyomi.presentation.core.i18n.stringResource
+import faxyomi.presentation.widget.util.calculateRowAndColumnCount
 
 @Composable
 fun UpdatesWidget(

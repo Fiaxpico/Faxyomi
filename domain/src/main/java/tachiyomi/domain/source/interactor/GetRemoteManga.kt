@@ -1,8 +1,8 @@
-package tachiyomi.domain.source.interactor
+package faxyomi.domain.source.interactor
 
 import eu.fiax.faxyomi.source.model.FilterList
-import tachiyomi.domain.source.repository.SourcePagingSourceType
-import tachiyomi.domain.source.repository.SourceRepository
+import faxyomi.domain.source.repository.SourcePagingSourceType
+import faxyomi.domain.source.repository.SourceRepository
 
 class GetRemoteManga(
     private val repository: SourceRepository,
@@ -17,7 +17,7 @@ class GetRemoteManga(
     }
 
     companion object {
-        const val QUERY_POPULAR = "eu.kanade.domain.source.interactor.POPULAR"
-        const val QUERY_LATEST = "eu.kanade.domain.source.interactor.LATEST"
+        const val QUERY_POPULAR = "eu.fiax.domain.source.interactor.POPULAR"
+        const val QUERY_LATEST = "eu.fiax.domain.source.interactor.LATEST"
     }
 }

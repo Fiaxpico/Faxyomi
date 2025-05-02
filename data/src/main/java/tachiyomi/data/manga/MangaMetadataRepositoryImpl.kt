@@ -1,4 +1,4 @@
-package tachiyomi.data.manga
+package faxyomi.data.manga
 
 import exh.metadata.metadata.base.FlatMetadata
 import exh.metadata.sql.models.SearchMetadata
@@ -7,9 +7,9 @@ import exh.metadata.sql.models.SearchTitle
 import exh.source.EH_SOURCE_ID
 import exh.source.EXH_SOURCE_ID
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.repository.MangaMetadataRepository
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.repository.MangaMetadataRepository
 
 class MangaMetadataRepositoryImpl(
     private val handler: DatabaseHandler,

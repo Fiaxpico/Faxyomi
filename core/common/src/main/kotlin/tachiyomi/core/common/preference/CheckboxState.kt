@@ -1,4 +1,4 @@
-package tachiyomi.core.common.preference
+package faxyomi.core.common.preference
 
 sealed class CheckboxState<T>(open val value: T) {
 

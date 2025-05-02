@@ -1,8 +1,8 @@
-package tachiyomi.domain.chapter.service
+package faxyomi.domain.chapter.service
 
-import tachiyomi.core.common.util.lang.compareToWithCollator
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.core.common.util.lang.compareToWithCollator
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.manga.model.Manga
 
 fun getChapterSort(
     manga: Manga,

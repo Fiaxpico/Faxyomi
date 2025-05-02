@@ -5,7 +5,7 @@ import android.content.Context
 import androidx.core.content.edit
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.lang.withIOContext
 
 class ChangeTrackingQueueTypeMigration : Migration {
     override val version: Float = 44f

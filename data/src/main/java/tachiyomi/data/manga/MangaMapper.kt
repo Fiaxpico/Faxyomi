@@ -1,8 +1,8 @@
-package tachiyomi.data.manga
+package faxyomi.data.manga
 
 import eu.fiax.faxyomi.source.model.UpdateStrategy
-import tachiyomi.domain.library.model.LibraryManga
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.library.model.LibraryManga
+import faxyomi.domain.manga.model.Manga
 import tachiyomi.view.LibraryView
 
 object MangaMapper {

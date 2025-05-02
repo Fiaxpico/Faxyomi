@@ -1,4 +1,4 @@
-package tachiyomi.domain.chapter.service
+package faxyomi.domain.chapter.service
 
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Test

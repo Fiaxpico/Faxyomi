@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components
+package faxyomi.presentation.core.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.clickable
@@ -20,7 +20,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import tachiyomi.presentation.core.theme.header
+import faxyomi.presentation.core.theme.header
 
 @Composable
 fun CollapsibleBox(

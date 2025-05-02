@@ -1,6 +1,6 @@
-package tachiyomi.data.manga
+package faxyomi.data.manga
 
-import tachiyomi.domain.manga.model.MergedMangaReference
+import faxyomi.domain.manga.model.MergedMangaReference
 
 object MergedMangaMapper {
     fun map(

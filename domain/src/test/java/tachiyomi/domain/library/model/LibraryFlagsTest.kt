@@ -1,4 +1,4 @@
-package tachiyomi.domain.library.model
+package faxyomi.domain.library.model
 
 import io.kotest.matchers.shouldBe
 import io.kotest.matchers.shouldNotBe

@@ -1,7 +1,7 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
-import tachiyomi.domain.manga.model.MergeMangaSettingsUpdate
-import tachiyomi.domain.manga.repository.MangaMergeRepository
+import faxyomi.domain.manga.model.MergeMangaSettingsUpdate
+import faxyomi.domain.manga.repository.MangaMergeRepository
 
 class UpdateMergedSettings(
     private val mangaMergeRepository: MangaMergeRepository,

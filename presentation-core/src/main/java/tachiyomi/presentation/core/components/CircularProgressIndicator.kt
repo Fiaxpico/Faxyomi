@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components
+package faxyomi.presentation.core.components
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.LinearEasing

@@ -1,3 +1,3 @@
-package tachiyomi.domain.chapter.model
+package faxyomi.domain.chapter.model
 
 class NoChaptersException : Exception()

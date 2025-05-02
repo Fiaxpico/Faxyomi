@@ -1,13 +1,13 @@
 package mihon.core.migration.migrations
 
-import eu.kanade.domain.source.service.SourcePreferences
+import eu.fiax.domain.source.service.SourcePreferences
 import logcat.LogPriority
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
 import mihon.domain.extensionrepo.exception.SaveExtensionRepoException
 import mihon.domain.extensionrepo.repository.ExtensionRepoRepository
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.core.common.util.system.logcat
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.system.logcat
 
 class TrustExtensionRepositoryMigration : Migration {
     override val version: Float = 67f

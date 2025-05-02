@@ -19,8 +19,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import eu.kanade.presentation.components.AppBar
-import eu.fiax.faxyomi.R
+import eu.fiax.presentation.components.AppBar
+import eu.fiax.R
 import eu.fiax.faxyomi.source.online.UrlImportableSource
 import eu.fiax.faxyomi.ui.base.activity.BaseActivity
 import eu.fiax.faxyomi.ui.main.MainActivity
@@ -33,16 +33,16 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import tachiyomi.core.common.Constants
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.core.common.util.lang.launchIO
-import tachiyomi.core.common.util.lang.withUIContext
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.source.service.SourceManager
-import tachiyomi.i18n.MR
-import tachiyomi.i18n.sy.SYMR
-import tachiyomi.presentation.core.components.material.Scaffold
+import faxyomi.core.common.Constants
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.core.common.util.lang.launchIO
+import faxyomi.core.common.util.lang.withUIContext
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.source.service.SourceManager
+import faxyomi.i18n.MR
+import faxyomi.i18n.sy.SYMR
+import faxyomi.presentation.core.components.material.Scaffold
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

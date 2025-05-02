@@ -1,6 +1,6 @@
 package exh.md.handlers
 
-import eu.kanade.domain.track.service.TrackPreferences
+import eu.fiax.domain.track.service.TrackPreferences
 import eu.fiax.faxyomi.data.track.mdlist.MdList
 import eu.fiax.faxyomi.network.GET
 import eu.fiax.faxyomi.network.newCachelessCallWithProgress
@@ -15,7 +15,7 @@ import exh.md.utils.MdUtil
 import okhttp3.Call
 import okhttp3.Headers
 import rx.Observable
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.lang.withIOContext
 import kotlin.reflect.full.superclasses
 import kotlin.reflect.jvm.isAccessible
 

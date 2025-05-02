@@ -12,9 +12,9 @@ import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import okhttp3.HttpUrl.Companion.toHttpUrl
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.manga.model.Manga
+import faxyomi.i18n.sy.SYMR
 
 class MyAnimeListPagingSource(manga: Manga) : TrackerRecommendationPagingSource(
     "https://api.jikan.moe/v4/", manga,

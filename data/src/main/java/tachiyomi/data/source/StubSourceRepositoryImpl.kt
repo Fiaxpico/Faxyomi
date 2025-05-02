@@ -1,9 +1,9 @@
-package tachiyomi.data.source
+package faxyomi.data.source
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.source.model.StubSource
-import tachiyomi.domain.source.repository.StubSourceRepository
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.source.model.StubSource
+import faxyomi.domain.source.repository.StubSourceRepository
 
 class StubSourceRepositoryImpl(
     private val handler: DatabaseHandler,

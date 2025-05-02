@@ -1,6 +1,6 @@
-package tachiyomi.data.track
+package faxyomi.data.track
 
-import tachiyomi.domain.track.model.Track
+import faxyomi.domain.track.model.Track
 
 object TrackMapper {
     fun mapTrack(

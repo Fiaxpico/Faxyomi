@@ -2,22 +2,22 @@ package exh
 
 import android.content.Context
 import androidx.core.net.toUri
-import eu.kanade.domain.chapter.interactor.SyncChaptersWithSource
-import eu.kanade.domain.manga.interactor.UpdateManga
-import eu.kanade.domain.manga.model.toSManga
-import eu.kanade.domain.source.service.SourcePreferences
+import eu.fiax.domain.chapter.interactor.SyncChaptersWithSource
+import eu.fiax.domain.manga.interactor.UpdateManga
+import eu.fiax.domain.manga.model.toSManga
+import eu.fiax.domain.source.service.SourcePreferences
 import eu.fiax.faxyomi.source.online.UrlImportableSource
 import eu.fiax.faxyomi.source.online.all.EHentai
 import exh.log.xLogStack
 import exh.source.getMainSource
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.domain.chapter.interactor.GetChapter
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.manga.interactor.GetManga
-import tachiyomi.domain.manga.interactor.NetworkToLocalManga
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.source.service.SourceManager
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.domain.chapter.interactor.GetChapter
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.manga.interactor.GetManga
+import faxyomi.domain.manga.interactor.NetworkToLocalManga
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.source.service.SourceManager
+import faxyomi.i18n.sy.SYMR
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

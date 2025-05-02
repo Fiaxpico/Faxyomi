@@ -1,8 +1,8 @@
-package tachiyomi.domain.chapter.repository
+package faxyomi.domain.chapter.repository
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.chapter.model.ChapterUpdate
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.model.ChapterUpdate
 
 interface ChapterRepository {
 

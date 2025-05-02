@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components.material
+package faxyomi.presentation.core.components.material
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background

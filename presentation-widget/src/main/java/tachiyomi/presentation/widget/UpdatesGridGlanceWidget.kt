@@ -1,4 +1,4 @@
-package tachiyomi.presentation.widget
+package faxyomi.presentation.widget
 
 import android.annotation.SuppressLint
 import androidx.compose.ui.unit.dp

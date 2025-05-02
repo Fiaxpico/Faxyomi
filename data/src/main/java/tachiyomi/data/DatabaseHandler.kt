@@ -1,4 +1,4 @@
-package tachiyomi.data
+package faxyomi.data
 
 import androidx.paging.PagingSource
 import app.cash.sqldelight.ExecutableQuery

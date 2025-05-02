@@ -1,12 +1,12 @@
-package tachiyomi.domain.source.repository
+package faxyomi.domain.source.repository
 
 import androidx.paging.PagingSource
 import eu.fiax.faxyomi.source.model.FilterList
 import eu.fiax.faxyomi.source.model.SManga
 import exh.metadata.metadata.RaisedSearchMetadata
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.source.model.Source
-import tachiyomi.domain.source.model.SourceWithCount
+import faxyomi.domain.source.model.Source
+import faxyomi.domain.source.model.SourceWithCount
 
 typealias SourcePagingSourceType = PagingSource<Long, /*SY --> */ Pair<SManga, RaisedSearchMetadata?>/*SY <-- */>
 

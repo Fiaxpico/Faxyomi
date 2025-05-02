@@ -1,13 +1,13 @@
 package exh.util
 
 import android.content.Context
-import eu.kanade.domain.manga.model.toSManga
+import eu.fiax.domain.manga.model.toSManga
 import eu.fiax.faxyomi.source.model.MangasPage
 import eu.fiax.faxyomi.source.online.UrlImportableSource
 import exh.GalleryAddEvent
 import exh.GalleryAdder
 import rx.Observable
-import tachiyomi.core.common.util.lang.runAsObservable
+import faxyomi.core.common.util.lang.runAsObservable
 
 private val galleryAdder by lazy {
     GalleryAdder()

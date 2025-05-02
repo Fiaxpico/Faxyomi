@@ -1,10 +1,10 @@
-package tachiyomi.domain.source.interactor
+package faxyomi.domain.source.interactor
 
 import logcat.LogPriority
 import logcat.asLog
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.source.model.FeedSavedSearch
-import tachiyomi.domain.source.repository.FeedSavedSearchRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.source.model.FeedSavedSearch
+import faxyomi.domain.source.repository.FeedSavedSearchRepository
 
 class InsertFeedSavedSearch(
     private val feedSavedSearchRepository: FeedSavedSearchRepository,

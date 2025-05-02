@@ -1,6 +1,6 @@
-package tachiyomi.domain.library.model
+package faxyomi.domain.library.model
 
-import tachiyomi.domain.category.model.Category
+import faxyomi.domain.category.model.Category
 
 data class LibrarySort(
     val type: Type,

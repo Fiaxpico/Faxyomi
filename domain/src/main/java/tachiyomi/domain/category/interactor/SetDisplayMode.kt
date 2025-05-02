@@ -1,7 +1,7 @@
-package tachiyomi.domain.category.interactor
+package faxyomi.domain.category.interactor
 
-import tachiyomi.domain.library.model.LibraryDisplayMode
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.domain.library.model.LibraryDisplayMode
+import faxyomi.domain.library.service.LibraryPreferences
 
 class SetDisplayMode(
     private val preferences: LibraryPreferences,

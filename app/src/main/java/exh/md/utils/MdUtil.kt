@@ -1,9 +1,9 @@
 package exh.md.utils
 
 import android.app.Application
-import eu.kanade.domain.source.service.SourcePreferences
-import eu.kanade.domain.track.service.TrackPreferences
-import eu.fiax.faxyomi.R
+import eu.fiax.domain.source.service.SourcePreferences
+import eu.fiax.domain.track.service.TrackPreferences
+import eu.fiax.R
 import eu.fiax.faxyomi.data.track.mdlist.MdList
 import eu.fiax.faxyomi.data.track.myanimelist.dto.MALOAuth
 import eu.fiax.faxyomi.network.POST
@@ -26,8 +26,8 @@ import okhttp3.Request
 import okhttp3.RequestBody
 import okhttp3.RequestBody.Companion.toRequestBody
 import org.jsoup.parser.Parser
-import tachiyomi.domain.UnsortedPreferences
-import tachiyomi.domain.source.service.SourceManager
+import faxyomi.domain.UnsortedPreferences
+import faxyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import java.text.SimpleDateFormat

@@ -1,6 +1,6 @@
-package tachiyomi.domain.chapter.interactor
+package faxyomi.domain.chapter.interactor
 
-import tachiyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.model.Chapter
 
 class ShouldUpdateDbChapter {
 

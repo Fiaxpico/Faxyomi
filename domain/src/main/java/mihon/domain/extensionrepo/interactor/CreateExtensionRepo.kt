@@ -6,7 +6,7 @@ import mihon.domain.extensionrepo.model.ExtensionRepo
 import mihon.domain.extensionrepo.repository.ExtensionRepoRepository
 import mihon.domain.extensionrepo.service.ExtensionRepoService
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
-import tachiyomi.core.common.util.system.logcat
+import faxyomi.core.common.util.system.logcat
 
 class CreateExtensionRepo(
     private val repository: ExtensionRepoRepository,

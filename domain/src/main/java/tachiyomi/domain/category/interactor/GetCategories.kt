@@ -1,8 +1,8 @@
-package tachiyomi.domain.category.interactor
+package faxyomi.domain.category.interactor
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.category.model.Category
-import tachiyomi.domain.category.repository.CategoryRepository
+import faxyomi.domain.category.model.Category
+import faxyomi.domain.category.repository.CategoryRepository
 
 class GetCategories(
     private val categoryRepository: CategoryRepository,

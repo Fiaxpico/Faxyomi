@@ -1,0 +1,10 @@
+package eu.fiax.domain.extension.model
+
+import eu.fiax.faxyomi.extension.model.Extension
+
+data class Extensions(
+    val updates: List<Extension.Installed>,
+    val installed: List<Extension.Installed>,
+    val available: List<Extension.Available>,
+    val untrusted: List<Extension.Untrusted>,
+)

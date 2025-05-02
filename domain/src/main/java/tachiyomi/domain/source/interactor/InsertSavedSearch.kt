@@ -1,10 +1,10 @@
-package tachiyomi.domain.source.interactor
+package faxyomi.domain.source.interactor
 
 import logcat.LogPriority
 import logcat.asLog
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.source.model.SavedSearch
-import tachiyomi.domain.source.repository.SavedSearchRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.source.model.SavedSearch
+import faxyomi.domain.source.repository.SavedSearchRepository
 
 class InsertSavedSearch(
     private val savedSearchRepository: SavedSearchRepository,

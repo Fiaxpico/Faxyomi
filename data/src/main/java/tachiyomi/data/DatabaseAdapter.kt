@@ -1,4 +1,4 @@
-package tachiyomi.data
+package faxyomi.data
 
 import app.cash.sqldelight.ColumnAdapter
 import eu.fiax.faxyomi.source.model.UpdateStrategy

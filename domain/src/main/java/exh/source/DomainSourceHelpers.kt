@@ -1,7 +1,7 @@
 package exh.source
 
 import eu.fiax.faxyomi.source.Source
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.Manga
 
 // Used to speed up isLewdSource
 var metadataDelegatedSourceIds: List<Long> = emptyList()

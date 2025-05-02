@@ -2,8 +2,8 @@ package mihon.core.migration.migrations
 
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.data.DatabaseHandler
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.data.DatabaseHandler
 
 class DeleteOldMangaDexTracksMigration : Migration {
     override val version: Float = 17f

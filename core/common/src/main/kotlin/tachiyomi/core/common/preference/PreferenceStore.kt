@@ -1,4 +1,4 @@
-package tachiyomi.core.common.preference
+package faxyomi.core.common.preference
 
 interface PreferenceStore {
 

@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components
+package faxyomi.presentation.core.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.dp
-import tachiyomi.presentation.core.util.drawVerticalScrollbar
+import faxyomi.presentation.core.util.drawVerticalScrollbar
 
 /**
  * LazyColumn with scrollbar.

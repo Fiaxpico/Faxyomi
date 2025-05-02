@@ -11,8 +11,8 @@ import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.runBlocking
-import tachiyomi.domain.manga.interactor.GetManga
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.interactor.GetManga
+import faxyomi.domain.manga.model.Manga
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

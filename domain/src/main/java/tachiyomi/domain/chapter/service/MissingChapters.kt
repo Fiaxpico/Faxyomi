@@ -1,6 +1,6 @@
-package tachiyomi.domain.chapter.service
+package faxyomi.domain.chapter.service
 
-import tachiyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.model.Chapter
 import kotlin.math.floor
 
 fun List<Double>.missingChaptersCount(): Int {

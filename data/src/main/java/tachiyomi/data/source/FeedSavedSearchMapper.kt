@@ -1,6 +1,6 @@
-package tachiyomi.data.source
+package faxyomi.data.source
 
-import tachiyomi.domain.source.model.FeedSavedSearch
+import faxyomi.domain.source.model.FeedSavedSearch
 
 object FeedSavedSearchMapper {
     fun map(

@@ -1,11 +1,11 @@
-package tachiyomi.domain.category.interactor
+package faxyomi.domain.category.interactor
 
 import logcat.LogPriority
-import tachiyomi.core.common.util.lang.withNonCancellableContext
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.category.model.Category
-import tachiyomi.domain.category.model.CategoryUpdate
-import tachiyomi.domain.category.repository.CategoryRepository
+import faxyomi.core.common.util.lang.withNonCancellableContext
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.category.model.Category
+import faxyomi.domain.category.model.CategoryUpdate
+import faxyomi.domain.category.repository.CategoryRepository
 
 class RenameCategory(
     private val categoryRepository: CategoryRepository,

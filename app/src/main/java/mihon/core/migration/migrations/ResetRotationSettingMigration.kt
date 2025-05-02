@@ -5,7 +5,7 @@ import androidx.core.content.edit
 import androidx.preference.PreferenceManager
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.lang.withIOContext
 
 class ResetRotationSettingMigration : Migration {
     override val version: Float = 16f

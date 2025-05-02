@@ -1,4 +1,4 @@
-package tachiyomi.domain.release.interactor
+package faxyomi.domain.release.interactor
 
 import io.kotest.matchers.shouldBe
 import io.mockk.coEvery
@@ -8,10 +8,10 @@ import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import tachiyomi.core.common.preference.Preference
-import tachiyomi.core.common.preference.PreferenceStore
-import tachiyomi.domain.release.model.Release
-import tachiyomi.domain.release.service.ReleaseService
+import faxyomi.core.common.preference.Preference
+import faxyomi.core.common.preference.PreferenceStore
+import faxyomi.domain.release.model.Release
+import faxyomi.domain.release.service.ReleaseService
 import java.time.Instant
 
 class GetApplicationReleaseTest {

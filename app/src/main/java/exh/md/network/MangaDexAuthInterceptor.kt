@@ -1,6 +1,6 @@
 package exh.md.network
 
-import eu.kanade.domain.track.service.TrackPreferences
+import eu.fiax.domain.track.service.TrackPreferences
 import eu.fiax.faxyomi.data.track.mdlist.MdList
 import eu.fiax.faxyomi.data.track.myanimelist.dto.MALOAuth
 import eu.fiax.faxyomi.network.parseAs
@@ -8,7 +8,7 @@ import exh.md.utils.MdUtil
 import exh.util.nullIfBlank
 import okhttp3.Interceptor
 import okhttp3.Response
-import tachiyomi.core.common.util.system.logcat
+import faxyomi.core.common.util.system.logcat
 import java.io.IOException
 
 class MangaDexAuthInterceptor(

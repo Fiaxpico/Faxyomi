@@ -1,9 +1,9 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
-import tachiyomi.domain.chapter.interactor.GetChaptersByMangaId
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.model.MangaUpdate
+import faxyomi.domain.chapter.interactor.GetChaptersByMangaId
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.MangaUpdate
 import java.time.Instant
 import java.time.ZoneId
 import java.time.ZonedDateTime

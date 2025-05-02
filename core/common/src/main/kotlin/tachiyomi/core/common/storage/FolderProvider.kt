@@ -1,4 +1,4 @@
-package tachiyomi.core.common.storage
+package faxyomi.core.common.storage
 
 import java.io.File
 

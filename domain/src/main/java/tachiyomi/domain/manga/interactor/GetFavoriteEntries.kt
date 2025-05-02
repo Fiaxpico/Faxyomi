@@ -1,7 +1,7 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
-import tachiyomi.domain.manga.model.FavoriteEntry
-import tachiyomi.domain.manga.repository.FavoritesEntryRepository
+import faxyomi.domain.manga.model.FavoriteEntry
+import faxyomi.domain.manga.repository.FavoritesEntryRepository
 
 class GetFavoriteEntries(
     private val favoriteEntryRepository: FavoritesEntryRepository,

@@ -1,6 +1,6 @@
-package tachiyomi.domain.manga.model
+package faxyomi.domain.manga.model
 
-import tachiyomi.core.common.preference.TriState
+import faxyomi.core.common.preference.TriState
 
 inline fun applyFilter(filter: TriState, predicate: () -> Boolean): Boolean = when (filter) {
     TriState.DISABLED -> true

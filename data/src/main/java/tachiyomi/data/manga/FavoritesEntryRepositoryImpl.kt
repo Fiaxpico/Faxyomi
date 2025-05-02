@@ -1,11 +1,11 @@
-package tachiyomi.data.manga
+package faxyomi.data.manga
 
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.manga.model.FavoriteEntry
-import tachiyomi.domain.manga.model.FavoriteEntryAlternative
-import tachiyomi.domain.manga.repository.FavoritesEntryRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.manga.model.FavoriteEntry
+import faxyomi.domain.manga.model.FavoriteEntryAlternative
+import faxyomi.domain.manga.repository.FavoritesEntryRepository
 
 class FavoritesEntryRepositoryImpl(
     private val handler: DatabaseHandler,

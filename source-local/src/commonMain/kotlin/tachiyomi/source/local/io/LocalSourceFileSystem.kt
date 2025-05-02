@@ -1,4 +1,4 @@
-package tachiyomi.source.local.io
+package faxyomi.source.local.io
 
 import com.hippo.unifile.UniFile
 

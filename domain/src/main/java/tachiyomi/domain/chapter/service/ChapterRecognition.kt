@@ -1,4 +1,4 @@
-package tachiyomi.domain.chapter.service
+package faxyomi.domain.chapter.service
 
 /**
  * -R> = regex conversion.

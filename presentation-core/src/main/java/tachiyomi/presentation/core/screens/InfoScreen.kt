@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.screens
+package faxyomi.presentation.core.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -28,9 +28,9 @@ import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
-import tachiyomi.presentation.core.components.material.Scaffold
-import tachiyomi.presentation.core.components.material.padding
-import tachiyomi.presentation.core.util.secondaryItemAlpha
+import faxyomi.presentation.core.components.material.Scaffold
+import faxyomi.presentation.core.components.material.padding
+import faxyomi.presentation.core.util.secondaryItemAlpha
 
 @Composable
 fun InfoScreen(

@@ -1,4 +1,4 @@
-package tachiyomi.core.common.storage
+package faxyomi.core.common.storage
 
 import android.content.Context
 import android.os.ParcelFileDescriptor

@@ -1,8 +1,8 @@
-package tachiyomi.domain.source.interactor
+package faxyomi.domain.source.interactor
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.source.model.FeedSavedSearch
-import tachiyomi.domain.source.repository.FeedSavedSearchRepository
+import faxyomi.domain.source.model.FeedSavedSearch
+import faxyomi.domain.source.repository.FeedSavedSearchRepository
 
 class GetFeedSavedSearchBySourceId(
     private val feedSavedSearchRepository: FeedSavedSearchRepository,

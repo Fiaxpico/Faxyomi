@@ -1,6 +1,6 @@
-package tachiyomi.data.chapter
+package faxyomi.data.chapter
 
-import tachiyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.model.Chapter
 
 object ChapterMapper {
     fun mapChapter(

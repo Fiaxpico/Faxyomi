@@ -1,8 +1,8 @@
-package tachiyomi.data.release
+package faxyomi.data.release
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import tachiyomi.domain.release.model.Release
+import faxyomi.domain.release.model.Release
 
 /**
  * Contains information about the latest release from GitHub.

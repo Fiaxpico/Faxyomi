@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.util
+package faxyomi.presentation.core.util
 
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -22,7 +22,7 @@ import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.platform.LocalFocusManager
-import tachiyomi.presentation.core.components.material.SECONDARY_ALPHA
+import faxyomi.presentation.core.components.material.SECONDARY_ALPHA
 
 fun Modifier.selectedBackground(isSelected: Boolean): Modifier = if (isSelected) {
     composed {

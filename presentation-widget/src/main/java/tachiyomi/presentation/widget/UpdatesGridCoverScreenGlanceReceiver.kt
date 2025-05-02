@@ -1,4 +1,4 @@
-package tachiyomi.presentation.widget
+package faxyomi.presentation.widget
 
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.GlanceAppWidgetReceiver

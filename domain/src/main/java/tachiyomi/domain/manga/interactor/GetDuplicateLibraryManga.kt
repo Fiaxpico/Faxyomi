@@ -1,7 +1,7 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.repository.MangaRepository
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.repository.MangaRepository
 
 class GetDuplicateLibraryManga(
     private val mangaRepository: MangaRepository,

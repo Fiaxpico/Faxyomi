@@ -5,9 +5,9 @@ import androidx.core.content.edit
 import androidx.preference.PreferenceManager
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.library.service.LibraryPreferences
 
 class MoveLibrarySortingSettingsMigration : Migration {
     override val version: Float = 20f

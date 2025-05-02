@@ -1,4 +1,4 @@
-package tachiyomi.domain.source.model
+package faxyomi.domain.source.model
 
 data class Source(
     val id: Long,

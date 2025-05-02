@@ -1,7 +1,7 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
-import tachiyomi.domain.library.model.LibraryManga
-import tachiyomi.domain.manga.repository.MangaRepository
+import faxyomi.domain.library.model.LibraryManga
+import faxyomi.domain.manga.repository.MangaRepository
 
 class GetReadMangaNotInLibraryView(
     private val mangaRepository: MangaRepository,

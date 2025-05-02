@@ -1,13 +1,13 @@
-package tachiyomi.data.chapter
+package faxyomi.data.chapter
 
 import kotlinx.coroutines.flow.Flow
 import logcat.LogPriority
-import tachiyomi.core.common.util.lang.toLong
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.chapter.model.ChapterUpdate
-import tachiyomi.domain.chapter.repository.ChapterRepository
+import faxyomi.core.common.util.lang.toLong
+import faxyomi.core.common.util.system.logcat
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.model.ChapterUpdate
+import faxyomi.domain.chapter.repository.ChapterRepository
 
 class ChapterRepositoryImpl(
     private val handler: DatabaseHandler,

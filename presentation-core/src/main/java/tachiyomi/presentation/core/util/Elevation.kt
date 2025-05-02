@@ -18,7 +18,7 @@
  * Straight copy from Compose M3 for Button fork
  */
 
-package tachiyomi.presentation.core.util
+package faxyomi.presentation.core.util
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.AnimationSpec

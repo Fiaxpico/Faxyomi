@@ -1,4 +1,4 @@
-package tachiyomi.presentation.widget.components
+package faxyomi.presentation.widget.components
 
 import android.content.Intent
 import androidx.compose.runtime.Composable
@@ -15,9 +15,9 @@ import androidx.glance.text.Text
 import androidx.glance.text.TextAlign
 import androidx.glance.text.TextStyle
 import androidx.glance.unit.ColorProvider
-import tachiyomi.core.common.Constants
-import tachiyomi.i18n.MR
-import tachiyomi.presentation.core.i18n.stringResource
+import faxyomi.core.common.Constants
+import faxyomi.i18n.MR
+import faxyomi.presentation.core.i18n.stringResource
 
 @Composable
 fun LockedWidget(

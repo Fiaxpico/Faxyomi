@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.map
 import mihon.domain.extensionrepo.exception.SaveExtensionRepoException
 import mihon.domain.extensionrepo.model.ExtensionRepo
 import mihon.domain.extensionrepo.repository.ExtensionRepoRepository
-import tachiyomi.data.DatabaseHandler
+import faxyomi.data.DatabaseHandler
 
 class ExtensionRepoRepositoryImpl(
     private val handler: DatabaseHandler,

@@ -1,6 +1,6 @@
-package tachiyomi.domain.release.service
+package faxyomi.domain.release.service
 
-import tachiyomi.domain.release.model.Release
+import faxyomi.domain.release.model.Release
 
 interface ReleaseService {
 

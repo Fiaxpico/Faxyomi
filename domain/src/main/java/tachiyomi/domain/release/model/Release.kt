@@ -1,4 +1,4 @@
-package tachiyomi.domain.release.model
+package faxyomi.domain.release.model
 
 import android.os.Build
 
@@ -26,7 +26,7 @@ data class Release(
         }
 
         // SY -->
-        return assets.find { it.contains("TachiyomiSY$apkVariant-") } ?: assets[0]
+        return assets.find { it.contains("faxyomiSY$apkVariant-") } ?: assets[0]
         // SY <--
     }
 

@@ -1,4 +1,4 @@
-package tachiyomi.domain.track.model
+package faxyomi.domain.track.model
 
 import java.io.Serializable
 

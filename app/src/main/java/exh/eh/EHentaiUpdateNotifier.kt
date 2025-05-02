@@ -4,7 +4,7 @@ import android.content.Context
 import android.graphics.BitmapFactory
 import android.net.Uri
 import androidx.core.app.NotificationCompat
-import eu.fiax.faxyomi.R
+import eu.fiax.R
 import eu.fiax.faxyomi.core.security.SecurityPreferences
 import eu.fiax.faxyomi.data.notification.NotificationReceiver
 import eu.fiax.faxyomi.data.notification.Notifications
@@ -12,9 +12,9 @@ import eu.fiax.faxyomi.util.lang.chop
 import eu.fiax.faxyomi.util.system.cancelNotification
 import eu.fiax.faxyomi.util.system.notificationBuilder
 import eu.fiax.faxyomi.util.system.notify
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.i18n.MR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.domain.manga.model.Manga
+import faxyomi.i18n.MR
 import uy.kohesive.injekt.injectLazy
 import java.math.RoundingMode
 import java.text.NumberFormat

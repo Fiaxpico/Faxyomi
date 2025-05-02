@@ -1,4 +1,4 @@
-package tachiyomi.presentation.widget.components
+package faxyomi.presentation.widget.components
 
 import android.graphics.Bitmap
 import androidx.compose.runtime.Composable
@@ -10,8 +10,8 @@ import androidx.glance.layout.Box
 import androidx.glance.layout.ContentScale
 import androidx.glance.layout.fillMaxSize
 import androidx.glance.layout.size
-import tachiyomi.presentation.widget.R
-import tachiyomi.presentation.widget.util.appWidgetInnerRadius
+import faxyomi.presentation.widget.R
+import faxyomi.presentation.widget.util.appWidgetInnerRadius
 
 val CoverWidth = 58.dp
 val CoverHeight = 87.dp

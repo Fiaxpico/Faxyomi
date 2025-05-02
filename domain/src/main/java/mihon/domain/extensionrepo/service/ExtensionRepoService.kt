@@ -7,8 +7,8 @@ import eu.fiax.faxyomi.network.parseAs
 import kotlinx.serialization.json.Json
 import logcat.LogPriority
 import mihon.domain.extensionrepo.model.ExtensionRepo
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.core.common.util.system.logcat
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.system.logcat
 
 class ExtensionRepoService(
     networkHelper: NetworkHelper,

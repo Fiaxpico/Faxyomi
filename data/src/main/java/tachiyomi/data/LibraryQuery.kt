@@ -1,4 +1,4 @@
-package tachiyomi.data
+package faxyomi.data
 
 import app.cash.sqldelight.ExecutableQuery
 import app.cash.sqldelight.db.QueryResult

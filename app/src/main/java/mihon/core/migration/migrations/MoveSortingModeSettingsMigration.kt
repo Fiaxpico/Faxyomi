@@ -5,10 +5,10 @@ import androidx.core.content.edit
 import androidx.preference.PreferenceManager
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.data.category.CategoryMapper
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.data.DatabaseHandler
+import faxyomi.data.category.CategoryMapper
+import faxyomi.domain.library.service.LibraryPreferences
 
 class MoveSortingModeSettingsMigration : Migration {
     override val version: Float = 38f

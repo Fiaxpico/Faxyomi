@@ -1,4 +1,4 @@
-package tachiyomi.data.source
+package faxyomi.data.source
 
 import eu.fiax.faxyomi.source.CatalogueSource
 import eu.fiax.faxyomi.source.Source
@@ -9,13 +9,13 @@ import exh.source.isEhBasedSource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.source.model.SourceWithCount
-import tachiyomi.domain.source.model.StubSource
-import tachiyomi.domain.source.repository.SourcePagingSourceType
-import tachiyomi.domain.source.repository.SourceRepository
-import tachiyomi.domain.source.service.SourceManager
-import tachiyomi.domain.source.model.Source as DomainSource
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.source.model.SourceWithCount
+import faxyomi.domain.source.model.StubSource
+import faxyomi.domain.source.repository.SourcePagingSourceType
+import faxyomi.domain.source.repository.SourceRepository
+import faxyomi.domain.source.service.SourceManager
+import faxyomi.domain.source.model.Source as DomainSource
 
 class SourceRepositoryImpl(
     private val sourceManager: SourceManager,

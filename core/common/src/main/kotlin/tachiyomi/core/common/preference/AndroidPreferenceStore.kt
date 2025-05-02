@@ -1,17 +1,17 @@
-package tachiyomi.core.common.preference
+package faxyomi.core.common.preference
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.preference.PreferenceManager
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
-import tachiyomi.core.common.preference.AndroidPreference.BooleanPrimitive
-import tachiyomi.core.common.preference.AndroidPreference.FloatPrimitive
-import tachiyomi.core.common.preference.AndroidPreference.IntPrimitive
-import tachiyomi.core.common.preference.AndroidPreference.LongPrimitive
-import tachiyomi.core.common.preference.AndroidPreference.Object
-import tachiyomi.core.common.preference.AndroidPreference.StringPrimitive
-import tachiyomi.core.common.preference.AndroidPreference.StringSetPrimitive
+import faxyomi.core.common.preference.AndroidPreference.BooleanPrimitive
+import faxyomi.core.common.preference.AndroidPreference.FloatPrimitive
+import faxyomi.core.common.preference.AndroidPreference.IntPrimitive
+import faxyomi.core.common.preference.AndroidPreference.LongPrimitive
+import faxyomi.core.common.preference.AndroidPreference.Object
+import faxyomi.core.common.preference.AndroidPreference.StringPrimitive
+import faxyomi.core.common.preference.AndroidPreference.StringSetPrimitive
 
 class AndroidPreferenceStore(
     context: Context,

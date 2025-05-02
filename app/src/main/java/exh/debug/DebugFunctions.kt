@@ -1,9 +1,9 @@
 package exh.debug
 
 import android.app.Application
-import eu.kanade.domain.manga.interactor.UpdateManga
-import eu.kanade.domain.manga.model.toSManga
-import eu.fiax.faxyomi.BuildConfig
+import eu.fiax.domain.manga.interactor.UpdateManga
+import eu.fiax.domain.manga.model.toSManga
+import eu.fiax.BuildConfig
 import eu.fiax.faxyomi.data.backup.models.Backup
 import eu.fiax.faxyomi.data.library.LibraryUpdateJob
 import eu.fiax.faxyomi.data.sync.SyncDataJob
@@ -24,14 +24,14 @@ import mihon.core.migration.MigrationJobFactory
 import mihon.core.migration.MigrationStrategyFactory
 import mihon.core.migration.Migrator
 import mihon.core.migration.migrations.migrations
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.manga.interactor.GetAllManga
-import tachiyomi.domain.manga.interactor.GetExhFavoriteMangaWithMetadata
-import tachiyomi.domain.manga.interactor.GetFavorites
-import tachiyomi.domain.manga.interactor.GetFlatMetadataById
-import tachiyomi.domain.manga.interactor.GetSearchMetadata
-import tachiyomi.domain.manga.interactor.InsertFlatMetadata
-import tachiyomi.domain.source.service.SourceManager
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.manga.interactor.GetAllManga
+import faxyomi.domain.manga.interactor.GetExhFavoriteMangaWithMetadata
+import faxyomi.domain.manga.interactor.GetFavorites
+import faxyomi.domain.manga.interactor.GetFlatMetadataById
+import faxyomi.domain.manga.interactor.GetSearchMetadata
+import faxyomi.domain.manga.interactor.InsertFlatMetadata
+import faxyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy

@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components.material
+package faxyomi.presentation.core.components.material
 
 import androidx.annotation.IntRange
 import androidx.compose.foundation.interaction.MutableInteractionSource

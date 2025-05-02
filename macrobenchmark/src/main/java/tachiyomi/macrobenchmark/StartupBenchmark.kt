@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package tachiyomi.macrobenchmark
+package faxyomi.macrobenchmark
 
 import androidx.benchmark.macro.BaselineProfileMode
 import androidx.benchmark.macro.CompilationMode
@@ -75,7 +75,7 @@ abstract class AbstractStartupBenchmark(private val startupMode: StartupMode) {
     fun startupFullCompilation() = startup(CompilationMode.Full())
 
     private fun startup(compilationMode: CompilationMode) = benchmarkRule.measureRepeated(
-        packageName = "eu.kanade.tachiyomi.benchmark",
+        packageName = "eu.fiax.faxyomi.benchmark",
         metrics = listOf(StartupTimingMetric()),
         compilationMode = compilationMode,
         iterations = 10,

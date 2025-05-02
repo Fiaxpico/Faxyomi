@@ -8,8 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.isVisible
-import eu.fiax.faxyomi.R
-import eu.fiax.faxyomi.databinding.DescriptionAdapterMdBinding
+import eu.fiax.R
+import eu.fiax.databinding.DescriptionAdapterMdBinding
 import eu.fiax.faxyomi.ui.manga.MangaScreenModel.State
 import eu.fiax.faxyomi.util.system.copyToClipboard
 import exh.metadata.metadata.MangaDexSearchMetadata

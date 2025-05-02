@@ -1,8 +1,8 @@
-package tachiyomi.domain.source.interactor
+package faxyomi.domain.source.interactor
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.source.model.SavedSearch
-import tachiyomi.domain.source.repository.SavedSearchRepository
+import faxyomi.domain.source.model.SavedSearch
+import faxyomi.domain.source.repository.SavedSearchRepository
 
 class GetSavedSearchBySourceId(
     private val savedSearchRepository: SavedSearchRepository,

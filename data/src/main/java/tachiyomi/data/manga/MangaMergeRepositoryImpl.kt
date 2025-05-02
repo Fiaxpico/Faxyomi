@@ -1,13 +1,13 @@
-package tachiyomi.data.manga
+package faxyomi.data.manga
 
 import kotlinx.coroutines.flow.Flow
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.model.MergeMangaSettingsUpdate
-import tachiyomi.domain.manga.model.MergedMangaReference
-import tachiyomi.domain.manga.repository.MangaMergeRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.MergeMangaSettingsUpdate
+import faxyomi.domain.manga.model.MergedMangaReference
+import faxyomi.domain.manga.repository.MangaMergeRepository
 
 class MangaMergeRepositoryImpl(
     private val handler: DatabaseHandler,

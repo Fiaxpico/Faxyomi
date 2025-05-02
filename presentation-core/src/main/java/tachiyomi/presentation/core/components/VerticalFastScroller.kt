@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components
+package faxyomi.presentation.core.components
 
 import android.view.ViewConfiguration
 import androidx.compose.animation.core.Animatable
@@ -49,7 +49,7 @@ import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.sample
-import tachiyomi.presentation.core.components.Scroller.STICKY_HEADER_KEY_PREFIX
+import faxyomi.presentation.core.components.Scroller.STICKY_HEADER_KEY_PREFIX
 import kotlin.math.abs
 import kotlin.math.max
 import kotlin.math.min

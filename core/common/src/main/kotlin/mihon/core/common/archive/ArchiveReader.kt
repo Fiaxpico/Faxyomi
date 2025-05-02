@@ -6,7 +6,7 @@ import android.system.Os
 import android.system.OsConstants
 import com.hippo.unifile.UniFile
 import me.zhanghai.android.libarchive.ArchiveException
-import tachiyomi.core.common.storage.openFileDescriptor
+import faxyomi.core.common.storage.openFileDescriptor
 import java.io.Closeable
 import java.io.InputStream
 

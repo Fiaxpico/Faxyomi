@@ -1,0 +1,32 @@
+package eu.fiax.faxyomi.data.coil
+
+import coil3.key.Keyer
+import coil3.request.Options
+import eu.fiax.domain.manga.model.hasCustomCover
+import eu.fiax.faxyomi.data.cache.CoverCache
+import faxyomi.domain.manga.model.MangaCover
+import uy.kohesive.injekt.Injekt
+import uy.kohesive.injekt.api.get
+import faxyomi.domain.manga.model.Manga as DomainManga
+
+class MangaKeyer : Keyer<DomainManga> {
+    override fun key(data: DomainManga, options: Options): String {
+        return if (data.hasCustomCover()) {
+            "${data.id};${data.coverLastModified}"
+        } else {
+            "${data.thumbnailUrl};${data.coverLastModified}"
+        }
+    }
+}
+
+class MangaCoverKeyer(
+    private val coverCache: CoverCache = Injekt.get(),
+) : Keyer<MangaCover> {
+    override fun key(data: MangaCover, options: Options): String {
+        return if (coverCache.getCustomCoverFile(data.mangaId).exists()) {
+            "${data.mangaId};${data.lastModified}"
+        } else {
+            "${data.url};${data.lastModified}"
+        }
+    }
+}

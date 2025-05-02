@@ -12,11 +12,11 @@ import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonPrimitive
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.domain.source.interactor.InsertFeedSavedSearch
-import tachiyomi.domain.source.interactor.InsertSavedSearch
-import tachiyomi.domain.source.model.FeedSavedSearch
-import tachiyomi.domain.source.model.SavedSearch
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.domain.source.interactor.InsertFeedSavedSearch
+import faxyomi.domain.source.interactor.InsertSavedSearch
+import faxyomi.domain.source.model.FeedSavedSearch
+import faxyomi.domain.source.model.SavedSearch
 
 class MoveLatestToFeedMigration : Migration {
     override val version: Float = 31f

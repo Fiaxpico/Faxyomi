@@ -1,7 +1,7 @@
-package tachiyomi.domain.updates.repository
+package faxyomi.domain.updates.repository
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.updates.model.UpdatesWithRelations
+import faxyomi.domain.updates.model.UpdatesWithRelations
 
 interface UpdatesRepository {
 

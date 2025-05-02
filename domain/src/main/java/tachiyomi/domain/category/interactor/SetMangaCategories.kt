@@ -1,8 +1,8 @@
-package tachiyomi.domain.category.interactor
+package faxyomi.domain.category.interactor
 
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.manga.repository.MangaRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.manga.repository.MangaRepository
 
 class SetMangaCategories(
     private val mangaRepository: MangaRepository,

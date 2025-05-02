@@ -1,6 +1,6 @@
-package tachiyomi.domain.chapter.interactor
+package faxyomi.domain.chapter.interactor
 
-import tachiyomi.domain.chapter.repository.ChapterRepository
+import faxyomi.domain.chapter.repository.ChapterRepository
 
 class DeleteChapters(
     private val chapterRepository: ChapterRepository,

@@ -1,12 +1,12 @@
-package tachiyomi.domain.category.interactor
+package faxyomi.domain.category.interactor
 
 import logcat.LogPriority
-import tachiyomi.core.common.util.lang.withNonCancellableContext
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.category.model.CategoryUpdate
-import tachiyomi.domain.category.repository.CategoryRepository
-import tachiyomi.domain.download.service.DownloadPreferences
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.core.common.util.lang.withNonCancellableContext
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.category.model.CategoryUpdate
+import faxyomi.domain.category.repository.CategoryRepository
+import faxyomi.domain.download.service.DownloadPreferences
+import faxyomi.domain.library.service.LibraryPreferences
 
 class DeleteCategory(
     private val categoryRepository: CategoryRepository,

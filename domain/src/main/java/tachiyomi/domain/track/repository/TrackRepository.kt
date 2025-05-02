@@ -1,7 +1,7 @@
-package tachiyomi.domain.track.repository
+package faxyomi.domain.track.repository
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.track.model.Track
+import faxyomi.domain.track.model.Track
 
 interface TrackRepository {
 

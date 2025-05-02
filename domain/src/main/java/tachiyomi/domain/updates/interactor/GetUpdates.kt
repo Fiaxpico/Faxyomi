@@ -1,12 +1,12 @@
-package tachiyomi.domain.updates.interactor
+package faxyomi.domain.updates.interactor
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.retry
-import tachiyomi.domain.updates.model.UpdatesWithRelations
-import tachiyomi.domain.updates.repository.UpdatesRepository
+import faxyomi.domain.updates.model.UpdatesWithRelations
+import faxyomi.domain.updates.repository.UpdatesRepository
 import java.time.Instant
 import kotlin.time.Duration.Companion.seconds
 

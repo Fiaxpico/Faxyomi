@@ -1,6 +1,6 @@
-package tachiyomi.domain.source.interactor
+package faxyomi.domain.source.interactor
 
-import tachiyomi.domain.source.repository.FeedSavedSearchRepository
+import faxyomi.domain.source.repository.FeedSavedSearchRepository
 
 class CountFeedSavedSearchGlobal(
     private val feedSavedSearchRepository: FeedSavedSearchRepository,

@@ -1,7 +1,7 @@
-package tachiyomi.domain.history.interactor
+package faxyomi.domain.history.interactor
 
-import tachiyomi.domain.history.model.History
-import tachiyomi.domain.history.repository.HistoryRepository
+import faxyomi.domain.history.model.History
+import faxyomi.domain.history.repository.HistoryRepository
 
 class GetHistoryByMangaId(
     private val repository: HistoryRepository,

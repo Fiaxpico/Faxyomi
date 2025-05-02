@@ -1,10 +1,10 @@
-package tachiyomi.data.source
+package faxyomi.data.source
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.source.model.FeedSavedSearch
-import tachiyomi.domain.source.model.SavedSearch
-import tachiyomi.domain.source.repository.FeedSavedSearchRepository
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.source.model.FeedSavedSearch
+import faxyomi.domain.source.model.SavedSearch
+import faxyomi.domain.source.repository.FeedSavedSearchRepository
 
 class FeedSavedSearchRepositoryImpl(
     private val handler: DatabaseHandler,

@@ -1,4 +1,4 @@
-package tachiyomi.domain.manga.model
+package faxyomi.domain.manga.model
 
 data class MergedMangaReference(
     // Tag identifier, unique

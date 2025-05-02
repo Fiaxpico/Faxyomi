@@ -16,7 +16,7 @@
 
 @file:Suppress("KDocUnresolvedReference")
 
-package tachiyomi.presentation.core.components.material
+package faxyomi.presentation.core.components.material
 
 import androidx.compose.foundation.layout.MutableWindowInsets
 import androidx.compose.foundation.layout.PaddingValues
@@ -66,7 +66,7 @@ import kotlin.math.max
  *
  * @sample androidx.compose.material3.samples.ScaffoldWithSimpleSnackbar
  *
- * Tachiyomi changes:
+ * faxyomi changes:
  * * Pass scroll behavior to top bar by default
  * * Remove height constraint for expanded app bar
  * * Also take account of fab height when providing inner padding
@@ -113,7 +113,7 @@ fun Scaffold(
     contentWindowInsets: WindowInsets = ScaffoldDefaults.contentWindowInsets,
     content: @Composable (PaddingValues) -> Unit,
 ) {
-    // Tachiyomi: Handle consumed window insets
+    // faxyomi: Handle consumed window insets
     val remainingWindowInsets = remember { MutableWindowInsets() }
     androidx.compose.material3.Surface(
         modifier = Modifier
@@ -171,7 +171,7 @@ private fun ScaffoldLayout(
         val looseConstraints = constraints.copy(minWidth = 0, minHeight = 0)
 
         /**
-         * Tachiyomi: Remove height constraint for expanded app bar
+         * faxyomi: Remove height constraint for expanded app bar
          */
         val topBarConstraints = looseConstraints.copy(maxHeight = Constraints.Infinity)
 
@@ -180,13 +180,13 @@ private fun ScaffoldLayout(
             val rightInset = contentWindowInsets.getRight(this@SubcomposeLayout, layoutDirection)
             val bottomInset = contentWindowInsets.getBottom(this@SubcomposeLayout)
 
-            // Tachiyomi: Add startBar slot for Navigation Rail
+            // faxyomi: Add startBar slot for Navigation Rail
             val startBarPlaceables = subcompose(ScaffoldLayoutContent.StartBar, startBar).fastMap {
                 it.measure(looseConstraints)
             }
             val startBarWidth = startBarPlaceables.fastMaxBy { it.width }?.width ?: 0
 
-            // Tachiyomi: layoutWidth after horizontal insets
+            // faxyomi: layoutWidth after horizontal insets
             val insetLayoutWidth = layoutWidth - leftInset - rightInset - startBarWidth
 
             val topBarPlaceables = subcompose(ScaffoldLayoutContent.TopBar, topBar).fastMap {
@@ -202,7 +202,7 @@ private fun ScaffoldLayout(
             val snackbarHeight = snackbarPlaceables.fastMaxBy { it.height }?.height ?: 0
             val snackbarWidth = snackbarPlaceables.fastMaxBy { it.width }?.width ?: 0
 
-            // Tachiyomi: Calculate insets for snackbar placement offset
+            // faxyomi: Calculate insets for snackbar placement offset
             val snackbarLeft = if (snackbarPlaceables.isNotEmpty()) {
                 (insetLayoutWidth - snackbarWidth) / 2 + leftInset
             } else {
@@ -219,7 +219,7 @@ private fun ScaffoldLayout(
 
             val fabPlacement = if (fabPlaceables.isNotEmpty() && fabWidth != 0 && fabHeight != 0) {
                 // FAB distance from the left of the layout, taking into account LTR / RTL
-                // Tachiyomi: Calculate insets for fab placement offset
+                // faxyomi: Calculate insets for fab placement offset
                 val fabLeftOffset = if (fabPosition == FabPosition.End) {
                     if (layoutDirection == LayoutDirection.Ltr) {
                         layoutWidth - FabSpacing.roundToPx() - fabWidth - rightInset
@@ -267,7 +267,7 @@ private fun ScaffoldLayout(
                     } else {
                         topBarHeight.toDp()
                     },
-                    // Tachiyomi: Also take account of fab height when providing inner padding
+                    // faxyomi: Also take account of fab height when providing inner padding
                     bottom = if (bottomBarPlaceables.isEmpty() || bottomBarHeightPx == 0) {
                         max(insets.calculateBottomPadding(), fabOffsetDp)
                     } else {

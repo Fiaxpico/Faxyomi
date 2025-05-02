@@ -1,4 +1,4 @@
-package tachiyomi.data.chapter
+package faxyomi.data.chapter
 
 object ChapterSanitizer {
 

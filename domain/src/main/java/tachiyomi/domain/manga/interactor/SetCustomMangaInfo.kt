@@ -1,7 +1,7 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
-import tachiyomi.domain.manga.model.CustomMangaInfo
-import tachiyomi.domain.manga.repository.CustomMangaRepository
+import faxyomi.domain.manga.model.CustomMangaInfo
+import faxyomi.domain.manga.repository.CustomMangaRepository
 
 class SetCustomMangaInfo(
     private val customMangaRepository: CustomMangaRepository,

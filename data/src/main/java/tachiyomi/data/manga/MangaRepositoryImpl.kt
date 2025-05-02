@@ -1,17 +1,17 @@
-package tachiyomi.data.manga
+package faxyomi.data.manga
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.data.AndroidDatabaseHandler
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.data.StringListColumnAdapter
-import tachiyomi.data.UpdateStrategyColumnAdapter
-import tachiyomi.domain.library.model.LibraryManga
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.model.MangaUpdate
-import tachiyomi.domain.manga.repository.MangaRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.data.AndroidDatabaseHandler
+import faxyomi.data.DatabaseHandler
+import faxyomi.data.StringListColumnAdapter
+import faxyomi.data.UpdateStrategyColumnAdapter
+import faxyomi.domain.library.model.LibraryManga
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.MangaUpdate
+import faxyomi.domain.manga.repository.MangaRepository
 import java.time.LocalDate
 import java.time.ZoneId
 

@@ -1,4 +1,4 @@
-package tachiyomi.data.source
+package faxyomi.data.source
 
 import eu.fiax.faxyomi.source.CatalogueSource
 import eu.fiax.faxyomi.source.model.FilterList

@@ -6,14 +6,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
-import eu.fiax.faxyomi.R
-import eu.fiax.faxyomi.databinding.DescriptionAdapterHbBinding
+import eu.fiax.R
+import eu.fiax.databinding.DescriptionAdapterHbBinding
 import eu.fiax.faxyomi.ui.manga.MangaScreenModel.State
 import eu.fiax.faxyomi.util.system.copyToClipboard
 import exh.metadata.metadata.HBrowseSearchMetadata
 import exh.ui.metadata.adapters.MetadataUIUtil.bindDrawable
-import tachiyomi.core.common.i18n.pluralStringResource
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.pluralStringResource
+import faxyomi.i18n.sy.SYMR
 
 @Composable
 fun HBrowseDescription(state: State.Success, openMetadataViewer: () -> Unit) {

@@ -1,8 +1,8 @@
-package tachiyomi.domain.category.repository
+package faxyomi.domain.category.repository
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.category.model.Category
-import tachiyomi.domain.category.model.CategoryUpdate
+import faxyomi.domain.category.model.Category
+import faxyomi.domain.category.model.CategoryUpdate
 
 interface CategoryRepository {
 

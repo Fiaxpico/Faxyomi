@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components
+package faxyomi.presentation.core.components
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.core.animateFloatAsState

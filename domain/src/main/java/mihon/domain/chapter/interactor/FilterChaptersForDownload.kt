@@ -1,12 +1,12 @@
 package mihon.domain.chapter.interactor
 
 import exh.source.MERGED_SOURCE_ID
-import tachiyomi.domain.category.interactor.GetCategories
-import tachiyomi.domain.chapter.interactor.GetChaptersByMangaId
-import tachiyomi.domain.chapter.interactor.GetMergedChaptersByMangaId
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.download.service.DownloadPreferences
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.category.interactor.GetCategories
+import faxyomi.domain.chapter.interactor.GetChaptersByMangaId
+import faxyomi.domain.chapter.interactor.GetMergedChaptersByMangaId
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.download.service.DownloadPreferences
+import faxyomi.domain.manga.model.Manga
 
 /**
  * Interactor responsible for determining which chapters of a manga should be downloaded.

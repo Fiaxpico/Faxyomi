@@ -1,4 +1,4 @@
-package tachiyomi.core.common.util.system
+package faxyomi.core.common.util.system
 
 import android.content.Context
 import android.content.res.Configuration

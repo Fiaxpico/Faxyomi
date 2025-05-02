@@ -5,7 +5,7 @@ import androidx.preference.PreferenceManager
 import eu.fiax.faxyomi.core.security.SecurityPreferences
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.lang.withIOContext
 
 class MoveSecureScreenSettingMigration : Migration {
     override val version: Float = 27f

@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "tachiyomi.domain"
+    namespace = "faxyomi.domain"
 
     defaultConfig {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

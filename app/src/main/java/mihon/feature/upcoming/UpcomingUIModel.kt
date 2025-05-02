@@ -1,6 +1,6 @@
 package mihon.feature.upcoming
 
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.Manga
 import java.time.LocalDate
 
 sealed interface UpcomingUIModel {

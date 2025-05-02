@@ -1,11 +1,11 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
 import io.kotest.matchers.shouldBe
 import io.mockk.mockk
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.parallel.Execution
 import org.junit.jupiter.api.parallel.ExecutionMode
-import tachiyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.model.Chapter
 import java.time.ZoneOffset
 import java.time.ZonedDateTime
 import kotlin.time.Duration

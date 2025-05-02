@@ -4,9 +4,9 @@ import android.app.Application
 import androidx.preference.PreferenceManager
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.preference.minusAssign
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.core.common.preference.minusAssign
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.domain.library.service.LibraryPreferences
 
 class MoveLibraryNonCompleteSettingMigration : Migration {
     override val version: Float = 23f

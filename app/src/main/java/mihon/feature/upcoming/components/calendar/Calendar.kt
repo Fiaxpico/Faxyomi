@@ -23,7 +23,7 @@ import kotlinx.collections.immutable.ImmutableMap
 import kotlinx.collections.immutable.toImmutableList
 import mihon.core.designsystem.utils.isExpandedWidthWindow
 import mihon.core.designsystem.utils.isMediumWidthWindow
-import tachiyomi.presentation.core.components.material.padding
+import faxyomi.presentation.core.components.material.padding
 import java.time.DayOfWeek
 import java.time.LocalDate
 import java.time.YearMonth

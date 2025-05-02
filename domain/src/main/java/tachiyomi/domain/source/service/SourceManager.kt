@@ -1,11 +1,11 @@
-package tachiyomi.domain.source.service
+package faxyomi.domain.source.service
 
 import eu.fiax.faxyomi.source.CatalogueSource
 import eu.fiax.faxyomi.source.Source
 import eu.fiax.faxyomi.source.online.HttpSource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
-import tachiyomi.domain.source.model.StubSource
+import faxyomi.domain.source.model.StubSource
 
 interface SourceManager {
 

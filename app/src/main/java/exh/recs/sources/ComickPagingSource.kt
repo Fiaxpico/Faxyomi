@@ -16,9 +16,9 @@ import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import okhttp3.Headers
 import okhttp3.HttpUrl.Companion.toHttpUrl
-import tachiyomi.data.source.NoResultsException
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.data.source.NoResultsException
+import faxyomi.domain.manga.model.Manga
+import faxyomi.i18n.sy.SYMR
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
@@ -47,13 +47,13 @@ class ComickPagingSource(
         val mangasPage = coroutineScope {
             val headers = Headers.Builder().apply {
                 add("Referer", "api.comick.fun/")
-                add("User-Agent", "Tachiyomi ${System.getProperty("http.agent")}")
+                add("User-Agent", "faxyomi ${System.getProperty("http.agent")}")
             }
 
             // Comick extension populates the URL field with: '/comic/{hid}#'
             val url = "https://api.comick.fun/v1.0${manga.url}".toHttpUrl()
                 .newBuilder()
-                .addQueryParameter("tachiyomi", "true")
+                .addQueryParameter("faxyomi", "true")
                 .build()
 
             val request = GET(url, headers.build())

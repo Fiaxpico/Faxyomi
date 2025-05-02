@@ -1,9 +1,9 @@
-package tachiyomi.domain.track.interactor
+package faxyomi.domain.track.interactor
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-import tachiyomi.domain.track.model.Track
-import tachiyomi.domain.track.repository.TrackRepository
+import faxyomi.domain.track.model.Track
+import faxyomi.domain.track.repository.TrackRepository
 
 class GetTracksPerManga(
     private val trackRepository: TrackRepository,

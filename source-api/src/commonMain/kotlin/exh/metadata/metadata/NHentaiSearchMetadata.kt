@@ -5,9 +5,9 @@ import eu.fiax.faxyomi.source.model.SManga
 import eu.fiax.faxyomi.source.model.copy
 import exh.metadata.MetadataUtil
 import kotlinx.serialization.Serializable
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.i18n.MR
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.i18n.MR
+import faxyomi.i18n.sy.SYMR
 import java.time.Instant
 import java.time.ZoneId
 import java.time.ZonedDateTime

@@ -1,4 +1,4 @@
-package tachiyomi.core.common.i18n
+package faxyomi.core.common.i18n
 
 import android.content.Context
 import dev.icerock.moko.resources.PluralsResource

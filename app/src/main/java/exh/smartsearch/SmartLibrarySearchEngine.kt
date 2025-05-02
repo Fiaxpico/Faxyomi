@@ -1,6 +1,6 @@
 package exh.smartsearch
 
-import tachiyomi.domain.library.model.LibraryManga
+import faxyomi.domain.library.model.LibraryManga
 
 class SmartLibrarySearchEngine(
     extraSearchParams: String? = null,

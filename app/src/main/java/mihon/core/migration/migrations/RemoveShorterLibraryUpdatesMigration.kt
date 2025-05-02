@@ -2,8 +2,8 @@ package mihon.core.migration.migrations
 
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.domain.library.service.LibraryPreferences
 
 class RemoveShorterLibraryUpdatesMigration : Migration {
     override val version: Float = 18f

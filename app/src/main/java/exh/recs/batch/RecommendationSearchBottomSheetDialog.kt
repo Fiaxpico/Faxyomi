@@ -6,9 +6,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
-import eu.kanade.presentation.components.AdaptiveSheet
-import eu.fiax.faxyomi.databinding.RecommendationSearchBottomSheetBinding
-import tachiyomi.domain.UnsortedPreferences
+import eu.fiax.presentation.components.AdaptiveSheet
+import eu.fiax.databinding.RecommendationSearchBottomSheetBinding
+import faxyomi.domain.UnsortedPreferences
 import uy.kohesive.injekt.injectLazy
 
 @Composable

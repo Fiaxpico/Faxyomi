@@ -7,10 +7,10 @@ import eu.fiax.faxyomi.data.track.TrackerManager
 import eu.fiax.faxyomi.util.system.workManager
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.preference.PreferenceStore
-import tachiyomi.core.common.preference.TriState
-import tachiyomi.core.common.preference.getEnum
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.preference.PreferenceStore
+import faxyomi.core.common.preference.TriState
+import faxyomi.core.common.preference.getEnum
+import faxyomi.core.common.util.lang.withIOContext
 
 class RemoveUpdateCheckerJobsMigration : Migration {
     override val version: Float = 52f

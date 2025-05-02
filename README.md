@@ -1,10 +1,10 @@
 | Preview Builds | Release Builds | Mihon Support Server |
 |-------|----------|----------|
-| [![Preview](https://github.com/jobobby04/TachiyomiSYPreview/workflows/Remote%20Dispatch%20Build%20App/badge.svg)](https://github.com/jobobby04/TachiyomiSYPreview/releases) | [![stable release](https://img.shields.io/github/release/jobobby04/tachiyomisy.svg?maxAge=3600&label=download)](https://github.com/jobobby04/tachiyomisy/releases/latest) | [![Discord](https://img.shields.io/discord/1195734228319617024.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/mihon) |
+| [![Preview](https://github.com/jobobby04/faxyomiSYPreview/workflows/Remote%20Dispatch%20Build%20App/badge.svg)](https://github.com/jobobby04/faxyomiSYPreview/releases) | [![stable release](https://img.shields.io/github/release/jobobby04/faxyomisy.svg?maxAge=3600&label=download)](https://github.com/jobobby04/faxyomisy/releases/latest) | [![Discord](https://img.shields.io/discord/1195734228319617024.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/mihon) |
 
 
 # ![app icon](./.github/readme-images/app-icon.png)Faxyomi
-Mihon is a free and open source manga reader for Android 6.0 and above. This version of Mihon, TachiyomiSY was based off TachiyomiAZ. This version is meant to push forward in the ways of usability and features. TachiyomiSY tries to push forward where it can, but staying in a place where it can easily grab updates and features from the main app, it tries to make new features, or take features from other forks like J2K and Neko.
+Mihon is a free and open source manga reader for Android 6.0 and above. This version of Mihon, faxyomiSY was based off faxyomiAZ. This version is meant to push forward in the ways of usability and features. faxyomiSY tries to push forward where it can, but staying in a place where it can easily grab updates and features from the main app, it tries to make new features, or take features from other forks like J2K and Neko.
 
 ![screenshots of app](./.github/readme-images/screens.png)
 
@@ -20,7 +20,7 @@ Features of Mihon(original) include:
 * Schedule updating your library for new chapters
 * Create backups locally to read offline or to your desired cloud service
 
-Features of TachiyomiSY include:
+Features of faxyomiSY include:
 * Latest tab, store up to 5 sources where you can easily view the latest manga by viewing the tab
 * Automatic webtoon detection, allowing the reader to switch to webtoon mode automatically when viewing one
 * Manga recommendations, uses MAL and Anilist, as well as Neko Similar Manga for Mangadex manga(Thanks to Az, She11Shocked, Carlos, and Goldbattle)
@@ -63,16 +63,16 @@ Additional features for some extensions, features include custom description, op
 * Tsumino
 
 ## Download
-Get the app from our [releases page](https://github.com/jobobby04/tachiyomisy/releases/latest).
+Get the app from our [releases page](https://github.com/jobobby04/faxyomisy/releases/latest).
 
-If you want to try new features before they get to the stable release, you can download the preview version [here](https://github.com/jobobby04/tachiyomisypreview/releases).
+If you want to try new features before they get to the stable release, you can download the preview version [here](https://github.com/jobobby04/faxyomisypreview/releases).
 
 ## Translation
-Feel free to translate the project on [Weblate](https://hosted.weblate.org/projects/mihon/tachiyomisy/)
+Feel free to translate the project on [Weblate](https://hosted.weblate.org/projects/mihon/faxyomisy/)
 
 <details><summary>Translation Progress</summary>
 <a href="https://hosted.weblate.org/engage/mihon/">
-<img src="https://hosted.weblate.org/widgets/mihon/-/tachiyomisy/multi-auto.svg" alt="Translation status" />
+<img src="https://hosted.weblate.org/widgets/mihon/-/faxyomisy/multi-auto.svg" alt="Translation status" />
 </a>
 </details>
 
@@ -82,7 +82,7 @@ Please make sure to read the full guidelines. Your issue may be closed without w
 
 <details><summary>Issues</summary>
 
-1. **Before reporting a new issue, take a look at the [FAQ](https://mihon.app/docs/faq/general), the [changelog](https://github.com/jobobby04/tachiyomisy/releases) and the already opened [issues](https://github.com/jobobby04/tachiyomisy/issues).**
+1. **Before reporting a new issue, take a look at the [FAQ](https://mihon.app/docs/faq/general), the [changelog](https://github.com/jobobby04/faxyomisy/releases) and the already opened [issues](https://github.com/jobobby04/faxyomisy/issues).**
 2. If you are unsure, ask here: [![Discord](https://img.shields.io/discord/1195734228319617024.svg)](https://discord.gg/mihon)
 
 </details>
@@ -97,7 +97,7 @@ Please make sure to read the full guidelines. Your issue may be closed without w
 * If it could be device-dependent, try reproducing on another device (if possible)
 * Don't group unrelated requests into one issue
 
-Use the [issue forms](https://github.com/jobobby04/TachiyomiSY/issues/new/choose) to submit a bug.
+Use the [issue forms](https://github.com/jobobby04/faxyomiSY/issues/new/choose) to submit a bug.
 
 </details>
 

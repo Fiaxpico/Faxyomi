@@ -1,4 +1,4 @@
-package tachiyomi.domain.storage.service
+package faxyomi.domain.storage.service
 
 import android.content.Context
 import androidx.core.net.toUri

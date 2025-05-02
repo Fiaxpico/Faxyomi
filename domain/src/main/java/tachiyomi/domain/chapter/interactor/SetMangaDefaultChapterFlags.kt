@@ -1,10 +1,10 @@
-package tachiyomi.domain.chapter.interactor
+package faxyomi.domain.chapter.interactor
 
-import tachiyomi.core.common.util.lang.withNonCancellableContext
-import tachiyomi.domain.library.service.LibraryPreferences
-import tachiyomi.domain.manga.interactor.GetFavorites
-import tachiyomi.domain.manga.interactor.SetMangaChapterFlags
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.core.common.util.lang.withNonCancellableContext
+import faxyomi.domain.library.service.LibraryPreferences
+import faxyomi.domain.manga.interactor.GetFavorites
+import faxyomi.domain.manga.interactor.SetMangaChapterFlags
+import faxyomi.domain.manga.model.Manga
 
 class SetMangaDefaultChapterFlags(
     private val libraryPreferences: LibraryPreferences,

@@ -25,14 +25,14 @@ jobs:
               },
               {
                 "type": "body",
-                "regex": ".*\\* (Tachiyomi version|Android version|Device): \\?.*",
+                "regex": ".*\\* (faxyomi version|Android version|Device): \\?.*",
                 "message": "Requested information in the template was not filled out."
               },
               {
                 "type": "both",
                 "regex": "^(?!.*myanimelist.*).*(aniyomi|anime).*$",
                 "ignoreCase": true,
-                "message": "Tachiyomi does not support anime, and has no plans to support anime. In addition Tachiyomi is not affiliated with Aniyomi https://github.com/jmir1/aniyomi"
+                "message": "faxyomi does not support anime, and has no plans to support anime. In addition faxyomi is not affiliated with Aniyomi https://github.com/jmir1/aniyomi"
               },
               {
                 "type": "both",

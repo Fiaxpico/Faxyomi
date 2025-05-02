@@ -24,8 +24,8 @@ import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import tachiyomi.i18n.MR
-import tachiyomi.presentation.core.i18n.stringResource
+import faxyomi.i18n.MR
+import faxyomi.presentation.core.i18n.stringResource
 import java.time.YearMonth
 import java.time.format.DateTimeFormatter
 import java.util.Locale

@@ -1,14 +1,14 @@
 package exh.util
 
-import eu.kanade.domain.source.service.SourcePreferences
-import eu.kanade.domain.source.service.SourcePreferences.DataSaver.BANDWIDTH_HERO
-import eu.kanade.domain.source.service.SourcePreferences.DataSaver.NONE
-import eu.kanade.domain.source.service.SourcePreferences.DataSaver.WSRV_NL
+import eu.fiax.domain.source.service.SourcePreferences
+import eu.fiax.domain.source.service.SourcePreferences.DataSaver.BANDWIDTH_HERO
+import eu.fiax.domain.source.service.SourcePreferences.DataSaver.NONE
+import eu.fiax.domain.source.service.SourcePreferences.DataSaver.WSRV_NL
 import eu.fiax.faxyomi.source.Source
 import eu.fiax.faxyomi.source.model.Page
 import eu.fiax.faxyomi.source.online.HttpSource
 import okhttp3.Response
-import tachiyomi.core.common.preference.Preference
+import faxyomi.core.common.preference.Preference
 
 interface DataSaver {
 

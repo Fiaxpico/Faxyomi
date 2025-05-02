@@ -1,7 +1,7 @@
-package tachiyomi.domain
+package faxyomi.domain
 
-import tachiyomi.core.common.preference.Preference
-import tachiyomi.core.common.preference.PreferenceStore
+import faxyomi.core.common.preference.Preference
+import faxyomi.core.common.preference.PreferenceStore
 
 class UnsortedPreferences(
     private val preferenceStore: PreferenceStore,

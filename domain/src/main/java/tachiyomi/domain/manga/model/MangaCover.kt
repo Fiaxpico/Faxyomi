@@ -1,6 +1,6 @@
-package tachiyomi.domain.manga.model
+package faxyomi.domain.manga.model
 
-import tachiyomi.domain.manga.interactor.GetCustomMangaInfo
+import faxyomi.domain.manga.interactor.GetCustomMangaInfo
 import uy.kohesive.injekt.injectLazy
 
 /**

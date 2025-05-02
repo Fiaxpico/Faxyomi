@@ -1,14 +1,14 @@
-package tachiyomi.domain.library.service
+package faxyomi.domain.library.service
 
-import tachiyomi.core.common.preference.Preference
-import tachiyomi.core.common.preference.PreferenceStore
-import tachiyomi.core.common.preference.TriState
-import tachiyomi.core.common.preference.getEnum
-import tachiyomi.domain.library.model.GroupLibraryMode
-import tachiyomi.domain.library.model.LibraryDisplayMode
-import tachiyomi.domain.library.model.LibraryGroup
-import tachiyomi.domain.library.model.LibrarySort
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.core.common.preference.Preference
+import faxyomi.core.common.preference.PreferenceStore
+import faxyomi.core.common.preference.TriState
+import faxyomi.core.common.preference.getEnum
+import faxyomi.domain.library.model.GroupLibraryMode
+import faxyomi.domain.library.model.LibraryDisplayMode
+import faxyomi.domain.library.model.LibraryGroup
+import faxyomi.domain.library.model.LibrarySort
+import faxyomi.domain.manga.model.Manga
 
 class LibraryPreferences(
     private val preferenceStore: PreferenceStore,

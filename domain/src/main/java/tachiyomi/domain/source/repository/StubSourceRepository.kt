@@ -1,7 +1,7 @@
-package tachiyomi.domain.source.repository
+package faxyomi.domain.source.repository
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.source.model.StubSource
+import faxyomi.domain.source.model.StubSource
 
 interface StubSourceRepository {
     fun subscribeAll(): Flow<List<StubSource>>

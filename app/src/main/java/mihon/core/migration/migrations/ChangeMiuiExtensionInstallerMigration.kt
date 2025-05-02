@@ -1,10 +1,10 @@
 package mihon.core.migration.migrations
 
-import eu.kanade.domain.base.BasePreferences
+import eu.fiax.domain.base.BasePreferences
 import eu.fiax.faxyomi.util.system.DeviceUtil
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.lang.withIOContext
 
 class ChangeMiuiExtensionInstallerMigration : Migration {
     override val version: Float = 27f

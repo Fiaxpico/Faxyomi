@@ -1,9 +1,9 @@
-package tachiyomi.domain.manga.repository
+package faxyomi.domain.manga.repository
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.library.model.LibraryManga
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.model.MangaUpdate
+import faxyomi.domain.library.model.LibraryManga
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.MangaUpdate
 
 interface MangaRepository {
 

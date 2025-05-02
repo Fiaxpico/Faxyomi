@@ -9,18 +9,18 @@ import androidx.compose.ui.platform.LocalContext
 import cafe.adriel.voyager.core.model.rememberScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import eu.kanade.presentation.browse.BrowseSourceContent
-import eu.kanade.presentation.browse.components.BrowseSourceSimpleToolbar
-import eu.kanade.presentation.util.Screen
+import eu.fiax.presentation.browse.BrowseSourceContent
+import eu.fiax.presentation.browse.components.BrowseSourceSimpleToolbar
+import eu.fiax.presentation.util.Screen
 import eu.fiax.faxyomi.ui.browse.source.SourcesScreen
 import eu.fiax.faxyomi.ui.manga.MangaScreen
 import eu.fiax.faxyomi.ui.webview.WebViewActivity
 import exh.recs.batch.RankedSearchResults
 import exh.ui.ifSourcesLoaded
 import mihon.presentation.core.util.collectAsLazyPagingItems
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.presentation.core.components.material.Scaffold
-import tachiyomi.presentation.core.screens.LoadingScreen
+import faxyomi.domain.manga.model.Manga
+import faxyomi.presentation.core.components.material.Scaffold
+import faxyomi.presentation.core.screens.LoadingScreen
 import java.io.Serializable
 
 class BrowseRecommendsScreen(

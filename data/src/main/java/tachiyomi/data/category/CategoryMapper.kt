@@ -1,6 +1,6 @@
-package tachiyomi.data.category
+package faxyomi.data.category
 
-import tachiyomi.domain.category.model.Category
+import faxyomi.domain.category.model.Category
 
 object CategoryMapper {
     fun mapCategory(

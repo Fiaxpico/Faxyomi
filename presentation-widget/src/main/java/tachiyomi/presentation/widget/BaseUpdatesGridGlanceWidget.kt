@@ -1,4 +1,4 @@
-package tachiyomi.presentation.widget
+package faxyomi.presentation.widget
 
 import android.app.Application
 import android.content.Context
@@ -36,16 +36,16 @@ import eu.fiax.faxyomi.util.system.dpToPx
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.flow.map
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.domain.manga.model.MangaCover
-import tachiyomi.domain.updates.interactor.GetUpdates
-import tachiyomi.domain.updates.model.UpdatesWithRelations
-import tachiyomi.presentation.widget.components.CoverHeight
-import tachiyomi.presentation.widget.components.CoverWidth
-import tachiyomi.presentation.widget.components.LockedWidget
-import tachiyomi.presentation.widget.components.UpdatesWidget
-import tachiyomi.presentation.widget.util.appWidgetBackgroundRadius
-import tachiyomi.presentation.widget.util.calculateRowAndColumnCount
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.domain.manga.model.MangaCover
+import faxyomi.domain.updates.interactor.GetUpdates
+import faxyomi.domain.updates.model.UpdatesWithRelations
+import faxyomi.presentation.widget.components.CoverHeight
+import faxyomi.presentation.widget.components.CoverWidth
+import faxyomi.presentation.widget.components.LockedWidget
+import faxyomi.presentation.widget.components.UpdatesWidget
+import faxyomi.presentation.widget.util.appWidgetBackgroundRadius
+import faxyomi.presentation.widget.util.calculateRowAndColumnCount
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import java.time.Instant

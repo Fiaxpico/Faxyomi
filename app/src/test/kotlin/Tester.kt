@@ -19,15 +19,15 @@ import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import org.koin.core.context.startKoin
 import org.koin.dsl.module
-import tachiyomi.domain.category.interactor.GetCategories
-import tachiyomi.domain.category.model.Category
-import tachiyomi.domain.manga.interactor.GetCustomMangaInfo
-import tachiyomi.domain.manga.interactor.GetFavoriteEntries
-import tachiyomi.domain.manga.interactor.GetFavorites
-import tachiyomi.domain.manga.model.CustomMangaInfo
-import tachiyomi.domain.manga.model.FavoriteEntry
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.repository.CustomMangaRepository
+import faxyomi.domain.category.interactor.GetCategories
+import faxyomi.domain.category.model.Category
+import faxyomi.domain.manga.interactor.GetCustomMangaInfo
+import faxyomi.domain.manga.interactor.GetFavoriteEntries
+import faxyomi.domain.manga.interactor.GetFavorites
+import faxyomi.domain.manga.model.CustomMangaInfo
+import faxyomi.domain.manga.model.FavoriteEntry
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.repository.CustomMangaRepository
 import java.io.File
 
 class Tester {

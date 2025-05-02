@@ -1,8 +1,8 @@
-package tachiyomi.domain.source.repository
+package faxyomi.domain.source.repository
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.source.model.FeedSavedSearch
-import tachiyomi.domain.source.model.SavedSearch
+import faxyomi.domain.source.model.FeedSavedSearch
+import faxyomi.domain.source.model.SavedSearch
 
 interface FeedSavedSearchRepository {
 

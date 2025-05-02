@@ -1,7 +1,7 @@
-package tachiyomi.domain.source.interactor
+package faxyomi.domain.source.interactor
 
-import tachiyomi.domain.source.model.SavedSearch
-import tachiyomi.domain.source.repository.FeedSavedSearchRepository
+import faxyomi.domain.source.model.SavedSearch
+import faxyomi.domain.source.repository.FeedSavedSearchRepository
 
 class GetSavedSearchBySourceIdFeed(
     private val feedSavedSearchRepository: FeedSavedSearchRepository,

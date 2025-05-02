@@ -1,4 +1,4 @@
-package tachiyomi.data.source
+package faxyomi.data.source
 
 import androidx.paging.PagingState
 import eu.fiax.faxyomi.source.CatalogueSource
@@ -7,8 +7,8 @@ import eu.fiax.faxyomi.source.model.MangasPage
 import eu.fiax.faxyomi.source.model.MetadataMangasPage
 import eu.fiax.faxyomi.source.model.SManga
 import exh.metadata.metadata.RaisedSearchMetadata
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.domain.source.repository.SourcePagingSourceType
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.domain.source.repository.SourcePagingSourceType
 
 class SourceSearchPagingSource(source: CatalogueSource, val query: String, val filters: FilterList) :
     SourcePagingSource(source) {

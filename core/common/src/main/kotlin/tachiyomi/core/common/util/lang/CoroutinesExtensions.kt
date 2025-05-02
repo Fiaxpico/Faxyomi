@@ -1,4 +1,4 @@
-package tachiyomi.core.common.util.lang
+package faxyomi.core.common.util.lang
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart

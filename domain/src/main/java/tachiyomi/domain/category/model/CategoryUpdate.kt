@@ -1,4 +1,4 @@
-package tachiyomi.domain.category.model
+package faxyomi.domain.category.model
 
 data class CategoryUpdate(
     val id: Long,

@@ -1,9 +1,9 @@
-package tachiyomi.domain.release.interactor
+package faxyomi.domain.release.interactor
 
-import tachiyomi.core.common.preference.Preference
-import tachiyomi.core.common.preference.PreferenceStore
-import tachiyomi.domain.release.model.Release
-import tachiyomi.domain.release.service.ReleaseService
+import faxyomi.core.common.preference.Preference
+import faxyomi.core.common.preference.PreferenceStore
+import faxyomi.domain.release.model.Release
+import faxyomi.domain.release.service.ReleaseService
 import java.time.Instant
 import java.time.temporal.ChronoUnit
 
@@ -50,12 +50,12 @@ class GetApplicationRelease(
         // Removes prefixes like "r" or "v"
         val newVersion = versionTag.replace("[^\\d.]".toRegex(), "")
         return if (isPreview) {
-            // Preview builds: based on releases in "jobobby04/TachiyomiSYPreview" repo
+            // Preview builds: based on releases in "jobobby04/faxyomiSYPreview" repo
             // tagged as something like "508"
             val currentInt = syDebugVersion.toIntOrNull()
             currentInt != null && newVersion.toInt() > currentInt
         } else {
-            // Release builds: based on releases in "jobobby04/TachiyomiSY" repo
+            // Release builds: based on releases in "jobobby04/faxyomiSY" repo
             // tagged as something like "0.1.2"
             val oldVersion = versionName.replace("[^\\d.]".toRegex(), "")
 

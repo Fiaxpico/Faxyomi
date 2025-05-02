@@ -1,4 +1,4 @@
-package tachiyomi.data
+package faxyomi.data
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Job

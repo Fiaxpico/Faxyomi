@@ -1,4 +1,4 @@
-package tachiyomi.presentation.widget
+package faxyomi.presentation.widget
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp

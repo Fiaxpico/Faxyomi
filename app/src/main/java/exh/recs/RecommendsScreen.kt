@@ -7,7 +7,7 @@ import androidx.compose.ui.platform.LocalContext
 import cafe.adriel.voyager.core.model.rememberScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import eu.kanade.presentation.util.Screen
+import eu.fiax.presentation.util.Screen
 import eu.fiax.faxyomi.ui.browse.source.SourcesScreen
 import eu.fiax.faxyomi.ui.manga.MangaScreen
 import eu.fiax.faxyomi.ui.webview.WebViewActivity
@@ -17,10 +17,10 @@ import exh.recs.batch.RankedSearchResults
 import exh.recs.components.RecommendsScreen
 import exh.recs.sources.StaticResultPagingSource
 import exh.ui.ifSourcesLoaded
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.i18n.sy.SYMR
-import tachiyomi.presentation.core.i18n.stringResource
-import tachiyomi.presentation.core.screens.LoadingScreen
+import faxyomi.domain.manga.model.Manga
+import faxyomi.i18n.sy.SYMR
+import faxyomi.presentation.core.i18n.stringResource
+import faxyomi.presentation.core.screens.LoadingScreen
 import java.io.Serializable
 
 class RecommendsScreen(private val args: Args) : Screen() {

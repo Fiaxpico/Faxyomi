@@ -52,7 +52,7 @@
         tools:node="remove" />
 
     <application
-        android:name=".App"
+        android:name="eu.fiax.faxyomi.App"
         android:allowBackup="false"
         android:enableOnBackInvokedCallback="true"
         android:hardwareAccelerated="true"
@@ -65,13 +65,13 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Tachiyomi">
+        android:theme="@style/Theme.faxyomi">
 
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="eu.fiax.faxyomi.ui.main.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.Tachiyomi.SplashScreen">
+            android:theme="@style/Theme.faxyomi.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -85,7 +85,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="tachiyomi" />
+                <data android:scheme="faxyomi" />
                 <data android:host="add-repo" />
             </intent-filter>
 
@@ -123,12 +123,12 @@
         </activity>
 
         <activity
-            android:name=".crash.CrashActivity"
+            android:name="eu.fiax.faxyomi.crash.CrashActivity"
             android:exported="false"
             android:process=":error_handler" />
 
         <activity
-            android:name=".ui.deeplink.DeepLinkActivity"
+            android:name="eu.fiax.faxyomi.ui.deeplink.DeepLinkActivity"
             android:exported="true"
             android:label="@string/action_search"
             android:launchMode="singleTask"
@@ -140,7 +140,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
-                <action android:name="eu.kanade.tachiyomi.SEARCH" />
+                <action android:name="eu.fiax.faxyomi.SEARCH" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -155,7 +155,7 @@
         </activity>
 
         <activity
-            android:name=".ui.reader.ReaderActivity"
+            android:name="eu.fiax.faxyomi.ui.reader.ReaderActivity"
             android:exported="false"
             android:launchMode="singleTask">
             <intent-filter>
@@ -168,22 +168,22 @@
         </activity>
 
         <activity
-            android:name=".ui.security.UnlockActivity"
+            android:name="eu.fiax.faxyomi.ui.security.UnlockActivity"
             android:exported="false"
-            android:theme="@style/Theme.Tachiyomi" />
+            android:theme="@style/Theme.faxyomi" />
 
         <activity
-            android:name=".ui.webview.WebViewActivity"
+            android:name="eu.fiax.faxyomi.ui.webview.WebViewActivity"
             android:configChanges="uiMode|orientation|screenSize"
             android:exported="false" />
 
         <activity
-            android:name=".extension.util.ExtensionInstallActivity"
+            android:name="eu.fiax.faxyomi.extension.util.ExtensionInstallActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <activity
-            android:name=".ui.setting.track.TrackLoginActivity"
+            android:name="eu.fiax.faxyomi.ui.setting.track.TrackLoginActivity"
             android:exported="true"
             android:label="@string/track_activity_name">
             <intent-filter>
@@ -201,7 +201,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.setting.track.GoogleDriveLoginActivity"
+            android:name="eu.fiax.faxyomi.ui.setting.track.GoogleDriveLoginActivity"
             android:label="GoogleDrive"
             android:exported="true">
             <intent-filter>
@@ -211,7 +211,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="eu.kanade.google.oauth" />
+                    android:scheme="eu.fiax.google.oauth" />
             </intent-filter>
         </activity>
 
@@ -221,11 +221,11 @@
             android:exported="false"/>
 
         <receiver
-            android:name=".data.notification.NotificationReceiver"
+            android:name="eu.fiax.faxyomi.data.notification.NotificationReceiver"
             android:exported="false" />
 
         <service
-            android:name=".extension.util.ExtensionInstallService"
+            android:name="eu.fiax.faxyomi.extension.util.ExtensionInstallService"
             android:exported="false"
             android:foregroundServiceType="shortService" />
 
@@ -285,7 +285,7 @@
         <activity
             android:name="exh.ui.intercept.InterceptActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Tachiyomi"
+            android:theme="@style/Theme.faxyomi"
             android:exported="true">
             <!-- E-Hentai -->
             <intent-filter>
@@ -410,7 +410,7 @@
 
                 <data
                     android:host="mangadex-auth"
-                    android:scheme="tachiyomisy" />
+                    android:scheme="faxyomisy" />
             </intent-filter>
         </activity>
     </application>

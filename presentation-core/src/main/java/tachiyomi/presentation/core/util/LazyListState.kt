@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.util
+package faxyomi.presentation.core.util
 
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable

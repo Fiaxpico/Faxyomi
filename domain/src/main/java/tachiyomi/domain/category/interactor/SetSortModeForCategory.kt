@@ -1,12 +1,12 @@
-package tachiyomi.domain.category.interactor
+package faxyomi.domain.category.interactor
 
-import tachiyomi.domain.category.model.Category
-import tachiyomi.domain.category.model.CategoryUpdate
-import tachiyomi.domain.category.repository.CategoryRepository
-import tachiyomi.domain.library.model.LibraryGroup
-import tachiyomi.domain.library.model.LibrarySort
-import tachiyomi.domain.library.model.plus
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.domain.category.model.Category
+import faxyomi.domain.category.model.CategoryUpdate
+import faxyomi.domain.category.repository.CategoryRepository
+import faxyomi.domain.library.model.LibraryGroup
+import faxyomi.domain.library.model.LibrarySort
+import faxyomi.domain.library.model.plus
+import faxyomi.domain.library.service.LibraryPreferences
 import kotlin.random.Random
 
 class SetSortModeForCategory(

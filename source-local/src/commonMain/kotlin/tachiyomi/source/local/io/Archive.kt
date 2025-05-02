@@ -1,7 +1,7 @@
-package tachiyomi.source.local.io
+package faxyomi.source.local.io
 
 import com.hippo.unifile.UniFile
-import tachiyomi.core.common.storage.extension
+import faxyomi.core.common.storage.extension
 
 object Archive {
 

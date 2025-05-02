@@ -1,7 +1,7 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
 import exh.metadata.sql.models.SearchTag
-import tachiyomi.domain.manga.repository.MangaMetadataRepository
+import faxyomi.domain.manga.repository.MangaMetadataRepository
 
 class GetSearchTags(
     private val mangaMetadataRepository: MangaMetadataRepository,

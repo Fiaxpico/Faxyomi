@@ -5,7 +5,7 @@ import androidx.preference.PreferenceManager
 import eu.fiax.faxyomi.ui.reader.setting.ReaderPreferences
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.lang.withIOContext
 
 class MoveReaderTapSettingMigration : Migration {
     override val version: Float = 32f

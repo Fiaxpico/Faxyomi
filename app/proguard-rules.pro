@@ -1,7 +1,7 @@
 -dontobfuscate
 
--keep,allowoptimization class eu.kanade.**
--keep,allowoptimization class tachiyomi.**
+-keep,allowoptimization class eu.fiax.**
+-keep,allowoptimization class faxyomi.**
 -keep,allowoptimization class mihon.**
 
 # Keep common dependencies used in extensions
@@ -18,12 +18,12 @@
 -keep,allowoptimization class uy.kohesive.injekt.** { public protected *; }
 
 # From extensions-lib
--keep,allowoptimization class eu.kanade.tachiyomi.network.interceptor.RateLimitInterceptorKt { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.network.interceptor.SpecificHostRateLimitInterceptorKt { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.network.NetworkHelper { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.network.OkHttpExtensionsKt { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.network.RequestsKt { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.AppInfo { public protected *; }
+-keep,allowoptimization class eu.fiax.faxyomi.network.interceptor.RateLimitInterceptorKt { public protected *; }
+-keep,allowoptimization class eu.fiax.faxyomi.network.interceptor.SpecificHostRateLimitInterceptorKt { public protected *; }
+-keep,allowoptimization class eu.fiax.faxyomi.network.NetworkHelper { public protected *; }
+-keep,allowoptimization class eu.fiax.faxyomi.network.OkHttpExtensionsKt { public protected *; }
+-keep,allowoptimization class eu.fiax.faxyomi.network.RequestsKt { public protected *; }
+-keep,allowoptimization class eu.fiax.faxyomi.AppInfo { public protected *; }
 
 # Debug functions
 -keep,allowoptimization class exh.debug.DebugFunctions { public *; }
@@ -63,19 +63,19 @@
     kotlinx.serialization.KSerializer serializer(...);
 }
 
--keep,includedescriptorclasses class eu.kanade.**$$serializer { *; }
--keepclassmembers class eu.kanade.** {
+-keep,includedescriptorclasses class eu.fiax.**$$serializer { *; }
+-keepclassmembers class eu.fiax.** {
     *** Companion;
 }
--keepclasseswithmembers class eu.kanade.** {
+-keepclasseswithmembers class eu.fiax.** {
     kotlinx.serialization.KSerializer serializer(...);
 }
 
--keep,includedescriptorclasses class tachiyomi.**$$serializer { *; }
--keepclassmembers class tachiyomi.** {
+-keep,includedescriptorclasses class faxyomi.**$$serializer { *; }
+-keepclassmembers class faxyomi.** {
     *** Companion;
 }
--keepclasseswithmembers class tachiyomi.** {
+-keepclasseswithmembers class faxyomi.** {
     kotlinx.serialization.KSerializer serializer(...);
 }
 

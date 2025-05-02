@@ -42,7 +42,7 @@ kotlin {
 }
 
 android {
-    namespace = "tachiyomi.source.local"
+    namespace = "faxyomi.source.local"
 
     defaultConfig {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

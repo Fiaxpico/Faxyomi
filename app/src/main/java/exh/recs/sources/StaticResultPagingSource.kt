@@ -5,7 +5,7 @@ import eu.fiax.faxyomi.source.model.MangasPage
 import eu.fiax.faxyomi.source.model.MetadataMangasPage
 import exh.metadata.metadata.RankedSearchMetadata
 import exh.recs.batch.RankedSearchResults
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.Manga
 
 class StaticResultPagingSource(
     val data: RankedSearchResults,

@@ -29,15 +29,15 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.model.rememberScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import eu.kanade.presentation.components.AppBar
-import eu.kanade.presentation.util.Screen
-import tachiyomi.i18n.MR
-import tachiyomi.i18n.sy.SYMR
-import tachiyomi.presentation.core.components.material.Button
-import tachiyomi.presentation.core.components.material.Scaffold
-import tachiyomi.presentation.core.components.material.padding
-import tachiyomi.presentation.core.i18n.stringResource
-import tachiyomi.presentation.core.util.plus
+import eu.fiax.presentation.components.AppBar
+import eu.fiax.presentation.util.Screen
+import faxyomi.i18n.MR
+import faxyomi.i18n.sy.SYMR
+import faxyomi.presentation.core.components.material.Button
+import faxyomi.presentation.core.components.material.Scaffold
+import faxyomi.presentation.core.components.material.padding
+import faxyomi.presentation.core.i18n.stringResource
+import faxyomi.presentation.core.util.plus
 
 class BatchAddScreen : Screen() {
 

@@ -1,4 +1,4 @@
-package tachiyomi.data
+package faxyomi.data
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState

@@ -1,4 +1,4 @@
-package tachiyomi.domain.history.model
+package faxyomi.domain.history.model
 
 import java.util.Date
 

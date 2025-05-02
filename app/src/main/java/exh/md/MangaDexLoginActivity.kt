@@ -5,8 +5,8 @@ import androidx.lifecycle.lifecycleScope
 import eu.fiax.faxyomi.ui.setting.track.BaseOAuthLoginActivity
 import exh.md.utils.MdUtil
 import kotlinx.coroutines.flow.first
-import tachiyomi.core.common.util.lang.launchIO
-import tachiyomi.domain.source.service.SourceManager
+import faxyomi.core.common.util.lang.launchIO
+import faxyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

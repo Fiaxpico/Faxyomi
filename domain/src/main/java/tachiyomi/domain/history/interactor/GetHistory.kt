@@ -1,9 +1,9 @@
-package tachiyomi.domain.history.interactor
+package faxyomi.domain.history.interactor
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.history.model.History
-import tachiyomi.domain.history.model.HistoryWithRelations
-import tachiyomi.domain.history.repository.HistoryRepository
+import faxyomi.domain.history.model.History
+import faxyomi.domain.history.model.HistoryWithRelations
+import faxyomi.domain.history.repository.HistoryRepository
 
 class GetHistory(
     private val repository: HistoryRepository,

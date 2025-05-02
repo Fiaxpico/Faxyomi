@@ -1,7 +1,7 @@
 package exh.md.similar
 
 import dev.icerock.moko.resources.StringResource
-import eu.kanade.domain.manga.model.toSManga
+import eu.fiax.domain.manga.model.toSManga
 import eu.fiax.faxyomi.network.HttpException
 import eu.fiax.faxyomi.source.model.MangasPage
 import eu.fiax.faxyomi.source.model.MetadataMangasPage
@@ -10,9 +10,9 @@ import exh.recs.sources.RecommendationPagingSource
 import exh.source.getMainSource
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
-import tachiyomi.data.source.NoResultsException
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.data.source.NoResultsException
+import faxyomi.domain.manga.model.Manga
+import faxyomi.i18n.sy.SYMR
 
 /**
  * MangaDexSimilarPagingSource inherited from the general Pager.

@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.util
+package faxyomi.presentation.core.util
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.calculateEndPadding

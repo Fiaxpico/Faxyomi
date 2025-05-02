@@ -1,6 +1,6 @@
 package exh.pref
 
-import tachiyomi.core.common.preference.PreferenceStore
+import faxyomi.core.common.preference.PreferenceStore
 
 class DelegateSourcePreferences(
     private val preferenceStore: PreferenceStore,

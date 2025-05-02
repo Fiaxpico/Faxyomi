@@ -1,6 +1,6 @@
-package tachiyomi.domain.track.interactor
+package faxyomi.domain.track.interactor
 
-import tachiyomi.domain.track.model.Track
+import faxyomi.domain.track.model.Track
 
 class IsTrackUnfollowed {
 

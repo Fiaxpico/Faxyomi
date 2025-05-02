@@ -1,10 +1,10 @@
 package mihon.core.migration.migrations
 
-import eu.kanade.domain.ui.UiPreferences
+import eu.fiax.domain.ui.UiPreferences
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.preference.PreferenceStore
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.preference.PreferenceStore
+import faxyomi.core.common.util.lang.withIOContext
 
 class MoveRelativeTimeSettingMigration : Migration {
     override val version: Float = 57f

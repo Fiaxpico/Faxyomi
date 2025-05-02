@@ -1,6 +1,6 @@
-package tachiyomi.domain.source.interactor
+package faxyomi.domain.source.interactor
 
-import tachiyomi.domain.source.repository.SavedSearchRepository
+import faxyomi.domain.source.repository.SavedSearchRepository
 
 class DeleteSavedSearchById(
     private val savedSearchRepository: SavedSearchRepository,

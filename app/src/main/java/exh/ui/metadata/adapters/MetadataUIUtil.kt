@@ -15,8 +15,8 @@ import androidx.core.graphics.red
 import eu.fiax.faxyomi.source.R
 import eu.fiax.faxyomi.util.system.dpToPx
 import exh.util.SourceTagsUtil
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.i18n.sy.SYMR
 import kotlin.math.roundToInt
 
 object MetadataUIUtil {

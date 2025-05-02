@@ -5,8 +5,8 @@ import eu.fiax.faxyomi.data.cache.PagePreviewCache
 import logcat.LogPriority
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.core.common.util.system.logcat
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.system.logcat
 import java.io.File
 
 class ClearBrokenPagePreviewCacheMigration : Migration {

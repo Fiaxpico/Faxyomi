@@ -12,10 +12,10 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.domain.UnsortedPreferences
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.domain.UnsortedPreferences
+import faxyomi.i18n.sy.SYMR
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

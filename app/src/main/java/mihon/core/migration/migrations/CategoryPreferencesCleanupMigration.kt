@@ -2,10 +2,10 @@ package mihon.core.migration.migrations
 
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.domain.category.interactor.GetCategories
-import tachiyomi.domain.download.service.DownloadPreferences
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.domain.category.interactor.GetCategories
+import faxyomi.domain.download.service.DownloadPreferences
+import faxyomi.domain.library.service.LibraryPreferences
 
 class CategoryPreferencesCleanupMigration : Migration {
     override val version: Float = 72f

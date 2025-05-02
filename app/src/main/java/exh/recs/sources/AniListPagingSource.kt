@@ -16,10 +16,10 @@ import kotlinx.serialization.json.jsonPrimitive
 import kotlinx.serialization.json.put
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.RequestBody.Companion.toRequestBody
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.data.source.NoResultsException
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.util.system.logcat
+import faxyomi.data.source.NoResultsException
+import faxyomi.domain.manga.model.Manga
+import faxyomi.i18n.sy.SYMR
 
 class AniListPagingSource(manga: Manga) : TrackerRecommendationPagingSource(
     "https://graphql.anilist.co/", manga,

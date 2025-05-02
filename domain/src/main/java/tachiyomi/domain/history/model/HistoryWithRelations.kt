@@ -1,7 +1,7 @@
-package tachiyomi.domain.history.model
+package faxyomi.domain.history.model
 
-import tachiyomi.domain.manga.interactor.GetCustomMangaInfo
-import tachiyomi.domain.manga.model.MangaCover
+import faxyomi.domain.manga.interactor.GetCustomMangaInfo
+import faxyomi.domain.manga.model.MangaCover
 import uy.kohesive.injekt.injectLazy
 import java.util.Date
 

@@ -1,12 +1,12 @@
-package tachiyomi.data.release
+package faxyomi.data.release
 
 import eu.fiax.faxyomi.network.GET
 import eu.fiax.faxyomi.network.NetworkHelper
 import eu.fiax.faxyomi.network.awaitSuccess
 import eu.fiax.faxyomi.network.parseAs
 import kotlinx.serialization.json.Json
-import tachiyomi.domain.release.model.Release
-import tachiyomi.domain.release.service.ReleaseService
+import faxyomi.domain.release.model.Release
+import faxyomi.domain.release.service.ReleaseService
 
 class ReleaseServiceImpl(
     private val networkService: NetworkHelper,

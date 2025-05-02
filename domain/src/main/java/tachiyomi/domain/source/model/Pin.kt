@@ -1,4 +1,4 @@
-package tachiyomi.domain.source.model
+package faxyomi.domain.source.model
 
 sealed class Pin(val code: Int) {
     data object Unpinned : Pin(0b00)

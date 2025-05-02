@@ -19,7 +19,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import tachiyomi.presentation.core.components.material.DISABLED_ALPHA
+import faxyomi.presentation.core.components.material.DISABLED_ALPHA
 import java.time.LocalDate
 
 private const val MAX_EVENTS = 3

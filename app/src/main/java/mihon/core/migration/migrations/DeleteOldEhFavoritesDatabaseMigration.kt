@@ -4,7 +4,7 @@ import android.app.Application
 import exh.log.xLogE
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.lang.withIOContext
 import java.io.File
 
 class DeleteOldEhFavoritesDatabaseMigration : Migration {

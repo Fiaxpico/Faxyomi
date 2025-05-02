@@ -1,10 +1,10 @@
-package tachiyomi.presentation.widget.util
+package faxyomi.presentation.widget.util
 
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.DpSize
 import androidx.glance.GlanceModifier
 import androidx.glance.appwidget.cornerRadius
-import tachiyomi.presentation.widget.R
+import faxyomi.presentation.widget.R
 
 fun GlanceModifier.appWidgetBackgroundRadius(): GlanceModifier {
     return this.cornerRadius(R.dimen.appwidget_background_radius)

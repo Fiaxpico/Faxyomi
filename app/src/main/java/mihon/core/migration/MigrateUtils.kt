@@ -1,8 +1,8 @@
 package mihon.core.migration
 
 import kotlinx.coroutines.runBlocking
-import tachiyomi.core.common.preference.PreferenceStore
-import tachiyomi.data.DatabaseHandler
+import faxyomi.core.common.preference.PreferenceStore
+import faxyomi.data.DatabaseHandler
 
 object MigrateUtils {
     fun updateSourceId(migrationContext: MigrationContext, newId: Long, oldId: Long) {

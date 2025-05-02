@@ -19,15 +19,15 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.model.rememberScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import eu.kanade.presentation.components.AppBar
-import eu.kanade.presentation.util.Screen
+import eu.fiax.presentation.components.AppBar
+import eu.fiax.presentation.util.Screen
 import eu.fiax.faxyomi.ui.browse.source.SourcesScreen
 import eu.fiax.faxyomi.ui.browse.source.browse.BrowseSourceScreen
 import eu.fiax.faxyomi.ui.manga.MangaScreen
 import eu.fiax.faxyomi.util.system.toast
-import tachiyomi.i18n.sy.SYMR
-import tachiyomi.presentation.core.components.material.Scaffold
-import tachiyomi.presentation.core.i18n.stringResource
+import faxyomi.i18n.sy.SYMR
+import faxyomi.presentation.core.components.material.Scaffold
+import faxyomi.presentation.core.i18n.stringResource
 
 class SmartSearchScreen(
     private val sourceId: Long,

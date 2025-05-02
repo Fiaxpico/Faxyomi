@@ -1,10 +1,10 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
 import kotlinx.coroutines.flow.Flow
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.manga.model.MergedMangaReference
-import tachiyomi.domain.manga.repository.MangaMergeRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.manga.model.MergedMangaReference
+import faxyomi.domain.manga.repository.MangaMergeRepository
 
 class GetMergedReferencesById(
     private val mangaMergeRepository: MangaMergeRepository,

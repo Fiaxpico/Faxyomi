@@ -9,7 +9,7 @@ import me.zhanghai.android.libarchive.Archive
 import me.zhanghai.android.libarchive.ArchiveEntry
 import me.zhanghai.android.libarchive.ArchiveEntry.AE_IFREG
 import me.zhanghai.android.libarchive.ArchiveException
-import tachiyomi.core.common.storage.openFileDescriptor
+import faxyomi.core.common.storage.openFileDescriptor
 import java.io.Closeable
 import java.nio.ByteBuffer
 

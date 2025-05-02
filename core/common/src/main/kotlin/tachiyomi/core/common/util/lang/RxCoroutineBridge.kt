@@ -1,4 +1,4 @@
-package tachiyomi.core.common.util.lang
+package faxyomi.core.common.util.lang
 
 import kotlinx.coroutines.CancellableContinuation
 import kotlinx.coroutines.CancellationException
@@ -18,7 +18,7 @@ import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
 /*
- * Util functions for bridging RxJava and coroutines. Taken from TachiyomiEH/SY.
+ * Util functions for bridging RxJava and coroutines. Taken from faxyomiEH/SY.
  */
 
 suspend fun <T> Observable<T>.awaitSingle(): T = single().awaitOne()

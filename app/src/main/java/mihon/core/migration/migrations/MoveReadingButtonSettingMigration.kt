@@ -4,8 +4,8 @@ import android.app.Application
 import androidx.preference.PreferenceManager
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.domain.library.service.LibraryPreferences
 
 class MoveReadingButtonSettingMigration : Migration {
     override val version: Float = 43f

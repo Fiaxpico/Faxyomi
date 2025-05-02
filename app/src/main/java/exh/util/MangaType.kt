@@ -2,10 +2,10 @@ package exh.util
 
 import android.content.Context
 import eu.fiax.faxyomi.ui.reader.setting.ReadingMode
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.source.service.SourceManager
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.source.service.SourceManager
+import faxyomi.i18n.sy.SYMR
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import java.util.Locale

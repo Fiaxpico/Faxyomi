@@ -1,10 +1,10 @@
 package exh.smartsearch
 
-import eu.kanade.domain.manga.model.toDomainManga
+import eu.fiax.domain.manga.model.toDomainManga
 import eu.fiax.faxyomi.source.CatalogueSource
 import eu.fiax.faxyomi.source.model.FilterList
 import eu.fiax.faxyomi.source.model.SManga
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.Manga
 
 class SmartSourceSearchEngine(
     extraSearchParams: String? = null,

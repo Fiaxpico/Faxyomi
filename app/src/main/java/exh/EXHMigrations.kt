@@ -5,7 +5,7 @@ import exh.source.BlacklistedSources
 import exh.source.EH_SOURCE_ID
 import exh.source.HBROWSE_SOURCE_ID
 import exh.source.TSUMINO_SOURCE_ID
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.Manga
 import java.net.URI
 import java.net.URISyntaxException
 

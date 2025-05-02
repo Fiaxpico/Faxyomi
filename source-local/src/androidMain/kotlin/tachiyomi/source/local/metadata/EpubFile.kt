@@ -1,4 +1,4 @@
-package tachiyomi.source.local.metadata
+package faxyomi.source.local.metadata
 
 import eu.fiax.faxyomi.source.model.SChapter
 import eu.fiax.faxyomi.source.model.SManga

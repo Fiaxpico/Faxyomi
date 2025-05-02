@@ -1,8 +1,8 @@
-package tachiyomi.domain.category.interactor
+package faxyomi.domain.category.interactor
 
-import tachiyomi.domain.category.repository.CategoryRepository
-import tachiyomi.domain.library.model.plus
-import tachiyomi.domain.library.service.LibraryPreferences
+import faxyomi.domain.category.repository.CategoryRepository
+import faxyomi.domain.library.model.plus
+import faxyomi.domain.library.service.LibraryPreferences
 
 class ResetCategoryFlags(
     private val preferences: LibraryPreferences,

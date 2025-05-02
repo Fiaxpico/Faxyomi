@@ -1,4 +1,4 @@
-package tachiyomi.core.common.util.system
+package faxyomi.core.common.util.system
 
 import logcat.LogPriority
 import logcat.asLog

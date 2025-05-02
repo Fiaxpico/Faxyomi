@@ -1,8 +1,8 @@
-package tachiyomi.domain.track.interactor
+package faxyomi.domain.track.interactor
 
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.track.repository.TrackRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.track.repository.TrackRepository
 
 class DeleteTrack(
     private val trackRepository: TrackRepository,

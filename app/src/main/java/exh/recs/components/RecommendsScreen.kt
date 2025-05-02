@@ -5,20 +5,20 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.ui.platform.LocalContext
-import eu.kanade.presentation.browse.components.GlobalSearchCardRow
-import eu.kanade.presentation.browse.components.GlobalSearchErrorResultItem
-import eu.kanade.presentation.browse.components.GlobalSearchLoadingResultItem
-import eu.kanade.presentation.browse.components.GlobalSearchResultItem
-import eu.kanade.presentation.components.AppBar
-import eu.kanade.presentation.util.formattedMessage
+import eu.fiax.presentation.browse.components.GlobalSearchCardRow
+import eu.fiax.presentation.browse.components.GlobalSearchErrorResultItem
+import eu.fiax.presentation.browse.components.GlobalSearchLoadingResultItem
+import eu.fiax.presentation.browse.components.GlobalSearchResultItem
+import eu.fiax.presentation.components.AppBar
+import eu.fiax.presentation.util.formattedMessage
 import exh.recs.RecommendationItemResult
 import exh.recs.RecommendsScreenModel
 import exh.recs.sources.RecommendationPagingSource
 import kotlinx.collections.immutable.ImmutableMap
 import nl.adaptivity.xmlutil.core.impl.multiplatform.name
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.presentation.core.components.material.Scaffold
-import tachiyomi.presentation.core.i18n.stringResource
+import faxyomi.domain.manga.model.Manga
+import faxyomi.presentation.core.components.material.Scaffold
+import faxyomi.presentation.core.i18n.stringResource
 
 @Composable
 fun RecommendsScreen(

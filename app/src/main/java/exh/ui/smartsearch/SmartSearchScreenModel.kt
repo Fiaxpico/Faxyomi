@@ -6,10 +6,10 @@ import eu.fiax.faxyomi.source.CatalogueSource
 import eu.fiax.faxyomi.ui.browse.source.SourcesScreen
 import exh.smartsearch.SmartSourceSearchEngine
 import kotlinx.coroutines.CancellationException
-import tachiyomi.core.common.util.lang.launchIO
-import tachiyomi.domain.manga.interactor.NetworkToLocalManga
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.source.service.SourceManager
+import faxyomi.core.common.util.lang.launchIO
+import faxyomi.domain.manga.interactor.NetworkToLocalManga
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

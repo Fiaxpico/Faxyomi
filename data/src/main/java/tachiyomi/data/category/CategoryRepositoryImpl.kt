@@ -1,11 +1,11 @@
-package tachiyomi.data.category
+package faxyomi.data.category
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.data.Database
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.category.model.Category
-import tachiyomi.domain.category.model.CategoryUpdate
-import tachiyomi.domain.category.repository.CategoryRepository
+import faxyomi.data.Database
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.category.model.Category
+import faxyomi.domain.category.model.CategoryUpdate
+import faxyomi.domain.category.repository.CategoryRepository
 
 class CategoryRepositoryImpl(
     private val handler: DatabaseHandler,

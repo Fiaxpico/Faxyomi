@@ -1,6 +1,6 @@
 package exh.favorites
 
-import eu.kanade.domain.manga.model.toDomainManga
+import eu.fiax.domain.manga.model.toDomainManga
 import eu.fiax.faxyomi.source.online.all.EHentai
 import exh.metadata.metadata.EHentaiSearchMetadata
 import exh.source.EXH_SOURCE_ID
@@ -11,14 +11,14 @@ import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.flow.toList
-import tachiyomi.domain.category.interactor.GetCategories
-import tachiyomi.domain.category.model.Category
-import tachiyomi.domain.manga.interactor.DeleteFavoriteEntries
-import tachiyomi.domain.manga.interactor.GetFavoriteEntries
-import tachiyomi.domain.manga.interactor.GetFavorites
-import tachiyomi.domain.manga.interactor.InsertFavoriteEntries
-import tachiyomi.domain.manga.model.FavoriteEntry
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.category.interactor.GetCategories
+import faxyomi.domain.category.model.Category
+import faxyomi.domain.manga.interactor.DeleteFavoriteEntries
+import faxyomi.domain.manga.interactor.GetFavoriteEntries
+import faxyomi.domain.manga.interactor.GetFavorites
+import faxyomi.domain.manga.interactor.InsertFavoriteEntries
+import faxyomi.domain.manga.model.FavoriteEntry
+import faxyomi.domain.manga.model.Manga
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

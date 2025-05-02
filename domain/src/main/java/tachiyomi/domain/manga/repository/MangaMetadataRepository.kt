@@ -1,4 +1,4 @@
-package tachiyomi.domain.manga.repository
+package faxyomi.domain.manga.repository
 
 import exh.metadata.metadata.RaisedSearchMetadata
 import exh.metadata.metadata.base.FlatMetadata
@@ -6,7 +6,7 @@ import exh.metadata.sql.models.SearchMetadata
 import exh.metadata.sql.models.SearchTag
 import exh.metadata.sql.models.SearchTitle
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.Manga
 
 interface MangaMetadataRepository {
     suspend fun getMetadataById(id: Long): SearchMetadata?

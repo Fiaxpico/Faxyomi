@@ -7,11 +7,11 @@ import exh.metadata.metadata.RaisedSearchMetadata
 import exh.source.getMainSource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import tachiyomi.core.common.util.lang.launchIO
-import tachiyomi.domain.manga.interactor.GetFlatMetadataById
-import tachiyomi.domain.manga.interactor.GetManga
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.source.service.SourceManager
+import faxyomi.core.common.util.lang.launchIO
+import faxyomi.domain.manga.interactor.GetFlatMetadataById
+import faxyomi.domain.manga.interactor.GetManga
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

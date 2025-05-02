@@ -1,6 +1,6 @@
 package mihon.core.migration.migrations
 
-import eu.kanade.domain.manga.interactor.UpdateManga
+import eu.fiax.domain.manga.interactor.UpdateManga
 import eu.fiax.faxyomi.source.Source
 import exh.source.MERGED_SOURCE_ID
 import kotlinx.serialization.SerialName
@@ -8,19 +8,19 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.data.chapter.ChapterMapper
-import tachiyomi.domain.chapter.interactor.DeleteChapters
-import tachiyomi.domain.chapter.interactor.UpdateChapter
-import tachiyomi.domain.chapter.model.ChapterUpdate
-import tachiyomi.domain.manga.interactor.GetManga
-import tachiyomi.domain.manga.interactor.GetMangaBySource
-import tachiyomi.domain.manga.interactor.InsertMergedReference
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.model.MangaUpdate
-import tachiyomi.domain.manga.model.MergedMangaReference
-import tachiyomi.domain.source.service.SourceManager
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.data.DatabaseHandler
+import faxyomi.data.chapter.ChapterMapper
+import faxyomi.domain.chapter.interactor.DeleteChapters
+import faxyomi.domain.chapter.interactor.UpdateChapter
+import faxyomi.domain.chapter.model.ChapterUpdate
+import faxyomi.domain.manga.interactor.GetManga
+import faxyomi.domain.manga.interactor.GetMangaBySource
+import faxyomi.domain.manga.interactor.InsertMergedReference
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.MangaUpdate
+import faxyomi.domain.manga.model.MergedMangaReference
+import faxyomi.domain.source.service.SourceManager
 
 class MergedMangaRewriteMigration : Migration {
     override val version: Float = 7f

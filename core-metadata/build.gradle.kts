@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "tachiyomi.core.metadata"
+    namespace = "faxyomi.core.metadata"
 
     defaultConfig {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

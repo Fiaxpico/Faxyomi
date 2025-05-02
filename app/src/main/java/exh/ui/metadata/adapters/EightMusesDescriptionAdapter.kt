@@ -6,14 +6,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
-import eu.fiax.faxyomi.R
-import eu.fiax.faxyomi.databinding.DescriptionAdapter8mBinding
+import eu.fiax.R
+import eu.fiax.databinding.DescriptionAdapter8mBinding
 import eu.fiax.faxyomi.ui.manga.MangaScreenModel.State
 import eu.fiax.faxyomi.util.system.copyToClipboard
 import exh.metadata.metadata.EightMusesSearchMetadata
 import exh.ui.metadata.adapters.MetadataUIUtil.bindDrawable
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.i18n.MR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.i18n.MR
 
 @Composable
 fun EightMusesDescription(state: State.Success, openMetadataViewer: () -> Unit) {

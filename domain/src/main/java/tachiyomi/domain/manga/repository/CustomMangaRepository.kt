@@ -1,6 +1,6 @@
-package tachiyomi.domain.manga.repository
+package faxyomi.domain.manga.repository
 
-import tachiyomi.domain.manga.model.CustomMangaInfo
+import faxyomi.domain.manga.model.CustomMangaInfo
 
 interface CustomMangaRepository {
 

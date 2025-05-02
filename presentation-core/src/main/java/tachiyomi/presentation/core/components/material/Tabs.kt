@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components.material
+package faxyomi.presentation.core.components.material
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Row
@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.sp
-import tachiyomi.presentation.core.components.Pill
+import faxyomi.presentation.core.components.Pill
 
 @Composable
 fun TabText(text: String, badgeCount: Int? = null) {

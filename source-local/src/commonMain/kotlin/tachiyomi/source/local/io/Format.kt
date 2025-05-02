@@ -1,8 +1,8 @@
-package tachiyomi.source.local.io
+package faxyomi.source.local.io
 
 import com.hippo.unifile.UniFile
-import tachiyomi.core.common.storage.extension
-import tachiyomi.source.local.io.Archive.isSupported as isArchiveSupported
+import faxyomi.core.common.storage.extension
+import faxyomi.source.local.io.Archive.isSupported as isArchiveSupported
 
 sealed interface Format {
     data class Directory(val file: UniFile) : Format

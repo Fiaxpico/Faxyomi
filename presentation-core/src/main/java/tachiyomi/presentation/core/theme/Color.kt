@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.theme
+package faxyomi.presentation.core.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.ColorScheme

@@ -1,4 +1,4 @@
-package tachiyomi.domain.manga.model
+package faxyomi.domain.manga.model
 
 import eu.fiax.faxyomi.source.model.UpdateStrategy
 

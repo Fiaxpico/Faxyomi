@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.components
+package faxyomi.presentation.core.components
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.gestures.snapping.rememberSnapFlingBehavior
@@ -48,10 +48,10 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
-import tachiyomi.presentation.core.components.material.padding
-import tachiyomi.presentation.core.util.clearFocusOnSoftKeyboardHide
-import tachiyomi.presentation.core.util.clickableNoIndication
-import tachiyomi.presentation.core.util.showSoftKeyboard
+import faxyomi.presentation.core.components.material.padding
+import faxyomi.presentation.core.util.clearFocusOnSoftKeyboardHide
+import faxyomi.presentation.core.util.clickableNoIndication
+import faxyomi.presentation.core.util.showSoftKeyboard
 import kotlin.math.absoluteValue
 
 @Composable

@@ -1,4 +1,4 @@
-package tachiyomi.source.local
+package faxyomi.source.local
 
 import android.content.Context
 import com.hippo.unifile.UniFile
@@ -21,32 +21,32 @@ import mihon.core.common.archive.ZipWriter
 import mihon.core.common.archive.archiveReader
 import nl.adaptivity.xmlutil.core.AndroidXmlReader
 import nl.adaptivity.xmlutil.serialization.XML
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.core.common.storage.extension
-import tachiyomi.core.common.storage.nameWithoutExtension
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.core.common.util.system.ImageUtil
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.core.metadata.comicinfo.COMIC_INFO_FILE
-import tachiyomi.core.metadata.comicinfo.ComicInfo
-import tachiyomi.core.metadata.comicinfo.ComicInfoPublishingStatus
-import tachiyomi.core.metadata.comicinfo.copyFromComicInfo
-import tachiyomi.core.metadata.comicinfo.getComicInfo
-import tachiyomi.core.metadata.tachiyomi.MangaDetails
-import tachiyomi.domain.chapter.service.ChapterRecognition
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.i18n.MR
-import tachiyomi.source.local.filter.OrderBy
-import tachiyomi.source.local.image.LocalCoverManager
-import tachiyomi.source.local.io.Archive
-import tachiyomi.source.local.io.Format
-import tachiyomi.source.local.io.LocalSourceFileSystem
-import tachiyomi.source.local.metadata.fillMetadata
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.core.common.storage.extension
+import faxyomi.core.common.storage.nameWithoutExtension
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.system.ImageUtil
+import faxyomi.core.common.util.system.logcat
+import faxyomi.core.metadata.comicinfo.COMIC_INFO_FILE
+import faxyomi.core.metadata.comicinfo.ComicInfo
+import faxyomi.core.metadata.comicinfo.ComicInfoPublishingStatus
+import faxyomi.core.metadata.comicinfo.copyFromComicInfo
+import faxyomi.core.metadata.comicinfo.getComicInfo
+import faxyomi.core.metadata.faxyomi.MangaDetails
+import faxyomi.domain.chapter.service.ChapterRecognition
+import faxyomi.domain.manga.model.Manga
+import faxyomi.i18n.MR
+import faxyomi.source.local.filter.OrderBy
+import faxyomi.source.local.image.LocalCoverManager
+import faxyomi.source.local.io.Archive
+import faxyomi.source.local.io.Format
+import faxyomi.source.local.io.LocalSourceFileSystem
+import faxyomi.source.local.metadata.fillMetadata
 import uy.kohesive.injekt.injectLazy
 import java.io.InputStream
 import java.nio.charset.StandardCharsets
 import kotlin.time.Duration.Companion.days
-import tachiyomi.domain.source.model.Source as DomainSource
+import faxyomi.domain.source.model.Source as DomainSource
 
 actual class LocalSource(
     private val context: Context,
@@ -173,7 +173,7 @@ actual class LocalSource(
                     writer = author?.let { ComicInfo.Writer(it) },
                     penciller = artist?.let { ComicInfo.Penciller(it) },
                     genre = genre?.let { ComicInfo.Genre(it) },
-                    publishingStatus = ComicInfo.PublishingStatusTachiyomi(
+                    publishingStatus = ComicInfo.PublishingStatusfaxyomi(
                         ComicInfoPublishingStatus.toComicInfoValue(status.toLong()),
                     ),
                 )

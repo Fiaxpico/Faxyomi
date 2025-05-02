@@ -1,7 +1,7 @@
-package tachiyomi.domain.manga.repository
+package faxyomi.domain.manga.repository
 
-import tachiyomi.domain.manga.model.FavoriteEntry
-import tachiyomi.domain.manga.model.FavoriteEntryAlternative
+import faxyomi.domain.manga.model.FavoriteEntry
+import faxyomi.domain.manga.model.FavoriteEntryAlternative
 
 interface FavoritesEntryRepository {
     suspend fun deleteAll()

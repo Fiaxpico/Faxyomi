@@ -1,4 +1,4 @@
-package tachiyomi.core.metadata.comicinfo
+package faxyomi.core.metadata.comicinfo
 
 import eu.fiax.faxyomi.source.model.SManga
 import kotlinx.serialization.Serializable
@@ -14,7 +14,7 @@ fun SManga.getComicInfo() = ComicInfo(
     writer = author?.let { ComicInfo.Writer(it) },
     penciller = artist?.let { ComicInfo.Penciller(it) },
     genre = genre?.let { ComicInfo.Genre(it) },
-    publishingStatus = ComicInfo.PublishingStatusTachiyomi(
+    publishingStatus = ComicInfo.PublishingStatusfaxyomi(
         ComicInfoPublishingStatus.toComicInfoValue(status.toLong()),
     ),
     title = null,
@@ -81,11 +81,11 @@ data class ComicInfo(
     val genre: Genre?,
     val tags: Tags?,
     val web: Web?,
-    val publishingStatus: PublishingStatusTachiyomi?,
-    val categories: CategoriesTachiyomi?,
+    val publishingStatus: PublishingStatusfaxyomi?,
+    val categories: Categoriesfaxyomi?,
     val source: SourceMihon?,
     // SY -->
-    val padding: PaddingTachiyomiSY?,
+    val padding: PaddingfaxyomiSY?,
     // SY <--
 ) {
     @XmlElement(false)
@@ -154,12 +154,12 @@ data class ComicInfo(
 
     // The spec doesn't have a good field for this
     @Serializable
-    @XmlSerialName("PublishingStatusTachiyomi", "http://www.w3.org/2001/XMLSchema", "ty")
-    data class PublishingStatusTachiyomi(@XmlValue(true) val value: String = "")
+    @XmlSerialName("PublishingStatusfaxyomi", "http://www.w3.org/2001/XMLSchema", "ty")
+    data class PublishingStatusfaxyomi(@XmlValue(true) val value: String = "")
 
     @Serializable
     @XmlSerialName("Categories", "http://www.w3.org/2001/XMLSchema", "ty")
-    data class CategoriesTachiyomi(@XmlValue(true) val value: String = "")
+    data class Categoriesfaxyomi(@XmlValue(true) val value: String = "")
 
     @Serializable
     @XmlSerialName("SourceMihon", "http://www.w3.org/2001/XMLSchema", "mh")
@@ -167,8 +167,8 @@ data class ComicInfo(
 
     // SY -->
     @Serializable
-    @XmlSerialName("PaddingTachiyomiSY", "http://www.w3.org/2001/XMLSchema", "tysy")
-    data class PaddingTachiyomiSY(@XmlValue(true) val value: String = "")
+    @XmlSerialName("PaddingfaxyomiSY", "http://www.w3.org/2001/XMLSchema", "tysy")
+    data class PaddingfaxyomiSY(@XmlValue(true) val value: String = "")
     // SY <--
 }
 

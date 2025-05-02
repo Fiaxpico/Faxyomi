@@ -46,7 +46,7 @@ kotlin {
 }
 
 android {
-    namespace = "eu.kanade.tachiyomi.source"
+    namespace = "eu.fiax.faxyomi.source"
 
     defaultConfig {
         consumerProguardFile("consumer-proguard.pro")

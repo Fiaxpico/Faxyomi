@@ -1,13 +1,13 @@
-package tachiyomi.source.local.image
+package faxyomi.source.local.image
 
 import android.content.Context
 import com.hippo.unifile.UniFile
 import eu.fiax.faxyomi.source.model.SManga
 import eu.fiax.faxyomi.util.storage.DiskUtil
 import mihon.core.common.archive.ZipWriter
-import tachiyomi.core.common.storage.nameWithoutExtension
-import tachiyomi.core.common.util.system.ImageUtil
-import tachiyomi.source.local.io.LocalSourceFileSystem
+import faxyomi.core.common.storage.nameWithoutExtension
+import faxyomi.core.common.util.system.ImageUtil
+import faxyomi.source.local.io.LocalSourceFileSystem
 import java.io.InputStream
 
 private const val DEFAULT_COVER_NAME = "cover.jpg"

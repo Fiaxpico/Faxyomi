@@ -1,12 +1,12 @@
-package tachiyomi.data.updates
+package faxyomi.data.updates
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-import tachiyomi.data.AndroidDatabaseHandler
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.manga.model.MangaCover
-import tachiyomi.domain.updates.model.UpdatesWithRelations
-import tachiyomi.domain.updates.repository.UpdatesRepository
+import faxyomi.data.AndroidDatabaseHandler
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.manga.model.MangaCover
+import faxyomi.domain.updates.model.UpdatesWithRelations
+import faxyomi.domain.updates.repository.UpdatesRepository
 import tachiyomi.view.UpdatesView
 
 class UpdatesRepositoryImpl(

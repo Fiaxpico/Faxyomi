@@ -1,11 +1,11 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.chapter.repository.ChapterRepository
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.repository.MangaRepository
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.repository.ChapterRepository
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.repository.MangaRepository
 
 class GetMangaWithChapters(
     private val mangaRepository: MangaRepository,

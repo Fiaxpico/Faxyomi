@@ -7,10 +7,10 @@ import eu.fiax.faxyomi.util.system.toast
 import mihon.core.migration.MigrateUtils
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.preference.Preference
-import tachiyomi.core.common.preference.PreferenceStore
-import tachiyomi.core.common.util.lang.withIOContext
-import tachiyomi.core.common.util.lang.withUIContext
+import faxyomi.core.common.preference.Preference
+import faxyomi.core.common.preference.PreferenceStore
+import faxyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.util.lang.withUIContext
 
 class MoveEncryptionSettingsToAppStateMigration : Migration {
     override val version: Float = 66f

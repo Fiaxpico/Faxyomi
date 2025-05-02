@@ -1,15 +1,15 @@
-package tachiyomi.domain.chapter.interactor
+package faxyomi.domain.chapter.interactor
 
 import exh.source.MERGED_SOURCE_ID
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flowOf
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.chapter.repository.ChapterRepository
-import tachiyomi.domain.manga.interactor.GetMergedReferencesById
-import tachiyomi.domain.manga.model.MergedMangaReference
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.repository.ChapterRepository
+import faxyomi.domain.manga.interactor.GetMergedReferencesById
+import faxyomi.domain.manga.model.MergedMangaReference
 
 class GetMergedChaptersByMangaId(
     private val chapterRepository: ChapterRepository,

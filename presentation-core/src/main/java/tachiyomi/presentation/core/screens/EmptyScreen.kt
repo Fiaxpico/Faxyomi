@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.screens
+package faxyomi.presentation.core.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -23,10 +23,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
 import dev.icerock.moko.resources.StringResource
 import kotlinx.collections.immutable.ImmutableList
-import tachiyomi.presentation.core.components.ActionButton
-import tachiyomi.presentation.core.components.material.padding
-import tachiyomi.presentation.core.i18n.stringResource
-import tachiyomi.presentation.core.util.secondaryItemAlpha
+import faxyomi.presentation.core.components.ActionButton
+import faxyomi.presentation.core.components.material.padding
+import faxyomi.presentation.core.i18n.stringResource
+import faxyomi.presentation.core.util.secondaryItemAlpha
 import kotlin.random.Random
 
 data class EmptyScreenAction(

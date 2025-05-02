@@ -1,10 +1,10 @@
-package tachiyomi.domain.track.interactor
+package faxyomi.domain.track.interactor
 
 import kotlinx.coroutines.flow.Flow
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.track.model.Track
-import tachiyomi.domain.track.repository.TrackRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.track.model.Track
+import faxyomi.domain.track.repository.TrackRepository
 
 class GetTracks(
     private val trackRepository: TrackRepository,

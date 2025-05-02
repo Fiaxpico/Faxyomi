@@ -24,7 +24,7 @@ object BlacklistedSources {
     val BLACKLISTED_EXT_SOURCES = EHENTAI_EXT_SOURCES
 
     val BLACKLISTED_EXTENSIONS = arrayOf(
-        "eu.kanade.tachiyomi.extension.all.ehentai",
+        "eu.fiax.faxyomi.extension.all.ehentai",
     )
 
     var HIDDEN_SOURCES = setOf(

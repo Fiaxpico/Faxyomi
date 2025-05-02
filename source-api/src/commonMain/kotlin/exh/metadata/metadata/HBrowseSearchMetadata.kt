@@ -4,9 +4,9 @@ import android.content.Context
 import eu.fiax.faxyomi.source.model.SManga
 import eu.fiax.faxyomi.source.model.copy
 import kotlinx.serialization.Serializable
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.i18n.MR
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.i18n.MR
+import faxyomi.i18n.sy.SYMR
 
 @Serializable
 class HBrowseSearchMetadata : RaisedSearchMetadata() {

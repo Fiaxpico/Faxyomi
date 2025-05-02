@@ -1,11 +1,11 @@
-package tachiyomi.domain.manga.interactor
+package faxyomi.domain.manga.interactor
 
 import eu.fiax.faxyomi.source.online.MetadataSource
 import exh.metadata.metadata.RaisedSearchMetadata
 import exh.metadata.metadata.base.FlatMetadata
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.manga.repository.MangaMetadataRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.manga.repository.MangaMetadataRepository
 
 class InsertFlatMetadata(
     private val mangaMetadataRepository: MangaMetadataRepository,

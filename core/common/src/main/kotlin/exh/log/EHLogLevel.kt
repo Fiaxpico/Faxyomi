@@ -3,7 +3,7 @@ package exh.log
 import android.content.Context
 import androidx.preference.PreferenceManager
 import dev.icerock.moko.resources.StringResource
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.i18n.sy.SYMR
 
 enum class EHLogLevel(val nameRes: StringResource, val description: StringResource) {
     MINIMAL(SYMR.strings.log_minimal, SYMR.strings.log_minimal_desc),

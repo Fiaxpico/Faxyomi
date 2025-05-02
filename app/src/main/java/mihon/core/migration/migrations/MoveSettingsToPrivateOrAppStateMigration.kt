@@ -4,9 +4,9 @@ import android.app.Application
 import mihon.core.migration.MigrateUtils
 import mihon.core.migration.Migration
 import mihon.core.migration.MigrationContext
-import tachiyomi.core.common.preference.Preference
-import tachiyomi.core.common.preference.PreferenceStore
-import tachiyomi.core.common.util.lang.withIOContext
+import faxyomi.core.common.preference.Preference
+import faxyomi.core.common.preference.PreferenceStore
+import faxyomi.core.common.util.lang.withIOContext
 
 class MoveSettingsToPrivateOrAppStateMigration : Migration {
     override val version: Float = 59f

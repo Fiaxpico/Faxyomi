@@ -20,7 +20,7 @@ kotlin {
 }
 
 android {
-    namespace = "tachiyomi.i18n.sy"
+    namespace = "faxyomi.i18n.sy"
 
     sourceSets {
         named("main") {
@@ -35,7 +35,7 @@ android {
 
 multiplatformResources {
     resourcesClassName.set("SYMR")
-    resourcesPackage.set("tachiyomi.i18n.sy")
+    resourcesPackage.set("faxyomi.i18n.sy")
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {

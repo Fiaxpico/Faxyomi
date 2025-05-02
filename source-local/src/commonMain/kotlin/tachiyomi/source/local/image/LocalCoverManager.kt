@@ -1,4 +1,4 @@
-package tachiyomi.source.local.image
+package faxyomi.source.local.image
 
 import com.hippo.unifile.UniFile
 import eu.fiax.faxyomi.source.model.SManga

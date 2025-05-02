@@ -1,4 +1,4 @@
-package tachiyomi.domain.manga.model
+package faxyomi.domain.manga.model
 
 import exh.metadata.metadata.EHentaiSearchMetadata
 

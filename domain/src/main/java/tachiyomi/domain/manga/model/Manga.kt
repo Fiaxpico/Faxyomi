@@ -1,10 +1,10 @@
-package tachiyomi.domain.manga.model
+package faxyomi.domain.manga.model
 
 import androidx.compose.runtime.Immutable
 import eu.fiax.faxyomi.source.model.SManga
 import eu.fiax.faxyomi.source.model.UpdateStrategy
-import tachiyomi.core.common.preference.TriState
-import tachiyomi.domain.manga.interactor.GetCustomMangaInfo
+import faxyomi.core.common.preference.TriState
+import faxyomi.domain.manga.interactor.GetCustomMangaInfo
 import uy.kohesive.injekt.injectLazy
 import java.io.Serializable
 import java.time.Instant

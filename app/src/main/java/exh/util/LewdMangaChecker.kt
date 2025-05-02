@@ -2,8 +2,8 @@ package exh.util
 
 import exh.source.isEhBasedManga
 import exh.source.nHentaiSourceIds
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.source.service.SourceManager
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

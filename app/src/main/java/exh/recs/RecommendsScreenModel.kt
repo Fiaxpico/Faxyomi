@@ -4,8 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.produceState
 import cafe.adriel.voyager.core.model.StateScreenModel
-import eu.kanade.domain.manga.model.toDomainManga
-import eu.kanade.presentation.util.ioCoroutineScope
+import eu.fiax.domain.manga.model.toDomainManga
+import eu.fiax.presentation.util.ioCoroutineScope
 import eu.fiax.faxyomi.source.CatalogueSource
 import exh.recs.sources.RecommendationPagingSource
 import exh.recs.sources.StaticResultPagingSource
@@ -23,10 +23,10 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import tachiyomi.domain.manga.interactor.GetManga
-import tachiyomi.domain.manga.interactor.NetworkToLocalManga
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.source.service.SourceManager
+import faxyomi.domain.manga.interactor.GetManga
+import faxyomi.domain.manga.interactor.NetworkToLocalManga
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.source.service.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

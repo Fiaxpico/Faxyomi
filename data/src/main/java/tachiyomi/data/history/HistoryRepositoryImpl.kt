@@ -1,13 +1,13 @@
-package tachiyomi.data.history
+package faxyomi.data.history
 
 import kotlinx.coroutines.flow.Flow
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.data.DatabaseHandler
-import tachiyomi.domain.history.model.History
-import tachiyomi.domain.history.model.HistoryUpdate
-import tachiyomi.domain.history.model.HistoryWithRelations
-import tachiyomi.domain.history.repository.HistoryRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.data.DatabaseHandler
+import faxyomi.domain.history.model.History
+import faxyomi.domain.history.model.HistoryUpdate
+import faxyomi.domain.history.model.HistoryWithRelations
+import faxyomi.domain.history.repository.HistoryRepository
 
 class HistoryRepositoryImpl(
     private val handler: DatabaseHandler,

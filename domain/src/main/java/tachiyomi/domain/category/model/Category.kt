@@ -1,4 +1,4 @@
-package tachiyomi.domain.category.model
+package faxyomi.domain.category.model
 
 import java.io.Serializable
 

@@ -1,4 +1,4 @@
-package tachiyomi.presentation.core.util
+package faxyomi.presentation.core.util
 
 /*
  * MIT License
@@ -68,7 +68,7 @@ import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.sample
-import tachiyomi.presentation.core.components.Scroller.STICKY_HEADER_KEY_PREFIX
+import faxyomi.presentation.core.components.Scroller.STICKY_HEADER_KEY_PREFIX
 
 /**
  * Draws horizontal scrollbar to a LazyList.

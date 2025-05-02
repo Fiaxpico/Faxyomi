@@ -1,9 +1,9 @@
-package tachiyomi.domain.manga.repository
+package faxyomi.domain.manga.repository
 
 import kotlinx.coroutines.flow.Flow
-import tachiyomi.domain.manga.model.Manga
-import tachiyomi.domain.manga.model.MergeMangaSettingsUpdate
-import tachiyomi.domain.manga.model.MergedMangaReference
+import faxyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.MergeMangaSettingsUpdate
+import faxyomi.domain.manga.model.MergedMangaReference
 
 interface MangaMergeRepository {
     suspend fun getMergedManga(): List<Manga>

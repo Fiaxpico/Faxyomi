@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "tachiyomi.data"
+    namespace = "faxyomi.data"
 
     defaultConfig {
         consumerProguardFiles("consumer-rules.pro")
@@ -15,7 +15,7 @@ android {
     sqldelight {
         databases {
             create("Database") {
-                packageName.set("tachiyomi.data")
+                packageName.set("faxyomi.data")
                 dialect(libs.sqldelight.dialects.sql)
                 schemaOutputDirectory.set(project.file("./src/main/sqldelight"))
             }

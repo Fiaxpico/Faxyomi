@@ -7,16 +7,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
-import eu.fiax.faxyomi.R
-import eu.fiax.faxyomi.databinding.DescriptionAdapterTsBinding
+import eu.fiax.R
+import eu.fiax.databinding.DescriptionAdapterTsBinding
 import eu.fiax.faxyomi.ui.manga.MangaScreenModel.State
 import eu.fiax.faxyomi.util.system.copyToClipboard
 import exh.metadata.metadata.TsuminoSearchMetadata
 import exh.ui.metadata.adapters.MetadataUIUtil.bindDrawable
-import tachiyomi.core.common.i18n.pluralStringResource
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.i18n.MR
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.pluralStringResource
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.i18n.MR
+import faxyomi.i18n.sy.SYMR
 import java.util.Date
 import kotlin.math.round
 

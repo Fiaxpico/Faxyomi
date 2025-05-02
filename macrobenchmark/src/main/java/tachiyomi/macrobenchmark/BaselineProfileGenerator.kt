@@ -1,4 +1,4 @@
-package tachiyomi.macrobenchmark
+package faxyomi.macrobenchmark
 
 import androidx.benchmark.macro.junit4.BaselineProfileRule
 import androidx.test.uiautomator.By
@@ -12,7 +12,7 @@ class BaselineProfileGenerator {
 
     @Test
     fun generate() = baselineProfileRule.collect(
-        packageName = "eu.kanade.tachiyomi.sy.benchmark",
+        packageName = "eu.fiax.faxyomi.sy.benchmark",
         profileBlock = {
             pressHome()
             startActivityAndWait()

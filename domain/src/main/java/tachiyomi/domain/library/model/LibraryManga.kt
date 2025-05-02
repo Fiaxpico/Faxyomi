@@ -1,6 +1,6 @@
-package tachiyomi.domain.library.model
+package faxyomi.domain.library.model
 
-import tachiyomi.domain.manga.model.Manga
+import faxyomi.domain.manga.model.Manga
 
 data class LibraryManga(
     val manga: Manga,

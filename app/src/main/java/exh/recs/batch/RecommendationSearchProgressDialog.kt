@@ -18,9 +18,9 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
-import tachiyomi.core.common.i18n.stringResource
-import tachiyomi.i18n.MR
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.core.common.i18n.stringResource
+import faxyomi.i18n.MR
+import faxyomi.i18n.sy.SYMR
 
 data class RecommendationSearchProgressProperties(
     val title: String,

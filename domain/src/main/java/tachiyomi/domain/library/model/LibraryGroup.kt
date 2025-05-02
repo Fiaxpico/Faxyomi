@@ -1,8 +1,8 @@
-package tachiyomi.domain.library.model
+package faxyomi.domain.library.model
 
 import dev.icerock.moko.resources.StringResource
-import tachiyomi.i18n.MR
-import tachiyomi.i18n.sy.SYMR
+import faxyomi.i18n.MR
+import faxyomi.i18n.sy.SYMR
 
 object LibraryGroup {
 

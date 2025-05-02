@@ -1,10 +1,10 @@
-package tachiyomi.domain.chapter.service
+package faxyomi.domain.chapter.service
 
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.parallel.Execution
 import org.junit.jupiter.api.parallel.ExecutionMode
-import tachiyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.model.Chapter
 
 @Execution(ExecutionMode.CONCURRENT)
 class MissingChaptersTest {

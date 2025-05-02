@@ -1,9 +1,9 @@
-package tachiyomi.domain.chapter.interactor
+package faxyomi.domain.chapter.interactor
 
 import logcat.LogPriority
-import tachiyomi.core.common.util.system.logcat
-import tachiyomi.domain.chapter.model.Chapter
-import tachiyomi.domain.chapter.repository.ChapterRepository
+import faxyomi.core.common.util.system.logcat
+import faxyomi.domain.chapter.model.Chapter
+import faxyomi.domain.chapter.repository.ChapterRepository
 
 class GetChapterByUrl(
     private val chapterRepository: ChapterRepository,
