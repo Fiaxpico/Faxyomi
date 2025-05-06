@@ -31,8 +31,8 @@ android {
     defaultConfig {
         applicationId = "eu.fiax.faxyomi"
 
-        versionCode = 73
-        versionName = "4.20.69.4"
+        versionCode = 74
+        versionName = "4.20.69.5"
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
@@ -43,6 +43,19 @@ android {
             abiFilters += supportedAbis
         }
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+    applicationVariants.all {
+        outputs.all {
+            val appName = "Faxyomi" // Or dynamically pull from somewhere
+            val flavor = if (flavorName.isNullOrBlank()) "" else "$flavorName-"
+            val buildTypeName = buildType.name
+            val version = versionName
+
+            val fileName = "${appName}-${flavor}${buildTypeName}-v${version}.apk"
+            (this as com.android.build.gradle.internal.api.BaseVariantOutputImpl).outputFileName = fileName
+        }
     }
 
     splits {
