@@ -37,7 +37,10 @@ android {
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
         buildConfigField("String", "BUILD_TIME", "\"${getBuildTime()}\"")
-        buildConfigField("boolean", "INCLUDE_UPDATER", "false")
+        buildConfigField("boolean", "INCLUDE_UPDATER", "true")
+
+        setProperty("archivesBaseName", "Faxyomi-$versionName")
+
 
         ndk {
             abiFilters += supportedAbis
@@ -46,17 +49,6 @@ android {
     }
 
 
-    applicationVariants.all {
-        outputs.all {
-            val appName = "Faxyomi" // Or dynamically pull from somewhere
-            val flavor = if (flavorName.isNullOrBlank()) "" else "$flavorName-"
-            val buildTypeName = buildType.name
-            val version = versionName
-
-            val fileName = "${appName}-${flavor}${buildTypeName}-v${version}.apk"
-            (this as com.android.build.gradle.internal.api.BaseVariantOutputImpl).outputFileName = fileName
-        }
-    }
 
     splits {
         abi {
