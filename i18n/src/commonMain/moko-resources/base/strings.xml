@@ -183,7 +183,7 @@
     <string name="onboarding_storage_info">Select a folder where %1$s will store chapter downloads, backups, and more.\n\nA dedicated folder is recommended.\n\nSelected folder: %2$s</string>
     <string name="onboarding_storage_action_select">Select a folder</string>
     <string name="onboarding_storage_selection_required">A folder must be selected</string>
-    <string name="onboarding_storage_help_info">Updating from an older version and not sure what to select? Refer to the storage guide for more information.</string>
+    <string name="onboarding_storage_help_info">Updating from an older vewsion and not sure what to select? Refer to the storage guide for more information.</string>
     <string name="onboarding_storage_help_action">Storage guide</string>
     <string name="onboarding_permission_install_apps">Install apps permission</string>
     <string name="onboarding_permission_install_apps_description">To install source extensions.</string>
@@ -337,7 +337,7 @@
     <string name="obsolete_extension_message">This extension is no longer available. It may not function properly and can cause issues with the app. Uninstalling it is recommended.</string>
     <string name="remove_private_extension_message">Do you really want to remove \"%s\" extension?</string>
     <string name="extension_api_error">Failed to fetch available extensions</string>
-    <string name="ext_info_version">Version</string>
+    <string name="ext_info_version">Vewsion</string>
     <string name="ext_info_language">Language</string>
     <string name="ext_info_age_rating">Age rating</string>
     <string name="ext_nsfw_short">18+ NO KIDZ ALLOWWD!!!!</string>
@@ -624,7 +624,7 @@
 
       <!-- About section -->
     <string name="website">Website</string>
-    <string name="version">Version</string>
+    <string name="version">Vewsion</string>
     <string name="whats_new">What\'s new</string>
     <string name="help_translate">Help translate</string>
     <string name="licenses">Open source licenses</string>
@@ -921,7 +921,7 @@
     <string name="update_check_confirm">DAWNLAOD</string>
     <string name="update_check_open">Open on GitHub</string>
     <!-- reserved for future use -->
-    <string name="update_check_eol">This Android version is no longer supported</string>
+    <string name="update_check_eol">This Android vewsion is no longer supported</string>
     <string name="update_check_no_new_updates">No new updates available</string>
 
     <!--UpdateCheck Notifications-->
