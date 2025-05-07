@@ -31,8 +31,8 @@ android {
     defaultConfig {
         applicationId = "eu.fiax.faxyomi"
 
-        versionCode = 74
-        versionName = "4.20.69.5"
+        versionCode = 6
+        versionName = "4.20.69.6"
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")

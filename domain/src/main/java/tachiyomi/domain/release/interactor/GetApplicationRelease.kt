@@ -47,28 +47,19 @@ class GetApplicationRelease(
         versionName: String,
         versionTag: String,
     ): Boolean {
-        // Removes prefixes like "r" or "v"
-        val newVersion = versionTag.replace("[^\\d.]".toRegex(), "")
+        // Extract the GitHub tag's integer (e.g., "v5" → 5)
+        val newVersion = versionTag.replace("[^\\d]".toRegex(), "").toIntOrNull() ?: return false
+
         return if (isPreview) {
-            // Preview builds: based on releases in "jobobby04/TachiyomiSYPreview" repo
-            // tagged as something like "508"
-            val currentInt = syDebugVersion.toIntOrNull()
-            currentInt != null && newVersion.toInt() > currentInt
+            // For preview builds (if you use them)
+            syDebugVersion.toIntOrNull()?.let { currentDebugVersion ->
+                newVersion > currentDebugVersion
+            } ?: false
         } else {
-            // Release builds: based on releases in "jobobby04/TachiyomiSY" repo
-            // tagged as something like "0.1.2"
-            val oldVersion = versionName.replace("[^\\d.]".toRegex(), "")
-
-            val newSemVer = newVersion.split(".").map { it.toInt() }
-            val oldSemVer = oldVersion.split(".").map { it.toInt() }
-
-            oldSemVer.mapIndexed { index, i ->
-                if (newSemVer[index] > i) {
-                    return true
-                }
-            }
-
-            false
+            // For stable builds: Extract the LAST segment of versionName (e.g., "4.20.69.5" → 5)
+            val versionSegments = versionName.split(".")
+            val currentVersion = versionSegments.lastOrNull()?.toIntOrNull() ?: return false
+            newVersion > currentVersion
         }
     }
     // SY <--
