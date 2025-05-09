@@ -29,10 +29,10 @@ android {
     namespace = "eu.kanade.tachiyomi"
 
     defaultConfig {
-        applicationId = "eu.fiax.faxyomi"
+        applicationId = "eu.fiax.faxyomi.dev"
 
         versionCode = 6
-        versionName = "4.20.69.6"
+        versionName = "4.20.69.6dev"
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
