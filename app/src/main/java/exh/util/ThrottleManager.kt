@@ -17,7 +17,7 @@ class ThrottleManager(
 
     suspend fun throttle() {
         // Throttle requests if necessary
-        val now = System.currentTimeMillis().milliseconds
+        val now = Duration.ZERO
         val timeDiff = now - lastThrottleTime
         if (timeDiff < throttleTime) {
             delay(throttleTime - timeDiff)
@@ -36,7 +36,7 @@ class ThrottleManager(
     }
 
     companion object {
-        val THROTTLE_MAX = 5.5.seconds
-        val THROTTLE_INC = 20.milliseconds
+        val THROTTLE_MAX = Duration.ZERO
+        val THROTTLE_INC = Duration.ZERO
     }
 }

@@ -26,24 +26,29 @@ if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
 val supportedAbis = setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
 
 android {
-    namespace = "eu.fiax"
+    namespace = "eu.kanade.tachiyomi"
 
     defaultConfig {
-        applicationId = "eu.fiax.faxyomi.dev"
+        applicationId = "eu.fiax.faxyomi"
 
-        versionCode = 72
-        versionName = "1.11.dev1"
+        versionCode = 6
+        versionName = "4.20.69.6"
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
         buildConfigField("String", "BUILD_TIME", "\"${getBuildTime()}\"")
-        buildConfigField("boolean", "INCLUDE_UPDATER", "false")
+        buildConfigField("boolean", "INCLUDE_UPDATER", "true")
+
+        setProperty("archivesBaseName", "Faxyomi-$versionName")
+
 
         ndk {
             abiFilters += supportedAbis
         }
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+
+
 
     splits {
         abi {
