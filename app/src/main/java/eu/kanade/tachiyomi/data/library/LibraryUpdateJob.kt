@@ -818,38 +818,38 @@ class LibraryUpdateJob(private val context: Context, workerParams: WorkerParamet
 
             val syncPreferences: SyncPreferences = Injekt.get()
 
-            // Always sync the data before library update if syncing is enabled.
-            if (syncPreferences.isSyncEnabled()) {
-                // Check if SyncDataJob is already running
-                if (SyncDataJob.isRunning(context)) {
-                    // SyncDataJob is already running
-                    return false
-                }
-
-                // Define the SyncDataJob
-                val syncDataJob = OneTimeWorkRequestBuilder<SyncDataJob>()
-                    .addTag(SyncDataJob.TAG_MANUAL)
-                    .build()
-
-                // Chain SyncDataJob to run before LibraryUpdateJob
-                val libraryUpdateJob = OneTimeWorkRequestBuilder<LibraryUpdateJob>()
-                    .addTag(TAG)
-                    .addTag(WORK_NAME_MANUAL)
-                    .setInputData(inputData)
-                    .build()
-
-                wm.beginUniqueWork(WORK_NAME_MANUAL, ExistingWorkPolicy.KEEP, syncDataJob)
-                    .then(libraryUpdateJob)
-                    .enqueue()
-            } else {
-                val request = OneTimeWorkRequestBuilder<LibraryUpdateJob>()
-                    .addTag(TAG)
-                    .addTag(WORK_NAME_MANUAL)
-                    .setInputData(inputData)
-                    .build()
-
-                wm.enqueueUniqueWork(WORK_NAME_MANUAL, ExistingWorkPolicy.KEEP, request)
-            }
+//            // Always sync the data before library update if syncing is enabled.
+//            if (syncPreferences.isSyncEnabled()) {
+//                // Check if SyncDataJob is already running
+//                if (SyncDataJob.isRunning(context)) {
+//                    // SyncDataJob is already running
+//                    return false
+//                }
+//
+//                // Define the SyncDataJob
+//                val syncDataJob = OneTimeWorkRequestBuilder<SyncDataJob>()
+//                    .addTag(SyncDataJob.TAG_MANUAL)
+//                    .build()
+//
+//                // Chain SyncDataJob to run before LibraryUpdateJob
+//                val libraryUpdateJob = OneTimeWorkRequestBuilder<LibraryUpdateJob>()
+//                    .addTag(TAG)
+//                    .addTag(WORK_NAME_MANUAL)
+//                    .setInputData(inputData)
+//                    .build()
+//
+//                wm.beginUniqueWork(WORK_NAME_MANUAL, ExistingWorkPolicy.KEEP, syncDataJob)
+//                    .then(libraryUpdateJob)
+//                    .enqueue()
+//            } else {
+//                val request = OneTimeWorkRequestBuilder<LibraryUpdateJob>()
+//                    .addTag(TAG)
+//                    .addTag(WORK_NAME_MANUAL)
+//                    .setInputData(inputData)
+//                    .build()
+//
+//                wm.enqueueUniqueWork(WORK_NAME_MANUAL, ExistingWorkPolicy.KEEP, request)
+//            }
 
             return true
         }
