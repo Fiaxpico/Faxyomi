@@ -842,13 +842,13 @@ class LibraryUpdateJob(private val context: Context, workerParams: WorkerParamet
 //                    .then(libraryUpdateJob)
 //                    .enqueue()
 //            } else {
-//                val request = OneTimeWorkRequestBuilder<LibraryUpdateJob>()
-//                    .addTag(TAG)
-//                    .addTag(WORK_NAME_MANUAL)
-//                    .setInputData(inputData)
-//                    .build()
-//
-//                wm.enqueueUniqueWork(WORK_NAME_MANUAL, ExistingWorkPolicy.KEEP, request)
+                val request = OneTimeWorkRequestBuilder<LibraryUpdateJob>()
+                    .addTag(TAG)
+                    .addTag(WORK_NAME_MANUAL)
+                    .setInputData(inputData)
+                    .build()
+
+                wm.enqueueUniqueWork(WORK_NAME_MANUAL, ExistingWorkPolicy.KEEP, request)
 //            }
 
             return true
