@@ -158,6 +158,7 @@
     <string name="action_open_log">Open log</string>
     <string name="action_show_errors">Tap to see details</string>
     <string name="action_restore">Restore</string>
+    <string name="action_notes">Notes</string>
     <string name="action_webview_back">Back</string>
     <string name="action_webview_forward">Forward</string>
     <string name="action_webview_refresh">Refresh</string>
