@@ -36,7 +36,7 @@ android {
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
-        buildConfigField("String", "BUILD_TIME", "\"${getBuildTime()}\"")
+        buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(false)}\"")
         buildConfigField("boolean", "INCLUDE_UPDATER", "true")
 
         setProperty("archivesBaseName", "Faxyomi-$versionName")
