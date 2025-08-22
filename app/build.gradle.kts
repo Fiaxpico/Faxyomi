@@ -68,6 +68,7 @@ android {
             // isShrinkResources = true
             setProguardFiles(listOf(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"))
             matchingFallbacks.add("release")
+            signingConfig = signingConfigs.getByName("debug")
         }
         named("release") {
             isMinifyEnabled = true
