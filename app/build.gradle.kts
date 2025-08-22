@@ -14,12 +14,12 @@ plugins {
     id("com.github.ben-manes.versions")
 }
 
-if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
-    pluginManager.apply {
-        apply(libs.plugins.google.services.get().pluginId)
-        apply(libs.plugins.firebase.crashlytics.get().pluginId)
-    }
-}
+//if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
+//    pluginManager.apply {
+//        apply(libs.plugins.google.services.get().pluginId)
+//        apply(libs.plugins.firebase.crashlytics.get().pluginId)
+//    }
+//}
 
 // shortcutHelper.setFilePath("./shortcuts.xml")
 
@@ -37,7 +37,7 @@ android {
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
         buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(useLastCommitTime = false)}\"")
-        buildConfigField("boolean", "INCLUDE_UPDATER", "false")
+        buildConfigField("boolean", "INCLUDE_UPDATER", "true")
 
         ndk {
             abiFilters += supportedAbis
