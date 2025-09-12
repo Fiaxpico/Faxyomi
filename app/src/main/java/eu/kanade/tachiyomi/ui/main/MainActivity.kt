@@ -51,8 +51,8 @@ import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.navigator.NavigatorDisposeBehavior
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.google.firebase.analytics.ktx.analytics
-import com.google.firebase.ktx.Firebase
+//import com.google.firebase.analytics.ktx.analytics
+//import com.google.firebase.ktx.Firebase
 import eu.kanade.domain.base.BasePreferences
 import eu.kanade.domain.source.interactor.GetIncognitoState
 import eu.kanade.presentation.components.AppStateBanners
@@ -164,7 +164,7 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
 
         val didMigration = if (isLaunch) {
-            addAnalytics()
+//            addAnalytics()
             Migrator.awaitAndRelease()
         } else {
             false
@@ -527,11 +527,11 @@ class MainActivity : BaseActivity() {
     }
 
     // SY -->
-    private fun addAnalytics() {
-        if (!BuildConfig.DEBUG && isPreviewBuildType) {
-            Firebase.analytics.setUserProperty("preview_version", syDebugVersion)
-        }
-    }
+//    private fun addAnalytics() {
+//        if (!BuildConfig.DEBUG && isPreviewBuildType) {
+//            Firebase.analytics.setUserProperty("preview_version", syDebugVersion)
+//        }
+//    }
     // SY <--
 
     companion object {
