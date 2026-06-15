@@ -1,65 +1,50 @@
 @file:Suppress("ChromeOsAbiSupport")
 
-import mihon.buildlogic.getBuildTime
-import mihon.buildlogic.getCommitCount
-import mihon.buildlogic.getGitSha
+import mihon.gradle.getBuildTime
+import mihon.gradle.getLatestCommitCount
+import mihon.gradle.getLatestCommitSha
+import mihon.gradle.tasks.ReplaceShortcutsPlaceholderTask
 
 plugins {
-    id("mihon.android.application")
-    id("mihon.android.application.compose")
+    alias(mihonx.plugins.android.application)
+    alias(mihonx.plugins.compose)
+    alias(mihonx.plugins.spotless)
+
     kotlin("plugin.parcelize")
-    kotlin("plugin.serialization")
-    // id("com.github.zellius.shortcut-helper")
+
     alias(libs.plugins.aboutLibraries)
+    alias(libs.plugins.kotlin.serialization)
+
     id("com.github.ben-manes.versions")
 }
 
-if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
-    pluginManager.apply {
-        apply(libs.plugins.google.services.get().pluginId)
-        apply(libs.plugins.firebase.crashlytics.get().pluginId)
-    }
-}
-
-// shortcutHelper.setFilePath("./shortcuts.xml")
-
-val supportedAbis = setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
+//if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
+//    pluginManager.apply {
+//        apply(libs.plugins.google.services.get().pluginId)
+//        apply(libs.plugins.firebase.crashlytics.get().pluginId)
+//    }
+//}
 
 android {
     namespace = "eu.kanade.tachiyomi"
 
     defaultConfig {
-        applicationId = "eu.fiax.faxyomi.dev"
+        applicationId = "eu.fiax.faxyomi"
 
-        versionCode = 7
-        versionName = "4.20.69.dev7"
+        versionCode = 8
+        versionName = "4.20.69.8"
 
-        buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
-        buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
-        buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(false)}\"")
+        buildConfigField("String", "COMMIT_COUNT", "\"${getLatestCommitCount()}\"")
+        buildConfigField("String", "COMMIT_SHA", "\"${getLatestCommitSha()}\"")
+        buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(useLatestCommitTime = false)}\"")
         buildConfigField("boolean", "INCLUDE_UPDATER", "true")
 
-        setProperty("archivesBaseName", "Faxyomi-$versionName")
-
-
-        ndk {
-            abiFilters += supportedAbis
-        }
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    splits {
-        abi {
-            isEnable = true
-            reset()
-            include(*supportedAbis.toTypedArray())
-            isUniversalApk = true
-        }
     }
 
     buildTypes {
         named("debug") {
-            versionNameSuffix = "-${getCommitCount()}"
+            versionNameSuffix = "-${getLatestCommitCount()}"
             applicationIdSuffix = ".debug"
             isPseudoLocalesEnabled = true
         }
@@ -74,6 +59,8 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             setProguardFiles(listOf(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"))
+
+            buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(useLatestCommitTime = true)}\"")
             signingConfig = signingConfigs.getByName("debug")
         }
         create("benchmark") {
@@ -91,12 +78,20 @@ android {
     sourceSets {
         getByName("benchmark").res.srcDirs("src/debug/res")
     }
+    splits {
+        abi {
+            isEnable = true
+            isUniversalApk = true
+            reset()
+            include("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
+        }
+    }
 
     flavorDimensions.add("default")
 
     productFlavors {
         create("standard") {
-            buildConfigField("boolean", "INCLUDE_UPDATER", "false")
+            buildConfigField("boolean", "INCLUDE_UPDATER", "true")
             dimension = "default"
         }
         create("fdroid") {
@@ -108,20 +103,31 @@ android {
     }
 
     packaging {
-        resources.excludes.addAll(
-            listOf(
+        jniLibs {
+            keepDebugSymbols += listOf(
+                "libandroidx.graphics.path",
+                "libarchive-jni",
+                "libconscrypt_jni",
+                "libimagedecoder",
+                "libquickjs",
+                "libsqlite3x",
+            )
+                .map { "**/$it.so" }
+        }
+        resources {
+            excludes += setOf(
                 "kotlin-tooling-metadata.json",
-                "META-INF/DEPENDENCIES",
                 "LICENSE.txt",
-                "META-INF/LICENSE",
+                "META-INF/**/*.properties",
                 "META-INF/**/LICENSE.txt",
                 "META-INF/*.properties",
-                "META-INF/**/*.properties",
-                "META-INF/README.md",
-                "META-INF/NOTICE",
                 "META-INF/*.version",
-            ),
-        )
+                "META-INF/DEPENDENCIES",
+                "META-INF/LICENSE",
+                "META-INF/NOTICE",
+                "META-INF/README.md",
+            )
+        }
     }
 
     dependenciesInfo {
@@ -131,9 +137,9 @@ android {
     buildFeatures {
         viewBinding = true
         buildConfig = true
+        aidl = true
 
         // Disable some unused things
-        aidl = false
         renderScript = false
         shaders = false
     }
@@ -152,12 +158,14 @@ kotlin {
             "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
             "-opt-in=androidx.compose.foundation.layout.ExperimentalLayoutApi",
             "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
+            "-opt-in=androidx.compose.material3.ExperimentalMaterial3ExpressiveApi",
             "-opt-in=androidx.compose.ui.ExperimentalComposeUiApi",
             "-opt-in=coil3.annotation.ExperimentalCoilApi",
             "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
             "-opt-in=kotlinx.coroutines.FlowPreview",
             "-opt-in=kotlinx.coroutines.InternalCoroutinesApi",
             "-opt-in=kotlinx.serialization.ExperimentalSerializationApi",
+            "-Xannotation-default-target=param-property",
         )
     }
 }
@@ -177,97 +185,95 @@ dependencies {
     implementation(projects.presentationWidget)
 
     // Compose
-    implementation(compose.activity)
-    implementation(compose.foundation)
-    implementation(compose.material3.core)
-    implementation(compose.material.icons)
-    implementation(compose.animation)
-    implementation(compose.animation.graphics)
-    debugImplementation(compose.ui.tooling)
-    implementation(compose.ui.tooling.preview)
-    implementation(compose.ui.util)
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.compose.foundation)
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.materialIcons)
+    implementation(libs.androidx.compose.animation)
+    implementation(libs.androidx.compose.animationGraphics)
+    debugImplementation(libs.androidx.compose.uiTooling)
+    implementation(libs.androidx.compose.uiToolingPreview)
+    implementation(libs.androidx.compose.uiUtil)
 
-    implementation(androidx.interpolator)
+    implementation(libs.androidx.interpolator)
 
-    implementation(androidx.paging.runtime)
-    implementation(androidx.paging.compose)
+    implementation(libs.androidx.paging.runtime)
+    implementation(libs.androidx.paging.compose)
 
-    implementation(libs.bundles.sqlite)
+    implementation(libs.androidx.sqlite.bundled)
     // SY -->
     implementation(sylibs.sqlcipher)
     // SY <--
 
-    implementation(kotlinx.reflect)
-    implementation(kotlinx.immutables)
+    implementation(libs.kotlin.reflect)
+    implementation(libs.kotlinx.collections.immutable)
 
-    implementation(platform(kotlinx.coroutines.bom))
-    implementation(kotlinx.bundles.coroutines)
+    implementation(libs.bundles.kotlinx.coroutines)
 
     // AndroidX libraries
-    implementation(androidx.annotation)
-    implementation(androidx.appcompat)
-    implementation(androidx.biometricktx)
-    implementation(androidx.constraintlayout)
-    implementation(androidx.corektx)
-    implementation(androidx.splashscreen)
-    implementation(androidx.recyclerview)
-    implementation(androidx.viewpager)
-    implementation(androidx.profileinstaller)
+    implementation(libs.androidx.annotation)
+    implementation(libs.androidx.appCompat)
+    implementation(libs.androidx.biometric)
+    implementation(libs.androidx.constraintLayout)
+    implementation(libs.androidx.core)
+    implementation(libs.androidx.coreSplashScreen)
+    implementation(libs.androidx.recyclerView)
+    implementation(libs.androidx.viewPager)
+    implementation(libs.androidx.profileInstaller)
 
-    implementation(androidx.bundles.lifecycle)
+    implementation(libs.bundles.androidx.lifecycle)
 
     // Job scheduling
-    implementation(androidx.workmanager)
+    implementation(libs.androidx.work)
 
     // RxJava
-    implementation(libs.rxjava)
+    implementation(libs.rxJava)
 
     // Networking
     implementation(libs.bundles.okhttp)
     implementation(libs.okio)
-    implementation(libs.conscrypt.android) // TLS 1.3 support for Android < 10
+    implementation(libs.conscrypt) // TLS 1.3 support for Android < 10
 
     // Data serialization (JSON, protobuf, xml)
-    implementation(kotlinx.bundles.serialization)
+    implementation(libs.bundles.serialization)
 
     // HTML parser
     implementation(libs.jsoup)
 
     // Disk
-    implementation(libs.disklrucache)
+    implementation(libs.diskLruCache)
     implementation(libs.unifile)
 
     // Preferences
-    implementation(libs.preferencektx)
+    implementation(libs.androidx.preference)
 
     // Dependency injection
     implementation(libs.injekt)
 
     // Image loading
-    implementation(platform(libs.coil.bom))
     implementation(libs.bundles.coil)
-    implementation(libs.subsamplingscaleimageview) {
+    implementation(libs.subsamplingScaleImageView) {
         exclude(module = "image-decoder")
     }
     implementation(libs.image.decoder)
 
     // UI libraries
     implementation(libs.material)
-    implementation(libs.flexible.adapter.core)
-    implementation(libs.photoview)
-    implementation(libs.directionalviewpager) {
+    implementation(libs.flexibleAdapter)
+    implementation(libs.photoView)
+    implementation(libs.directionalViewPager) {
         exclude(group = "androidx.viewpager", module = "viewpager")
     }
-    implementation(libs.insetter)
-    implementation(libs.richeditor.compose)
+    implementation(libs.composeRichEditor)
     implementation(libs.aboutLibraries.compose)
     implementation(libs.bundles.voyager)
-    implementation(libs.compose.materialmotion)
+    implementation(libs.composeMaterialMotion)
     implementation(libs.swipe)
-    implementation(libs.compose.webview)
-    implementation(libs.compose.grid)
+    implementation(libs.composeWebview)
+    implementation(libs.composeGrid)
     implementation(libs.reorderable)
     implementation(libs.bundles.markdown)
+    implementation(libs.materialKolor)
 
     // Logging
     implementation(libs.logcat)
@@ -280,20 +286,21 @@ dependencies {
     // Shizuku
     implementation(libs.bundles.shizuku)
 
+    // String similarity
+    implementation(libs.stringSimilarity)
+
     // Tests
     testImplementation(libs.bundles.test)
+    testRuntimeOnly(libs.junit.platform.launcher)
 
     // For detecting memory leaks; see https://square.github.io/leakcanary/
-    // debugImplementation(libs.leakcanary.android)
-    implementation(libs.leakcanary.plumber)
+    // debugImplementation(libs.leakCanary.android)
+    implementation(libs.leakCanary.plumber)
 
-    testImplementation(kotlinx.coroutines.test)
+    testImplementation(libs.kotlinx.coroutines.test)
 
     // SY -->
-    // Text distance (EH)
-    implementation(sylibs.simularity)
-
-//    // Firebase (EH)
+    // Firebase (EH)
 //    implementation(platform(libs.firebase.bom))
 //    implementation(libs.firebase.analytics)
 //    implementation(libs.firebase.crashlytics)
@@ -318,14 +325,19 @@ dependencies {
 }
 
 androidComponents {
-    beforeVariants { variantBuilder ->
-        // Disables standardBenchmark
-        if (variantBuilder.buildType == "benchmark") {
-            variantBuilder.enable = variantBuilder.productFlavors.containsAll(
-                listOf("default" to "dev"),
-            )
+    onVariants { variant ->
+        val resSource = variant.sources.res ?: return@onVariants
+
+        val variantName = variant.name.replaceFirstChar { it.uppercase() }
+        val replaceShortcutsPlaceholderTask = tasks.register<ReplaceShortcutsPlaceholderTask>(
+            "replace${variantName}ShortcutPlaceholder",
+        ) {
+            applicationId.set(variant.applicationId)
+            shortcutsFile.set(projectDir.resolve("src/main/shortcuts.xml"))
         }
+        resSource.addGeneratedSourceDirectory(replaceShortcutsPlaceholderTask) { it.outputDir }
     }
+
     onVariants(selector().withFlavor("default" to "standard")) {
         // Only excluding in standard flavor because this breaks
         // Layout Inspector's Compose tree
@@ -335,6 +347,6 @@ androidComponents {
 
 buildscript {
     dependencies {
-        classpath(kotlinx.gradle)
+        classpath(libs.kotlin.gradle)
     }
 }
