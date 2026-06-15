@@ -29,7 +29,7 @@ android {
     namespace = "eu.kanade.tachiyomi"
 
     defaultConfig {
-        applicationId = "eu.fiax.faxyomi"
+        applicationId = "eu.fiax.faxyomi.dev"
 
         versionCode = 8
         versionName = "4.20.69.8"
