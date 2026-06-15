@@ -1,16 +1,20 @@
 @file:Suppress("ChromeOsAbiSupport")
 
-import mihon.buildlogic.getBuildTime
-import mihon.buildlogic.getCommitCount
-import mihon.buildlogic.getGitSha
+import mihon.gradle.getBuildTime
+import mihon.gradle.getLatestCommitCount
+import mihon.gradle.getLatestCommitSha
+import mihon.gradle.tasks.ReplaceShortcutsPlaceholderTask
 
 plugins {
-    id("mihon.android.application")
-    id("mihon.android.application.compose")
+    alias(mihonx.plugins.android.application)
+    alias(mihonx.plugins.compose)
+    alias(mihonx.plugins.spotless)
+
     kotlin("plugin.parcelize")
-    kotlin("plugin.serialization")
-    // id("com.github.zellius.shortcut-helper")
+
     alias(libs.plugins.aboutLibraries)
+    alias(libs.plugins.kotlin.serialization)
+
     id("com.github.ben-manes.versions")
 }
 
@@ -21,10 +25,6 @@ plugins {
 //    }
 //}
 
-// shortcutHelper.setFilePath("./shortcuts.xml")
-
-val supportedAbis = setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
-
 android {
     namespace = "eu.kanade.tachiyomi"
 
@@ -34,10 +34,10 @@ android {
         versionCode = 7
         versionName = "4.20.69.7"
 
-        buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
-        buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
-        buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(useLastCommitTime = false)}\"")
-        buildConfigField("boolean", "INCLUDE_UPDATER", "true")
+        buildConfigField("String", "COMMIT_COUNT", "\"${getLatestCommitCount()}\"")
+        buildConfigField("String", "COMMIT_SHA", "\"${getLatestCommitSha()}\"")
+        buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(useLatestCommitTime = false)}\"")
+        buildConfigField("boolean", "INCLUDE_UPDATER", "false")
 
         ndk {
             abiFilters += supportedAbis
@@ -45,20 +45,9 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-
-
-    splits {
-        abi {
-            isEnable = true
-            reset()
-            include(*supportedAbis.toTypedArray())
-            isUniversalApk = true
-        }
-    }
-
     buildTypes {
         named("debug") {
-            versionNameSuffix = "-${getCommitCount()}"
+            versionNameSuffix = "-${getLatestCommitCount()}"
             applicationIdSuffix = ".debug"
             isPseudoLocalesEnabled = true
         }
@@ -68,7 +57,6 @@ android {
             // isShrinkResources = true
             setProguardFiles(listOf(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"))
             matchingFallbacks.add("release")
-            signingConfig = signingConfigs.getByName("debug")
         }
         named("release") {
             isMinifyEnabled = true
@@ -76,7 +64,6 @@ android {
             setProguardFiles(listOf(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"))
 
             buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(useLastCommitTime = true)}\"")
-            signingConfig = signingConfigs.getByName("debug")
         }
         create("benchmark") {
             initWith(getByName("release"))
@@ -98,7 +85,7 @@ android {
 
     productFlavors {
         create("standard") {
-            buildConfigField("boolean", "INCLUDE_UPDATER", "false")
+            buildConfigField("boolean", "INCLUDE_UPDATER", "true")
             dimension = "default"
         }
         create("fdroid") {
@@ -292,13 +279,8 @@ dependencies {
     testImplementation(kotlinx.coroutines.test)
 
     // SY -->
-    // Text distance (EH)
-    implementation(sylibs.simularity)
+    // Firebase (EH)
 
-//    // Firebase (EH)
-//    implementation(platform(libs.firebase.bom))
-//    implementation(libs.firebase.analytics)
-//    implementation(libs.firebase.crashlytics)
 
     // Better logging (EH)
     implementation(sylibs.xlog)
