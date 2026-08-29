@@ -1,5 +1,6 @@
 package tachiyomi.data.release
 
+import android.annotation.SuppressLint
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import tachiyomi.domain.release.model.Release
@@ -7,15 +8,15 @@ import tachiyomi.domain.release.model.Release
 /**
  * Contains information about the latest release from GitHub.
  */
+@SuppressLint("UnsafeOptInUsageError")
 @Serializable
 data class GithubRelease(
     @SerialName("tag_name") val version: String,
     @SerialName("body") val info: String,
     @SerialName("html_url") val releaseLink: String,
     @SerialName("assets") val assets: List<GitHubAssets>,
-) {
-    val prerelease: Boolean
-}
+    @SerialName("prerelease") val prerelease: Boolean,
+)
 
 /**
  * Assets class containing download url.

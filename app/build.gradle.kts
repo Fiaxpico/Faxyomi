@@ -34,6 +34,8 @@ android {
         versionCode = 9
         versionName = "4.20.69.9"
 
+        signingConfig = signingConfigs.getByName("debug")
+
         buildConfigField("String", "UPSTREAM_VERSION", """"0.20.1"""")
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getLatestCommitCount()}\"")
