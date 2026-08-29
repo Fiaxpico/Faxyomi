@@ -16,10 +16,12 @@ class ReleaseServiceImpl(
     override suspend fun latest(repository: String): Release {
         return with(json) {
             networkService.client
-                .newCall(GET("https://api.github.com/repos/$repository/releases/latest"))
+                .newCall(GET("https://api.github.com/repos/$repository/releases"))
                 .awaitSuccess()
-                .parseAs<GithubRelease>()
-                .let(releaseMapper)
+                .parseAs<List<GithubRelease>>()
+                .firstOrNull { it.prerelease }
+                ?.let(releaseMapper)
+                ?: error("No prerelease found")
         }
     }
 }

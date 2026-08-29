@@ -13,7 +13,9 @@ data class GithubRelease(
     @SerialName("body") val info: String,
     @SerialName("html_url") val releaseLink: String,
     @SerialName("assets") val assets: List<GitHubAssets>,
-)
+) {
+    val prerelease: Boolean
+}
 
 /**
  * Assets class containing download url.
