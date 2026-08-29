@@ -54,6 +54,7 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             isProfileable = true
+            signingConfig = signingConfigs.getByName("debug")
             setProguardFiles(listOf(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"))
 
             buildConfigField("String", "BUILD_TIME", "\"${getBuildTime(useLatestCommitTime = true)}\"")
