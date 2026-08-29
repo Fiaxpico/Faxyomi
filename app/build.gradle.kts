@@ -31,8 +31,8 @@ android {
     defaultConfig {
         applicationId = "eu.fiax.faxyomi"
 
-        versionCode = 8
-        versionName = "4.20.69.8"
+        versionCode = 9
+        versionName = "4.20.69.9"
 
         buildConfigField("String", "UPSTREAM_VERSION", """"0.20.1"""")
 
